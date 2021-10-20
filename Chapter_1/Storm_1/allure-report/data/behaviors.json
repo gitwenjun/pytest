@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_001_login[blog_w-erro-0]",
+    "uid" : "8c81fe90d1bde918",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634560251779,
+      "stop" : 1634560252612,
+      "duration" : 833
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'erro'", "'0'", "'blog_w'" ]
+  }, {
+    "name" : "test_001_login[blog_w-12315qe-1]",
+    "uid" : "ba299bcc2b66acd1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634560257469,
+      "stop" : 1634560265851,
+      "duration" : 8382
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'12315qe'", "'1'", "'blog_w'" ]
+  } ]
+}

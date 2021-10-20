@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Oct 17 20:43:32 CST 2021","Sun Oct 17 20:43:39 CST 2021","7236","Storm_1.testcases","test_001_login","TestLogin","","","test_001_login[blog_w-12315qe-1]",""
+"passed","Sun Oct 17 20:43:26 CST 2021","Sun Oct 17 20:43:27 CST 2021","870","Storm_1.testcases","test_001_login","TestLogin","","","test_001_login[blog_w-erro-0]",""

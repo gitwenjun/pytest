@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Storm_1.testcases.test_001_login",
+    "children" : [ {
+      "name" : "test_001_login[blog_w-erro-0]",
+      "uid" : "cd43894476a98481",
+      "parentUid" : "a90fdc90206fd10ae9666c49bae81d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634474606886,
+        "stop" : 1634474607756,
+        "duration" : 870
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'erro'", "'0'", "'blog_w'" ]
+    }, {
+      "name" : "test_001_login[blog_w-12315qe-1]",
+      "uid" : "2a07b0b21572b564",
+      "parentUid" : "a90fdc90206fd10ae9666c49bae81d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634474612670,
+        "stop" : 1634474619906,
+        "duration" : 7236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'12315qe'", "'1'", "'blog_w'" ]
+    } ],
+    "uid" : "Storm_1.testcases.test_001_login"
+  } ]
+}

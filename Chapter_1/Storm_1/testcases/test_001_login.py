@@ -2,16 +2,16 @@ from selenium import webdriver
 import pytest
 from Chapter_1.Storm_1.pageobject import login_page
 from Chapter_1.Data.parse_csv import parses_csv
-
-data = parses_csv('../Data/login_csv_1.csv')
-print(data)
+from Chapter_1.Storm_1.Common.yaml_url import yaml_params
+data = parses_csv('G:/Project/pytest/Chapter_1/Data/login_csv_1.csv')
+url = yaml_params('G:/Project/pytest/Chapter_1/Storm_1/Config/yaml_url','websits','url')
 @pytest.mark.parametrize(('username', 'pwd', 'status'), data)
 class TestLogin():
     def setup(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(20)
-        self.driver.get('http://wenjunblog.cn/wp-login.php?loggedout=true&wp_lang=zh_CN')
+        self.driver.get(url)
 
     def teardown(self):
         self.driver.quit()
@@ -21,7 +21,6 @@ class TestLogin():
         if status == '0':
             # 登录失败的信息
             text = login_page.LoginOper(self.driver).get_login_fild_info()
-            print(text)
             assert '错误' in text
         elif status == '1':
             text = login_page.LoginOper(self.driver).get_login_name()

@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_bing_serach_01",
+      "children" : [ {
+        "name" : "TestBing",
+        "children" : [ {
+          "name" : "test_serach_01[天气]",
+          "uid" : "dce831b77ff233f1",
+          "parentUid" : "9a20d88c42362ea06ac87e68c9df5cdc",
+          "status" : "failed",
+          "time" : {
+            "start" : 1637590868285,
+            "stop" : 1637590869102,
+            "duration" : 817
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'天气'" ]
+        }, {
+          "name" : "test_serach_01[///]",
+          "uid" : "7b9a9a3a84924264",
+          "parentUid" : "9a20d88c42362ea06ac87e68c9df5cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637590873216,
+            "stop" : 1637590873777,
+            "duration" : 561
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'///'" ]
+        } ],
+        "uid" : "9a20d88c42362ea06ac87e68c9df5cdc"
+      } ],
+      "uid" : "0545820ec9725bdcb69ece9e16faadc0"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "c007e6aa3e9e2c4720bc01a6444f7878" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dce831b77ff233f1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '没有找到您要的结果' in '<html dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:web=\"http://schemas.live.com/Web/\"...DUbe5FKuSaXohJJeJLLFQZDShQToeymBDVBJs9lrGiOlC1lrLWWlBIa0+XOi2Lx212LTJkrIyZ+j//Z\\';}})();\\n//]]></script></body></html>'\n +  where '<html dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:web=\"http://schemas.live.com/Web/\"...DUbe5FKuSaXohJJeJLLFQZDShQToeymBDVBJs9lrGiOlC1lrLWWlBIa0+XOi2Lx212LTJkrIyZ+j//Z\\';}})();\\n//]]></script></body></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"25f83646b9e3a60b79f2d8eaec870bc5\")>.page_source\n +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"25f83646b9e3a60b79f2d8eaec870bc5\")> = <testcases.test_bing_serach_01.TestBing object at 0x000001BEE9EAAEC8>.driver",
+      "time" : {
+        "start" : 1637590868285,
+        "stop" : 1637590869102,
+        "duration" : 817
+      }
+    } ]
+  },
+  "c8a3411ad891f0a655efa2e5178ab3ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b9a9a3a84924264",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637590873216,
+        "stop" : 1637590873777,
+        "duration" : 561
+      }
+    } ]
+  }
+}

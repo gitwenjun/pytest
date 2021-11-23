@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '没有找到您要的结果' in '<html dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:web=\"http://schemas.live.com/Web/\"...DUbe5FKuSaXohJJeJLLFQZDShQToeymBDVBJs9lrGiOlC1lrLWWlBIa0+XOi2Lx212LTJkrIyZ+j//Z\\';}})();\\n//]]></script></body></html>'\n +  where '<html dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:web=\"http://schemas.live.com/Web/\"...DUbe5FKuSaXohJJeJLLFQZDShQToeymBDVBJs9lrGiOlC1lrLWWlBIa0+XOi2Lx212LTJkrIyZ+j//Z\\';}})();\\n//]]></script></body></html>' = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"25f83646b9e3a60b79f2d8eaec870bc5\")>.page_source\n +    where <selenium.webdriver.chrome.webdriver.WebDriver (session=\"25f83646b9e3a60b79f2d8eaec870bc5\")> = <testcases.test_bing_serach_01.TestBing object at 0x000001BEE9EAAEC8>.driver",
+      "children" : [ {
+        "name" : "test_serach_01[天气]",
+        "uid" : "dce831b77ff233f1",
+        "parentUid" : "30db331f3d836aca8dc306519238d0de",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637590868285,
+          "stop" : 1637590869102,
+          "duration" : 817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'天气'" ]
+      } ],
+      "uid" : "30db331f3d836aca8dc306519238d0de"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

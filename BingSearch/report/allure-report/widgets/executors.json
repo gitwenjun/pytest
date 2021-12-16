@@ -1,1 +1,10 @@
-[ ]
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://127.0.0.1:8080/jenkins/",
+  "buildOrder" : 20,
+  "buildName" : "BingSerach #20",
+  "buildUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/20/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/20/allure"
+} ]

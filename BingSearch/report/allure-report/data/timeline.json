@@ -4,35 +4,665 @@
   "children" : [ {
     "name" : "DESKTOP-76566J4",
     "children" : [ {
-      "name" : "17652-MainThread",
+      "name" : "15160-MainThread",
       "children" : [ {
-        "name" : "test_serach_01[天气]",
-        "uid" : "dce831b77ff233f1",
-        "parentUid" : "443e2bb3725449606e7ae7daf19bb95d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1637590868285,
-          "stop" : 1637590869102,
-          "duration" : 817
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'天气'" ]
-      }, {
-        "name" : "test_serach_01[///]",
-        "uid" : "7b9a9a3a84924264",
-        "parentUid" : "443e2bb3725449606e7ae7daf19bb95d",
+        "name" : "用例一",
+        "uid" : "879bc3da791cc3b3",
+        "parentUid" : "08bec81ca584d10bf68d0c8a5c82c372",
         "status" : "passed",
         "time" : {
-          "start" : 1637590873216,
-          "stop" : 1637590873777,
-          "duration" : 561
+          "start" : 1638284984148,
+          "stop" : 1638284985116,
+          "duration" : 968
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'///'" ]
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "512c6b8c2df0c7cd",
+        "parentUid" : "08bec81ca584d10bf68d0c8a5c82c372",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638284989704,
+          "stop" : 1638284990932,
+          "duration" : 1228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "8527f80b5c937af0",
+        "parentUid" : "08bec81ca584d10bf68d0c8a5c82c372",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638284995099,
+          "stop" : 1638284995890,
+          "duration" : 791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
       } ],
-      "uid" : "443e2bb3725449606e7ae7daf19bb95d"
+      "uid" : "08bec81ca584d10bf68d0c8a5c82c372"
+    }, {
+      "name" : "18872-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "f1d5c9a9e9bb79ca",
+        "parentUid" : "3a58e1896c69cc562ecc7c118ec563ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638284167224,
+          "stop" : 1638284168275,
+          "duration" : 1051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "647f75585c49211",
+        "parentUid" : "3a58e1896c69cc562ecc7c118ec563ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638284172139,
+          "stop" : 1638284173156,
+          "duration" : 1017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "721370fcfd148dca",
+        "parentUid" : "3a58e1896c69cc562ecc7c118ec563ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638284177764,
+          "stop" : 1638284178617,
+          "duration" : 853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      } ],
+      "uid" : "3a58e1896c69cc562ecc7c118ec563ea"
+    }, {
+      "name" : "9292-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "e626fe9a72ca41ec",
+        "parentUid" : "724cbbea2e21c871bccd825274a47b8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638282972642,
+          "stop" : 1638282973888,
+          "duration" : 1246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "a3958e3e3267d46e",
+        "parentUid" : "724cbbea2e21c871bccd825274a47b8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638282977963,
+          "stop" : 1638282978917,
+          "duration" : 954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "2ed6922952f1a587",
+        "parentUid" : "724cbbea2e21c871bccd825274a47b8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638282967838,
+          "stop" : 1638282968785,
+          "duration" : 947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      } ],
+      "uid" : "724cbbea2e21c871bccd825274a47b8f"
+    }, {
+      "name" : "9888-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "34e684069ecd8ea4",
+        "parentUid" : "da13ae721178c6aff7394c31be7693e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638322647519,
+          "stop" : 1638322648526,
+          "duration" : 1007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "615cf3aec0ccdbc3",
+        "parentUid" : "da13ae721178c6aff7394c31be7693e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638322652404,
+          "stop" : 1638322653739,
+          "duration" : 1335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "7d813aeffc23e82",
+        "parentUid" : "da13ae721178c6aff7394c31be7693e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638322657917,
+          "stop" : 1638322659020,
+          "duration" : 1103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      } ],
+      "uid" : "da13ae721178c6aff7394c31be7693e5"
+    }, {
+      "name" : "17968-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "e24b71207035e75b",
+        "parentUid" : "f0234141cccc91780e2b7c185e67247e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638280489989,
+          "stop" : 1638280491239,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "daf60c2e822136b5",
+        "parentUid" : "f0234141cccc91780e2b7c185e67247e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638280495861,
+          "stop" : 1638280496928,
+          "duration" : 1067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "453e2c4cbb2dba58",
+        "parentUid" : "f0234141cccc91780e2b7c185e67247e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638280501413,
+          "stop" : 1638280502882,
+          "duration" : 1469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      } ],
+      "uid" : "f0234141cccc91780e2b7c185e67247e"
+    }, {
+      "name" : "11796-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "6094d71274f1da04",
+        "parentUid" : "321d9ed4084ce78991836d74d65ffb65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638282260914,
+          "stop" : 1638282261974,
+          "duration" : 1060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "276c0d97ba6bf935",
+        "parentUid" : "321d9ed4084ce78991836d74d65ffb65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638282255411,
+          "stop" : 1638282256628,
+          "duration" : 1217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "e6499dc9f1191b40",
+        "parentUid" : "321d9ed4084ce78991836d74d65ffb65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638282266151,
+          "stop" : 1638282267224,
+          "duration" : 1073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      } ],
+      "uid" : "321d9ed4084ce78991836d74d65ffb65"
+    }, {
+      "name" : "7860-MainThread",
+      "children" : [ {
+        "name" : "用例二",
+        "uid" : "fc080bb97b2adf9a",
+        "parentUid" : "b2c49d6547394b37593830478661e24d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637999616115,
+          "stop" : 1637999617028,
+          "duration" : 913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "f8df9620b4eae826",
+        "parentUid" : "b2c49d6547394b37593830478661e24d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637999606080,
+          "stop" : 1637999607119,
+          "duration" : 1039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "2c16466db38eb5",
+        "parentUid" : "b2c49d6547394b37593830478661e24d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637999611371,
+          "stop" : 1637999612222,
+          "duration" : 851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      } ],
+      "uid" : "b2c49d6547394b37593830478661e24d"
+    }, {
+      "name" : "19616-MainThread",
+      "children" : [ {
+        "name" : "用例二",
+        "uid" : "8f808858c0b9572e",
+        "parentUid" : "2262c97a7a9218556ae59e24432c3bf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638323126729,
+          "stop" : 1638323127715,
+          "duration" : 986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "f458b27d9590fb0",
+        "parentUid" : "2262c97a7a9218556ae59e24432c3bf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638323116114,
+          "stop" : 1638323117312,
+          "duration" : 1198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "58a8cbad2d603b45",
+        "parentUid" : "2262c97a7a9218556ae59e24432c3bf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638323121210,
+          "stop" : 1638323122391,
+          "duration" : 1181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      } ],
+      "uid" : "2262c97a7a9218556ae59e24432c3bf2"
+    }, {
+      "name" : "6384-MainThread",
+      "children" : [ {
+        "name" : "用例二",
+        "uid" : "64bd5fe9ae7f227d",
+        "parentUid" : "6e97ab99f17d82b7aacfebc27bd55ca4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638279665052,
+          "stop" : 1638279666283,
+          "duration" : 1231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "b6669864e67a15c9",
+        "parentUid" : "6e97ab99f17d82b7aacfebc27bd55ca4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638279659945,
+          "stop" : 1638279661195,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "5c940832007f957c",
+        "parentUid" : "6e97ab99f17d82b7aacfebc27bd55ca4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638279655188,
+          "stop" : 1638279656075,
+          "duration" : 887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      } ],
+      "uid" : "6e97ab99f17d82b7aacfebc27bd55ca4"
+    }, {
+      "name" : "18768-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "b20b501a4a9ccb83",
+        "parentUid" : "9601cac5416724659773043e91a26b2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638321115203,
+          "stop" : 1638321116379,
+          "duration" : 1176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "a78eee646af2284d",
+        "parentUid" : "9601cac5416724659773043e91a26b2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638321110320,
+          "stop" : 1638321111234,
+          "duration" : 914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "ebb79b45274c54fd",
+        "parentUid" : "9601cac5416724659773043e91a26b2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638321120298,
+          "stop" : 1638321121570,
+          "duration" : 1272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      } ],
+      "uid" : "9601cac5416724659773043e91a26b2c"
+    }, {
+      "name" : "13344-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "568b01c2249f793d",
+        "parentUid" : "12e8a5ceeb95d2d1dc8b569a0f42cace",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638281373574,
+          "stop" : 1638281374584,
+          "duration" : 1010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "1d0f44b9026d6040",
+        "parentUid" : "12e8a5ceeb95d2d1dc8b569a0f42cace",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638281383850,
+          "stop" : 1638281384802,
+          "duration" : 952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "55b36f74f420c030",
+        "parentUid" : "12e8a5ceeb95d2d1dc8b569a0f42cace",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638281378545,
+          "stop" : 1638281379581,
+          "duration" : 1036
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      } ],
+      "uid" : "12e8a5ceeb95d2d1dc8b569a0f42cace"
+    }, {
+      "name" : "19316-MainThread",
+      "children" : [ {
+        "name" : "用例一",
+        "uid" : "54df37b8ac6d58ff",
+        "parentUid" : "1a51d34ea997141e034adea3ccdbcbe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638280766420,
+          "stop" : 1638280767439,
+          "duration" : 1019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['李白']" ]
+      }, {
+        "name" : "用例一",
+        "uid" : "54f56679e39705d1",
+        "parentUid" : "1a51d34ea997141e034adea3ccdbcbe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638280761209,
+          "stop" : 1638280762238,
+          "duration" : 1029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['杜甫']" ]
+      }, {
+        "name" : "用例二",
+        "uid" : "a9734edd9a505f98",
+        "parentUid" : "1a51d34ea997141e034adea3ccdbcbe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638280771800,
+          "stop" : 1638280772657,
+          "duration" : 857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "['12']" ]
+      } ],
+      "uid" : "1a51d34ea997141e034adea3ccdbcbe6"
     } ],
     "uid" : "7adacc43a74dfbcda54049371eb5aa6a"
   } ]

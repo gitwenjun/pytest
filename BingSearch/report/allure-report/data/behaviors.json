@@ -2,30 +2,71 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_serach_01[天气]",
-    "uid" : "dce831b77ff233f1",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1637590868285,
-      "stop" : 1637590869102,
-      "duration" : 817
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'天气'" ]
-  }, {
-    "name" : "test_serach_01[///]",
-    "uid" : "7b9a9a3a84924264",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1637590873216,
-      "stop" : 1637590873777,
-      "duration" : 561
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "'///'" ]
+    "name" : "epic,相当于总体描述",
+    "children" : [ {
+      "name" : "搜索模块",
+      "children" : [ {
+        "name" : "中文搜索",
+        "children" : [ {
+          "name" : "用例一",
+          "uid" : "f458b27d9590fb0",
+          "parentUid" : "af3e2ddae4cac92d6f381da668c1cf3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638323116114,
+            "stop" : 1638323117312,
+            "duration" : 1198
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : false,
+          "parameters" : [ "['杜甫']" ]
+        }, {
+          "name" : "用例一",
+          "uid" : "58a8cbad2d603b45",
+          "parentUid" : "af3e2ddae4cac92d6f381da668c1cf3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638323121210,
+            "stop" : 1638323122391,
+            "duration" : 1181
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : false,
+          "parameters" : [ "['李白']" ]
+        } ],
+        "uid" : "af3e2ddae4cac92d6f381da668c1cf3f"
+      }, {
+        "name" : "数字搜索",
+        "children" : [ {
+          "name" : "用例二",
+          "uid" : "8f808858c0b9572e",
+          "parentUid" : "447abdf3d10a9dfd0cca394cf4b60d5d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638323126729,
+            "stop" : 1638323127715,
+            "duration" : 986
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : false,
+          "parameters" : [ "['12']" ]
+        } ],
+        "uid" : "447abdf3d10a9dfd0cca394cf4b60d5d"
+      } ],
+      "uid" : "2eb1426ddb811e1594c529a5e73ef238"
+    } ],
+    "uid" : "6a9cdcc5e7e5919d3c92156f5b2d367f"
   } ]
 }

@@ -1,0 +1,269 @@
+{
+  "uid" : "8f808858c0b9572e",
+  "name" : "用例二",
+  "fullName" : "testcases.test_bing_serach_01.TestBing#test_serach_02",
+  "historyId" : "2449eb0d8bfcca3b79ba28b44bd88a86",
+  "time" : {
+    "start" : 1638323126729,
+    "stop" : 1638323127715,
+    "duration" : 986
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤一",
+      "time" : {
+        "start" : 1638323126729,
+        "stop" : 1638323127715,
+        "duration" : 986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "msg",
+        "value" : "['12']"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "数字搜索"
+  }, {
+    "name" : "feature",
+    "value" : "搜索模块"
+  }, {
+    "name" : "epic",
+    "value" : "epic,相当于总体描述"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_bing_serach_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBing"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-76566J4"
+  }, {
+    "name" : "thread",
+    "value" : "19616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_bing_serach_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "msg",
+    "value" : "['12']"
+  } ],
+  "links" : [ {
+    "name" : "测试用例,点我一下",
+    "url" : "https://www.cnblogs.com/poloyy/",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d813aeffc23e82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638322657917,
+        "stop" : 1638322659020,
+        "duration" : 1103
+      }
+    }, {
+      "uid" : "ebb79b45274c54fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638321120298,
+        "stop" : 1638321121570,
+        "duration" : 1272
+      }
+    }, {
+      "uid" : "8527f80b5c937af0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638284995099,
+        "stop" : 1638284995890,
+        "duration" : 791
+      }
+    }, {
+      "uid" : "721370fcfd148dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638284177764,
+        "stop" : 1638284178617,
+        "duration" : 853
+      }
+    }, {
+      "uid" : "a3958e3e3267d46e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638282977963,
+        "stop" : 1638282978917,
+        "duration" : 954
+      }
+    }, {
+      "uid" : "e6499dc9f1191b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638282266151,
+        "stop" : 1638282267224,
+        "duration" : 1073
+      }
+    }, {
+      "uid" : "1d0f44b9026d6040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638281383850,
+        "stop" : 1638281384802,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "a9734edd9a505f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638280771800,
+        "stop" : 1638280772657,
+        "duration" : 857
+      }
+    }, {
+      "uid" : "453e2c4cbb2dba58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638280501413,
+        "stop" : 1638280502882,
+        "duration" : 1469
+      }
+    }, {
+      "uid" : "64bd5fe9ae7f227d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638279665052,
+        "stop" : 1638279666283,
+        "duration" : 1231
+      }
+    }, {
+      "uid" : "fc080bb97b2adf9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637999616115,
+        "stop" : 1637999617028,
+        "duration" : 913
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2feba8edb774fbbc",
+        "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/19/allure/#testresult/2feba8edb774fbbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638322657917,
+          "stop" : 1638322659020,
+          "duration" : 1103
+        }
+      }, {
+        "uid" : "a4255071c388b825",
+        "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/18/allure/#testresult/a4255071c388b825",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638321120298,
+          "stop" : 1638321121570,
+          "duration" : 1272
+        }
+      }, {
+        "uid" : "8804dbbed37885d4",
+        "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/16/allure/#testresult/8804dbbed37885d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638284177764,
+          "stop" : 1638284178617,
+          "duration" : 853
+        }
+      }, {
+        "uid" : "6180805537f86f19",
+        "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/15/allure/#testresult/6180805537f86f19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638282977963,
+          "stop" : 1638282978917,
+          "duration" : 954
+        }
+      }, {
+        "uid" : "b84a53a2a710b592",
+        "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/13/allure/#testresult/b84a53a2a710b592",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638281383850,
+          "stop" : 1638281384802,
+          "duration" : 952
+        }
+      }, {
+        "uid" : "84ceff212af61de",
+        "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/11/allure/#testresult/84ceff212af61de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638280501413,
+          "stop" : 1638280502882,
+          "duration" : 1469
+        }
+      }, {
+        "uid" : "b83d438485246cdc",
+        "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/10/allure/#testresult/b83d438485246cdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638279665052,
+          "stop" : 1638279666283,
+          "duration" : 1231
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8f808858c0b9572e.json",
+  "parameterValues" : [ "['12']" ]
+}

@@ -1,0 +1,224 @@
+{
+  "2449eb0d8bfcca3b79ba28b44bd88a86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "2feba8edb774fbbc",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/19/allure/#testresult/2feba8edb774fbbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638322657917,
+        "stop" : 1638322659020,
+        "duration" : 1103
+      }
+    }, {
+      "uid" : "a4255071c388b825",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/18/allure/#testresult/a4255071c388b825",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638321120298,
+        "stop" : 1638321121570,
+        "duration" : 1272
+      }
+    }, {
+      "uid" : "8804dbbed37885d4",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/16/allure/#testresult/8804dbbed37885d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638284177764,
+        "stop" : 1638284178617,
+        "duration" : 853
+      }
+    }, {
+      "uid" : "6180805537f86f19",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/15/allure/#testresult/6180805537f86f19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638282977963,
+        "stop" : 1638282978917,
+        "duration" : 954
+      }
+    }, {
+      "uid" : "b84a53a2a710b592",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/13/allure/#testresult/b84a53a2a710b592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638281383850,
+        "stop" : 1638281384802,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "84ceff212af61de",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/11/allure/#testresult/84ceff212af61de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638280501413,
+        "stop" : 1638280502882,
+        "duration" : 1469
+      }
+    }, {
+      "uid" : "b83d438485246cdc",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/10/allure/#testresult/b83d438485246cdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638279665052,
+        "stop" : 1638279666283,
+        "duration" : 1231
+      }
+    } ]
+  },
+  "1bc22eaf30a1cca6b513b386f7de084d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "491daf1615c684dc",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/19/allure/#testresult/491daf1615c684dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638322647519,
+        "stop" : 1638322648526,
+        "duration" : 1007
+      }
+    }, {
+      "uid" : "770c26f917a14a80",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/18/allure/#testresult/770c26f917a14a80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638321110320,
+        "stop" : 1638321111234,
+        "duration" : 914
+      }
+    }, {
+      "uid" : "11553c477a85e9e3",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/16/allure/#testresult/11553c477a85e9e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638284167224,
+        "stop" : 1638284168275,
+        "duration" : 1051
+      }
+    }, {
+      "uid" : "c1579843e6a2bbba",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/15/allure/#testresult/c1579843e6a2bbba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638282967838,
+        "stop" : 1638282968785,
+        "duration" : 947
+      }
+    }, {
+      "uid" : "ea7a75578d5dc52c",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/13/allure/#testresult/ea7a75578d5dc52c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638281373574,
+        "stop" : 1638281374584,
+        "duration" : 1010
+      }
+    }, {
+      "uid" : "53306b5c83cdba47",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/11/allure/#testresult/53306b5c83cdba47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638280489989,
+        "stop" : 1638280491239,
+        "duration" : 1250
+      }
+    }, {
+      "uid" : "b85d42e15d8cd062",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/10/allure/#testresult/b85d42e15d8cd062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638279655188,
+        "stop" : 1638279656075,
+        "duration" : 887
+      }
+    } ]
+  },
+  "fff39ba6ce577f45d476e4ea5c6a89bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "799afb64d1fd3e19",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/19/allure/#testresult/799afb64d1fd3e19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638322652404,
+        "stop" : 1638322653739,
+        "duration" : 1335
+      }
+    }, {
+      "uid" : "627a91024c85e39f",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/18/allure/#testresult/627a91024c85e39f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638321115203,
+        "stop" : 1638321116379,
+        "duration" : 1176
+      }
+    }, {
+      "uid" : "28fec40e95eb73b2",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/16/allure/#testresult/28fec40e95eb73b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638284172139,
+        "stop" : 1638284173156,
+        "duration" : 1017
+      }
+    }, {
+      "uid" : "40840734e2312aad",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/15/allure/#testresult/40840734e2312aad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638282972642,
+        "stop" : 1638282973888,
+        "duration" : 1246
+      }
+    }, {
+      "uid" : "72215cf548415513",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/13/allure/#testresult/72215cf548415513",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638281378545,
+        "stop" : 1638281379581,
+        "duration" : 1036
+      }
+    }, {
+      "uid" : "d652be14757311b0",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/11/allure/#testresult/d652be14757311b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638280495861,
+        "stop" : 1638280496928,
+        "duration" : 1067
+      }
+    }, {
+      "uid" : "dc5d305262b2af8f",
+      "reportUrl" : "http://127.0.0.1:8080/jenkins/job/BingSerach/10/allure/#testresult/dc5d305262b2af8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638279659945,
+        "stop" : 1638279661195,
+        "duration" : 1250
+      }
+    } ]
+  }
+}

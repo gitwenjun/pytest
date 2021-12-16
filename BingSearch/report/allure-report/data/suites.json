@@ -8,31 +8,56 @@
       "children" : [ {
         "name" : "TestBing",
         "children" : [ {
-          "name" : "test_serach_01[天气]",
-          "uid" : "dce831b77ff233f1",
-          "parentUid" : "9a20d88c42362ea06ac87e68c9df5cdc",
-          "status" : "failed",
-          "time" : {
-            "start" : 1637590868285,
-            "stop" : 1637590869102,
-            "duration" : 817
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'天气'" ]
-        }, {
-          "name" : "test_serach_01[///]",
-          "uid" : "7b9a9a3a84924264",
+          "name" : "用例一",
+          "uid" : "f458b27d9590fb0",
           "parentUid" : "9a20d88c42362ea06ac87e68c9df5cdc",
           "status" : "passed",
           "time" : {
-            "start" : 1637590873216,
-            "stop" : 1637590873777,
-            "duration" : 561
+            "start" : 1638323116114,
+            "stop" : 1638323117312,
+            "duration" : 1198
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "'///'" ]
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : false,
+          "parameters" : [ "['杜甫']" ]
+        }, {
+          "name" : "用例一",
+          "uid" : "58a8cbad2d603b45",
+          "parentUid" : "9a20d88c42362ea06ac87e68c9df5cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638323121210,
+            "stop" : 1638323122391,
+            "duration" : 1181
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : false,
+          "parameters" : [ "['李白']" ]
+        }, {
+          "name" : "用例二",
+          "uid" : "8f808858c0b9572e",
+          "parentUid" : "9a20d88c42362ea06ac87e68c9df5cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638323126729,
+            "stop" : 1638323127715,
+            "duration" : 986
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : false,
+          "parameters" : [ "['12']" ]
         } ],
         "uid" : "9a20d88c42362ea06ac87e68c9df5cdc"
       } ],

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "32c9637f3959ef68",
+  "name" : "登录用例title==》》",
+  "time" : {
+    "start" : 1646474948147,
+    "stop" : 1646474948519,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3a252538a11a848",
+  "name" : "获取会员用例title==》",
+  "time" : {
+    "start" : 1646474948147,
+    "stop" : 1646474948263,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

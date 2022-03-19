@@ -1,0 +1,13 @@
+-
+  name: 修改会员信息接口
+  request:
+    method: post
+    url: http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+    data:
+      app_key: A745B9D2CF7B8495944441DBF1BE9751
+      token:
+      uuid:
+      ext_info: {location: $location}
+  assert:
+    - eq: {err_code: 0}
+    - contains: {err_msg: ''}

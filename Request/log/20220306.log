@@ -1,0 +1,66 @@
+[2022-03-06 12:45:24,666][replace_params.py 27][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None, 'ext_info': '${location}'}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 12:45:24,666][replace_params.py 28][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'None', 'uuid': 'None', 'ext_info': '成都'}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 12:46:55,849][replace_params.py 27][DEBUG]: None
+[2022-03-06 12:46:55,849][replace_params.py 28][DEBUG]: None
+[2022-03-06 12:47:27,154][replace_params.py 27][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None, 'ext_info': {'location': '$location'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 12:47:27,155][replace_params.py 28][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'None', 'uuid': 'None', 'ext_info': {'location': '成都'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 12:49:50,498][replace_params.py 27][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None, 'ext_info': {'location': '$location'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 12:49:50,499][replace_params.py 28][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'None', 'uuid': 'None', 'ext_info': {'location': '成都'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 19:26:58,656][replace_params.py 27][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None, 'ext_info': {'location': '$location'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 19:26:58,657][replace_params.py 28][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'None', 'uuid': 'None', 'ext_info': {'location': '成都'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 19:53:42,195][replace_params.py 29][DEBUG]: [{'name': '获取会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.Profile', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'rolename': '普通会员'}}]}]
+[2022-03-06 19:53:54,395][replace_params.py 29][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None, 'ext_info': {'location': '$location'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 19:54:45,677][replace_params.py 29][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None, 'ext_info': {'location': '$location'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 19:58:01,110][replace_params.py 28][DEBUG]: [{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None, 'ext_info': {'location': '成都'}}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'err_msg': ''}}]}]
+[2022-03-06 20:12:18,371][consel_fmt.py 8][DEBUG]: 开始执行测试用例：修改会员信息接口
+[2022-03-06 20:12:18,372][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-06 20:12:18,372][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+[2022-03-06 20:12:18,372][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '9A9AC801BB698E340244B728164F47A339B91640921DD224A23D55DB96A8E335', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'ext_info': {'location': '$location'}}
+[2022-03-06 20:12:18,372][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'yesapi_nickname': '', 'yesapi_avatar': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_expiration_time': '', 'yesapi_mobile': '', 'location': '$location'}}, 'msg': 'V3.3.0 YesApi App.User.UpdateExtInfo 2022-03-06 20:12:18 hn216'}
+[2022-03-06 20:12:18,373][assert_respose.py 11][DEBUG]: 断言检查点：预期结果 0,实际结果 [0]
+[2022-03-06 20:12:18,373][assert_respose.py 12][DEBUG]: 【断言结果：失败】
+[2022-03-06 20:16:19,470][consel_fmt.py 8][DEBUG]: 开始执行测试用例：修改会员信息接口
+[2022-03-06 20:16:19,470][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-06 20:16:19,471][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+[2022-03-06 20:16:19,471][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '9A9AC801BB698E340244B728164F47A339B91640921DD224A23D55DB96A8E335', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'ext_info': {'location': '成都'}}
+[2022-03-06 20:16:19,471][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'yesapi_nickname': '', 'yesapi_avatar': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_expiration_time': '', 'yesapi_mobile': '', 'location': '成都'}}, 'msg': 'V3.3.0 YesApi App.User.UpdateExtInfo 2022-03-06 20:16:19 hn216'}
+[2022-03-06 20:16:19,471][assert_respose.py 11][DEBUG]: 断言检查点：预期结果 0,实际结果 [0]
+[2022-03-06 20:16:19,471][assert_respose.py 12][DEBUG]: 【断言结果：失败】
+[2022-03-06 20:19:50,208][consel_fmt.py 8][DEBUG]: 开始执行测试用例：修改会员信息接口
+[2022-03-06 20:19:50,208][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-06 20:19:50,208][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+[2022-03-06 20:19:50,208][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '9A9AC801BB698E340244B728164F47A339B91640921DD224A23D55DB96A8E335', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'ext_info': {'location': '成都'}}
+[2022-03-06 20:19:50,208][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'yesapi_nickname': '', 'yesapi_avatar': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_expiration_time': '', 'yesapi_mobile': '', 'location': '成都'}}, 'msg': 'V3.3.0 YesApi App.User.UpdateExtInfo 2022-03-06 20:19:49 hn216'}
+[2022-03-06 20:19:50,208][assert_respose.py 11][DEBUG]: 断言检查点：预期结果 0,实际结果 [0]
+[2022-03-06 20:19:50,209][assert_respose.py 12][DEBUG]: 【断言结果：失败】
+[2022-03-06 20:22:23,484][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-06 20:22:23,484][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-06 20:22:23,484][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-06 20:22:23,485][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-06 20:22:23,485][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': 'AE4A2CE6D1BBF4D65989907D7B94182C30BF30C1BC488BC5FFD955AE7212FC68', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-06 20:22:23 hn216'}
+[2022-03-06 20:22:23,485][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-06 20:22:23,485][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-06 20:22:37,837][request_result.py 33][ERROR]: 类型未：<class 'list'>
+[2022-03-06 20:22:37,837][consel_fmt.py 8][DEBUG]: 开始执行测试用例：修改会员信息接口
+[2022-03-06 20:22:37,837][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-06 20:22:37,837][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+[2022-03-06 20:22:37,837][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'AE4A2CE6D1BBF4D65989907D7B94182C30BF30C1BC488BC5FFD955AE7212FC68', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'ext_info': {'location': '成都'}}
+[2022-03-06 20:22:37,837][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'yesapi_nickname': '', 'yesapi_avatar': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_expiration_time': '', 'yesapi_mobile': '', 'location': '成都'}}, 'msg': 'V3.3.0 YesApi App.User.UpdateExtInfo 2022-03-06 20:22:37 hn216'}
+[2022-03-06 20:22:37,837][assert_respose.py 11][DEBUG]: 断言检查点：预期结果 0,实际结果 [0]
+[2022-03-06 20:22:37,838][assert_respose.py 12][DEBUG]: 【断言结果：失败】
+[2022-03-06 20:23:32,468][request_result.py 33][ERROR]: 类型未：<class 'bool'>
+[2022-03-06 20:23:32,469][consel_fmt.py 8][DEBUG]: 开始执行测试用例：修改会员信息接口
+[2022-03-06 20:23:32,469][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-06 20:23:32,470][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+[2022-03-06 20:23:32,470][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'AE4A2CE6D1BBF4D65989907D7B94182C30BF30C1BC488BC5FFD955AE7212FC68', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'ext_info': {'location': '成都'}}
+[2022-03-06 20:23:32,471][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'yesapi_nickname': '', 'yesapi_avatar': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_expiration_time': '', 'yesapi_mobile': '', 'location': '成都'}}, 'msg': 'V3.3.0 YesApi App.User.UpdateExtInfo 2022-03-06 20:23:32 hn216'}
+[2022-03-06 20:23:32,471][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 False
+[2022-03-06 20:23:32,471][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-06 20:25:27,439][request_result.py 33][ERROR]: 类型未：<class 'int'>
+[2022-03-06 20:25:27,439][consel_fmt.py 8][DEBUG]: 开始执行测试用例：修改会员信息接口
+[2022-03-06 20:25:27,439][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-06 20:25:27,439][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+[2022-03-06 20:25:27,440][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'AE4A2CE6D1BBF4D65989907D7B94182C30BF30C1BC488BC5FFD955AE7212FC68', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'ext_info': {'location': '成都'}}
+[2022-03-06 20:25:27,440][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'yesapi_nickname': '', 'yesapi_avatar': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_expiration_time': '', 'yesapi_mobile': '', 'location': '成都'}}, 'msg': 'V3.3.0 YesApi App.User.UpdateExtInfo 2022-03-06 20:25:27 hn216'}
+[2022-03-06 20:25:27,440][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-06 20:25:27,440][assert_respose.py 9][DEBUG]: 【断言结果：成功】

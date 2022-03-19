@@ -1,0 +1,10 @@
+[32mINFO    [0m log:test_info_vip.py:16 执行登录，获取session
+[1m[31mERROR   [0m log:request_result.py:32 类型未：<class 'int'>
+[35mDEBUG   [0m log:consel_fmt.py:8 开始执行测试用例：修改会员信息接口
+[35mDEBUG   [0m log:consel_fmt.py:9 请求方式：post
+[35mDEBUG   [0m log:consel_fmt.py:10 请求URL：http://hn216.api.yesapi.cn/?&s=App.User.UpdateExtInfo
+[35mDEBUG   [0m log:consel_fmt.py:11 请求参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'B4F3617B2C49F8614D6063EA7BFE3FE621E8E2E37CB534F2AED8915C8A5CC31D', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'ext_info': {'location': '成都'}}
+[35mDEBUG   [0m log:consel_fmt.py:12 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'yesapi_nickname': '', 'yesapi_avatar': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_expiration_time': '', 'yesapi_mobile': '', 'location': '成都'}}, 'msg': 'V3.3.0 YesApi App.User.UpdateExtInfo 2022-03-07 20:18:35 hn216'}
+[35mDEBUG   [0m log:assert_respose.py:8 断言检查点：预期结果 0,实际结果 0
+[35mDEBUG   [0m log:assert_respose.py:9 【断言结果：成功】
+[32mINFO    [0m log:test_info_vip.py:22 用例执行完成，清除session

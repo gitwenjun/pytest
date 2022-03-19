@@ -1,0 +1,238 @@
+[2022-03-05 14:17:04,274][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 14:17:04,274][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 14:17:04,274][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 14:17:04,275][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn148', 'password': '123qwe'}
+[2022-03-05 14:17:04,275][consel_fmt.py 12][DEBUG]: 请求结果：<Response [200]>
+[2022-03-05 14:17:04,275][assert_respose.py 8][DEBUG]: 断言检查点：预期结果0,实际结果0
+[2022-03-05 14:17:04,275][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 14:23:35,598][test_login.py 39][DEBUG]: token:65304EA34A2F1697AEA30CAC1EE8E73EF105D3EB6777F0EB6C5FB6841DD3B0EC
+[2022-03-05 14:23:35,598][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 14:23:35,599][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 14:23:35,599][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 14:23:35,599][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn148', 'password': '123qwe'}
+[2022-03-05 14:23:35,599][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '37DA88BCE8B5016233AF40A51D17F96A', 'token': '65304EA34A2F1697AEA30CAC1EE8E73EF105D3EB6777F0EB6C5FB6841DD3B0EC', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 14:23:35 hn216'}
+[2022-03-05 14:23:35,599][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 14:23:35,599][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 14:24:53,206][test_login.py 39][DEBUG]: token:6DAEDE8C63FCB7840445202C63BD617F7E56C7EBA34AE5FC69A45BACB6226600
+[2022-03-05 14:24:53,207][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 14:24:53,207][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 14:24:53,207][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 14:24:53,207][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn148', 'password': '123qwe'}
+[2022-03-05 14:24:53,208][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '37DA88BCE8B5016233AF40A51D17F96A', 'token': '6DAEDE8C63FCB7840445202C63BD617F7E56C7EBA34AE5FC69A45BACB6226600', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 14:24:52 hn216'}
+[2022-03-05 14:24:53,208][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 14:24:53,208][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 14:32:54,525][test_login.py 39][DEBUG]: token:4250D5819B6D9602B02BF4EF45423ECB2377B716AF1EF17D8E8D3578B9BFC283
+[2022-03-05 14:32:54,526][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 14:32:54,526][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 14:32:54,526][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 14:32:54,526][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn148', 'password': '123qwe'}
+[2022-03-05 14:32:54,527][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '37DA88BCE8B5016233AF40A51D17F96A', 'token': '4250D5819B6D9602B02BF4EF45423ECB2377B716AF1EF17D8E8D3578B9BFC283', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 14:32:54 hn216'}
+[2022-03-05 14:32:54,527][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 14:32:54,527][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 15:08:12,689][test_login.py 40][DEBUG]: token:210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9
+[2022-03-05 15:08:12,690][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 15:08:12,691][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 15:08:12,691][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 15:08:12,691][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 15:08:12,691][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': '210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 15:08:12 hn216'}
+[2022-03-05 15:08:12,691][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 15:08:12,691][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 17:26:23,424][request_result.py 30][DEBUG]: -----data:{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 17:26:23,425][request_result.py 31][DEBUG]: -----exc:普通会员
+[2022-03-05 17:26:23,559][request_result.py 34][DEBUG]: -----act:False
+[2022-03-05 17:27:11,518][request_result.py 30][DEBUG]: -----data:{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 17:27:11,518][request_result.py 31][DEBUG]: -----exc:普通会员
+[2022-03-05 17:27:11,690][request_result.py 34][DEBUG]: -----act:False
+[2022-03-05 17:29:09,917][request_result.py 18][INFO]: session:{'session': {'token': '210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2'}}
+[2022-03-05 17:29:09,917][request_result.py 30][DEBUG]: -----data:{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 17:29:09,917][request_result.py 31][DEBUG]: -----exc:普通会员
+[2022-03-05 17:29:10,026][request_result.py 34][DEBUG]: -----act:False
+[2022-03-05 17:30:54,573][request_result.py 18][INFO]: session:{'session': {'token': '210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2'}}
+[2022-03-05 17:30:54,573][request_result.py 30][DEBUG]: -----data:{'json': '{"app_key": "A745B9D2CF7B8495944441DBF1BE9751", "token": "210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9", "uuid": "5B1531991437BE0EDC8E04E55AB732C2"}'}
+[2022-03-05 17:30:54,573][request_result.py 31][DEBUG]: -----exc:普通会员
+[2022-03-05 17:30:54,673][request_result.py 34][DEBUG]: -----act:False
+[2022-03-05 17:32:12,214][request_result.py 18][INFO]: session:{'session': {'token': '210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2'}}
+[2022-03-05 17:32:12,215][request_result.py 30][DEBUG]: -----data:{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2'}
+[2022-03-05 17:32:12,215][request_result.py 31][DEBUG]: -----exc:普通会员
+[2022-03-05 17:32:12,328][request_result.py 34][DEBUG]: -----act:['普通会员']
+[2022-03-05 17:34:02,650][request_result.py 30][DEBUG]: -----act:['普通会员']
+[2022-03-05 17:34:02,650][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 17:34:02,651][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 17:34:02,651][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 17:34:02,652][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '210287ED997AAE4DB0168C06066619228B073404DAB262228FE000882B58D5F9', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2'}
+[2022-03-05 17:34:02,652][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'username': 'qqmsn149', 'role': 'user', 'rolename': '普通会员', 'register_time': '2022-02-16 10:55:33', 'register_ip': '118.113.101.130', 'ext_info': {'yesapi_avatar': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': ''}, 'status': 0}}, 'msg': 'V3.3.0 YesApi App.User.Profile 2022-03-05 17:34:01 hn216'}
+[2022-03-05 17:34:02,653][assert_respose.py 17][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 ['普通会员']
+[2022-03-05 17:34:02,653][assert_respose.py 18][DEBUG]: 【断言结果：成功】
+[2022-03-05 17:45:32,364][test_login.py 40][DEBUG]: token:FA19407BDF25A5CC1C8FB8C318A89D7320493A1F8A59D7E209E10E9AC46AE9BB
+[2022-03-05 17:45:32,365][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 17:45:32,365][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 17:45:32,365][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 17:45:32,365][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 17:45:32,366][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': 'FA19407BDF25A5CC1C8FB8C318A89D7320493A1F8A59D7E209E10E9AC46AE9BB', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 17:45:31 hn216'}
+[2022-03-05 17:45:32,366][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 17:45:32,366][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 17:45:56,214][test_login.py 40][DEBUG]: token:CC58BB20BA86E164F45C6707D8F7569C8C500571FEDB900DCC3251997CF514E6
+[2022-03-05 17:45:56,217][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 17:45:56,218][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 17:45:56,218][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 17:45:56,218][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 17:45:56,219][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': 'CC58BB20BA86E164F45C6707D8F7569C8C500571FEDB900DCC3251997CF514E6', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 17:45:55 hn216'}
+[2022-03-05 17:45:56,219][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 17:45:56,219][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 17:52:11,431][request_result.py 31][DEBUG]: -----act:False
+[2022-03-05 17:52:11,432][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 17:52:11,432][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 17:52:11,432][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 17:52:11,433][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 17:52:11,433][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 17:52:10'}}
+[2022-03-05 17:52:11,433][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 17:52:11,434][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 17:54:47,801][test_login.py 40][DEBUG]: token:6409D22440A6DE69B4314CE2F6F6423AE413CB8A57E21ABDFF02661D4AF6AD6E
+[2022-03-05 17:54:47,803][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 17:54:47,804][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 17:54:47,804][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 17:54:47,804][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 17:54:47,804][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': '6409D22440A6DE69B4314CE2F6F6423AE413CB8A57E21ABDFF02661D4AF6AD6E', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 17:54:46 hn216'}
+[2022-03-05 17:54:47,804][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 17:54:47,804][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 18:04:54,016][request_result.py 31][DEBUG]: -----act:False
+[2022-03-05 18:04:54,017][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 18:04:54,017][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 18:04:54,017][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 18:04:54,017][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 18:04:54,017][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:04:53'}}
+[2022-03-05 18:04:54,018][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 18:04:54,018][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 18:04:54,020][conftest.py 9][INFO]: 清除上次保存的session
+[2022-03-05 18:09:08,144][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:09:08,257][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 18:09:08,258][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 18:09:08,261][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 18:09:08,261][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 18:09:08,261][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:09:07'}}
+[2022-03-05 18:09:08,261][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 18:09:08,261][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 18:09:08,263][conftest.py 10][INFO]: 清除session完成
+[2022-03-05 18:09:08,512][test_login.py 40][DEBUG]: token:CB9D7C61E253C85D7B4B24A852FC7BF252E054C971C9548F682EECE5205F8140
+[2022-03-05 18:09:08,514][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 18:09:08,514][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 18:09:08,514][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 18:09:08,515][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 18:09:08,515][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': 'CB9D7C61E253C85D7B4B24A852FC7BF252E054C971C9548F682EECE5205F8140', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 18:09:07 hn216'}
+[2022-03-05 18:09:08,517][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 18:09:08,517][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 18:09:08,519][conftest.py 10][INFO]: 清除session完成
+[2022-03-05 18:18:12,098][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:18:12,098][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:18:12,246][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 18:18:12,247][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 18:18:12,248][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 18:18:12,248][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 18:18:12,249][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:18:11'}}
+[2022-03-05 18:18:12,250][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 18:18:12,251][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 18:18:12,257][conftest.py 10][INFO]: 清除session完成
+[2022-03-05 18:18:12,271][test_login.py 40][DEBUG]: token:320B6FBBC2BCCF99197D877BC55FA127C53A35A11395B410128D82FC63E5102C
+[2022-03-05 18:18:12,272][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 18:18:12,273][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 18:18:12,273][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 18:18:12,273][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 18:18:12,274][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': '320B6FBBC2BCCF99197D877BC55FA127C53A35A11395B410128D82FC63E5102C', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 18:18:11 hn216'}
+[2022-03-05 18:18:12,275][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 18:18:12,276][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 18:18:12,279][conftest.py 10][INFO]: 清除session完成
+[2022-03-05 18:19:06,077][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:19:06,223][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 18:19:06,223][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 18:19:06,224][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 18:19:06,224][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 18:19:06,224][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:19:05'}}
+[2022-03-05 18:19:06,224][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 18:19:06,224][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 18:19:06,227][conftest.py 10][INFO]: 清除session完成
+[2022-03-05 18:19:53,788][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:19:53,937][test_login.py 40][DEBUG]: token:A6E4FC65598AC6BD96AE09E6976AECC36D2A9EFC4D7AED83A618199D6C1933B1
+[2022-03-05 18:19:53,939][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 18:19:53,939][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 18:19:53,939][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 18:19:53,939][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 18:19:53,939][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': 'A6E4FC65598AC6BD96AE09E6976AECC36D2A9EFC4D7AED83A618199D6C1933B1', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 18:19:53 hn216'}
+[2022-03-05 18:19:53,940][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 18:19:53,940][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 18:19:53,942][conftest.py 10][INFO]: 清除session完成
+[2022-03-05 18:21:39,273][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:21:39,410][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 18:21:39,411][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 18:21:39,411][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 18:21:39,411][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 18:21:39,411][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': '0F7943505194A33765AEF83D5278DEB97D69F757AB33AD6623D4300B687E349C', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 18:21:38 hn216'}
+[2022-03-05 18:21:39,411][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 18:21:39,411][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 18:34:17,321][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:34:17,321][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:34:17,445][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 18:34:17,445][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 18:34:17,446][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 18:34:17,446][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 18:34:17,447][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:34:16'}}
+[2022-03-05 18:34:17,447][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 18:34:17,448][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 18:34:17,471][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 18:34:17,471][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 18:34:17,472][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 18:34:17,472][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 18:34:17,473][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': 'D03B2F9A10602DA78BFEF814A3060698238B71E81EFA6EA745BB830393ED3177', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 18:34:16 hn216'}
+[2022-03-05 18:34:17,473][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 18:34:17,474][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 18:34:44,898][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:34:45,054][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 18:34:45,055][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 18:34:45,055][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 18:34:45,056][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 18:34:45,057][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:34:44'}}
+[2022-03-05 18:34:45,058][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 18:34:45,059][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 18:34:45,074][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 18:34:45,074][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 18:34:45,075][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 18:34:45,076][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 18:34:45,076][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': 'C47331078EA6BE2C5A087D15C8E0DFCF927192C550CBD17252BF938E2D089B90', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 18:34:44 hn216'}
+[2022-03-05 18:34:45,078][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 18:34:45,081][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 18:39:59,602][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 18:39:59,725][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 18:39:59,726][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 18:39:59,728][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 18:39:59,730][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 18:39:59,733][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:39:58'}}
+[2022-03-05 18:39:59,737][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 18:39:59,737][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 18:39:59,755][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 18:39:59,756][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 18:39:59,757][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 18:39:59,760][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 18:39:59,762][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': '75F1BB9766FAA719DA22C0C3D59B088D5D0F4E0BD007D21E70F3013F2813D70D', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 18:39:58 hn216'}
+[2022-03-05 18:39:59,764][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 18:39:59,768][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 19:47:08,939][conftest.py 7][INFO]: 清除上次保存的session
+[2022-03-05 19:47:09,146][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 19:47:09,146][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 19:47:09,146][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 19:47:09,146][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[2022-03-05 19:47:09,147][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 19:47:07'}}
+[2022-03-05 19:47:09,147][assert_respose.py 20][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 False
+[2022-03-05 19:47:09,147][assert_respose.py 21][DEBUG]: 【断言结果：失败】
+[2022-03-05 19:48:14,591][consel_fmt.py 8][DEBUG]: 开始执行测试用例：登录获取token&uuid
+[2022-03-05 19:48:14,592][consel_fmt.py 9][DEBUG]: 请求方式：post
+[2022-03-05 19:48:14,592][consel_fmt.py 10][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2022-03-05 19:48:14,592][consel_fmt.py 11][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}
+[2022-03-05 19:48:14,592][consel_fmt.py 12][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'token': '9A9AC801BB698E340244B728164F47A339B91640921DD224A23D55DB96A8E335', 'role': 'user'}, 'msg': 'V3.3.0 YesApi App.User.LoginExt 2022-03-05 19:48:13 hn216'}
+[2022-03-05 19:48:14,592][assert_respose.py 8][DEBUG]: 断言检查点：预期结果 0,实际结果 0
+[2022-03-05 19:48:14,592][assert_respose.py 9][DEBUG]: 【断言结果：成功】
+[2022-03-05 19:48:53,533][consel_fmt.py 16][DEBUG]: 开始执行测试用例：获取会员信息接口
+[2022-03-05 19:48:53,533][consel_fmt.py 17][DEBUG]: 请求方式：post
+[2022-03-05 19:48:53,533][consel_fmt.py 18][DEBUG]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2022-03-05 19:48:53,533][consel_fmt.py 19][DEBUG]: 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '9A9AC801BB698E340244B728164F47A339B91640921DD224A23D55DB96A8E335', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2'}
+[2022-03-05 19:48:53,533][consel_fmt.py 20][DEBUG]: 请求结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'username': 'qqmsn149', 'role': 'user', 'rolename': '普通会员', 'register_time': '2022-02-16 10:55:33', 'register_ip': '118.113.101.130', 'ext_info': {'yesapi_avatar': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': ''}, 'status': 0}}, 'msg': 'V3.3.0 YesApi App.User.Profile 2022-03-05 19:48:52 hn216'}
+[2022-03-05 19:48:53,534][assert_respose.py 17][DEBUG]: 断言检查点：预期结果 普通会员,实际结果 ['普通会员']
+[2022-03-05 19:48:53,534][assert_respose.py 18][DEBUG]: 【断言结果：成功】

@@ -1,0 +1,51 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-76566J4",
+    "children" : [ {
+      "name" : "11492-MainThread",
+      "children" : [ {
+        "name" : "获取会员用例title==》",
+        "uid" : "c3a252538a11a848",
+        "parentUid" : "f058873669d56093c2b475afe2a560fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646474948147,
+          "stop" : 1646474948263,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.Profile', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'rolename': '普通会员'}}]}" ]
+      } ],
+      "uid" : "f058873669d56093c2b475afe2a560fb"
+    }, {
+      "name" : "12364-MainThread",
+      "children" : [ {
+        "name" : "登录用例title==》》",
+        "uid" : "32c9637f3959ef68",
+        "parentUid" : "02239780266213ac5bd0484f49211486",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646474948147,
+          "stop" : 1646474948519,
+          "duration" : 372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录获取token&uuid', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}}, 'assert': [{'eq': {'err_code': 0}}]}" ]
+      } ],
+      "uid" : "02239780266213ac5bd0484f49211486"
+    } ],
+    "uid" : "7adacc43a74dfbcda54049371eb5aa6a"
+  } ]
+}

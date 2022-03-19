@@ -1,0 +1,8 @@
+[32mINFO    [0m log:conftest.py:7 清除上次保存的session
+[35mDEBUG   [0m log:consel_fmt.py:16 开始执行测试用例：获取会员信息接口
+[35mDEBUG   [0m log:consel_fmt.py:17 请求方式：post
+[35mDEBUG   [0m log:consel_fmt.py:18 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[35mDEBUG   [0m log:consel_fmt.py:19 请求数据：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}
+[35mDEBUG   [0m log:consel_fmt.py:20 请求结果：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数uuid', '调试信息': {'当前接口': 'App.User.Profile', '请求参数': {'s': 'App.User.Profile', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.Profile&app_key=A745B9D2CF7B8495944441DBF1BE9751', '当前时间': '2022-03-05 18:34:44'}}
+[35mDEBUG   [0m log:assert_respose.py:20 断言检查点：预期结果 普通会员,实际结果 False
+[35mDEBUG   [0m log:assert_respose.py:21 【断言结果：失败】

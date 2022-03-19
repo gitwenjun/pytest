@@ -1,0 +1,10 @@
+[32mINFO    [0m log:test_info_vip.py:16 前置条件---------------
+[31m[1mERROR   [0m log:request_result.py:41 类型未：<class 'list'>
+[35mDEBUG   [0m log:consel_fmt.py:16 开始执行测试用例：获取会员信息接口
+[35mDEBUG   [0m log:consel_fmt.py:17 请求方式：post
+[35mDEBUG   [0m log:consel_fmt.py:18 请求URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[35mDEBUG   [0m log:consel_fmt.py:19 请求参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'F4989A250F57B9BF6AD090C29D34004D20F77AA93A9D5DA4AD7B97604752EE07', 'uuid': '5B1531991437BE0EDC8E04E55AB732C2'}
+[35mDEBUG   [0m log:consel_fmt.py:20 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': '5B1531991437BE0EDC8E04E55AB732C2', 'username': 'qqmsn149', 'role': 'user', 'rolename': '普通会员', 'register_time': '2022-02-16 10:55:33', 'register_ip': '118.113.101.130', 'ext_info': {'yesapi_avatar': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '成都'}, 'status': 0}}, 'msg': 'V3.3.0 YesApi App.User.Profile 2022-03-07 20:03:56 hn216'}
+[35mDEBUG   [0m log:assert_respose.py:17 断言检查点：预期结果 普通会员,实际结果 ['普通会员']
+[35mDEBUG   [0m log:assert_respose.py:18 【断言结果：成功】
+[32mINFO    [0m log:test_info_vip.py:21 后置条件---------------

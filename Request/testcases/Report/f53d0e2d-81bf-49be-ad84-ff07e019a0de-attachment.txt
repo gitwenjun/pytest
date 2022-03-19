@@ -1,0 +1,2 @@
+[32mINFO    [0m log:test_info_vip.py:16 前置条件---------------
+[32mINFO    [0m log:test_info_vip.py:21 后置条件---------------

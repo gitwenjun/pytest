@@ -1,0 +1,63 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录接口总体描述",
+    "children" : [ {
+      "name" : "登录接口测试",
+      "children" : [ {
+        "name" : "登录用例",
+        "children" : [ {
+          "name" : "登录用例title==》》",
+          "uid" : "32c9637f3959ef68",
+          "parentUid" : "7a5cc45e92128953962772d86e3e851e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646474948147,
+            "stop" : 1646474948519,
+            "duration" : 372
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '登录获取token&uuid', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'username': 'qqmsn149', 'password': '123qwe'}}, 'assert': [{'eq': {'err_code': 0}}]}" ]
+        } ],
+        "uid" : "7a5cc45e92128953962772d86e3e851e"
+      } ],
+      "uid" : "911c60ac2bcf90ee45b6894aaeb7f465"
+    } ],
+    "uid" : "be18f3c99450cb25b60168cf509a2f8b"
+  }, {
+    "name" : "会员接口总体描述",
+    "children" : [ {
+      "name" : "会员接口测试用例",
+      "children" : [ {
+        "name" : "获取会员信息接口",
+        "children" : [ {
+          "name" : "获取会员用例title==》",
+          "uid" : "c3a252538a11a848",
+          "parentUid" : "9e8e19c046289670cc1b20cb8f4225fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646474948147,
+            "stop" : 1646474948263,
+            "duration" : 116
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '获取会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.Profile', 'data': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': None, 'uuid': None}}, 'assert': [{'eq': {'err_code': 0}}, {'contains': {'rolename': '普通会员'}}]}" ]
+        } ],
+        "uid" : "9e8e19c046289670cc1b20cb8f4225fb"
+      } ],
+      "uid" : "aa94b3d847cc70057fd0c8005b60e11f"
+    } ],
+    "uid" : "4c0f044f0abeae472fa874eddb5df143"
+  } ]
+}

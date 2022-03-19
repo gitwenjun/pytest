@@ -1,0 +1,40 @@
+[pytest]
+addopts = -s -v            参数，用于显示详细的数据
+testpaths = ./             用来表示文件夹，下一级放着测试用例
+python_files = test*       模块名称（.py文件）
+python_classes = Test*     定义的类名
+python_functions = test*   定义的函数名
+log_cli=True                PASSED，类似于 -V  更加详细
+markers =     消除多余的警告信息
+    test1:测试1
+    test2:测试2
+
+
+
+addopts：添加了一些pytest.main()执行时候常用的函数
+testpaths：识别D:\se_frame\TestCases的测试用例 （文件夹）
+python_files：识别以TestCases目录下以test开头的文件  （文件）
+python_classes：识别以Test开头的类  （类）
+python_functions：识别以test开头的方法  （方法）
+markers：主要是自定义装饰器@pytest.mark.xxx要用到它来对测试用例进行分类。比如第一个是冒烟用例
+
+
+
+pytest参数详解：
+-s      表示输出调试信息,包括print打印的信息
+-v     表示更相信的信息
+-n 参数[number]    表示支持分布式运行测试用例，就是多线程。假如一共有6条用例，加上参数 -n 3 ，就表示还有3个进程执行用例，在控制台会出现[weg0 weg1 weg3]等字样
+-k 参数[字段]     表示根据用例的部分字符串指定测试用例，比如有个用例名叫test11234，加上参数 -k ‘112’ ，就好执行这个用例，类似于模糊匹配
+--html 参数[路径]   表示可以生成HTML格式的测试报告,但还包含一个css文件的文件夹，就无法加入到邮件正文中
+--html=html_report/report.html --self-contained-html   故可以用这种方式来生成一个包含css样式的html格式报告
+--reruns 参数[number]   表示失败用例重跑的个数，如果有某个用例执行失败，加上这个参数后就会重新再次执行
+--alluredir ./allure/temps --clean-alluredir  表示生成的报告存放在临时目录./allure/temps中，参数--clean-alluredir   表示每执行一次就清除上次的报告
+-p no:warnings
+
+
+
+python_files=文件名*.py 文件名*.py   用于识别用test开头的文件名  假如文件为Wang.py  在pytest不能运行，但加入这个后面就可以
+python_classes = 类名*     用于运行指定的类名   （好像也可以绝对路径  ./）
+testpaths = test_01  用于运行指定的文件夹，就不用一次运行多个了
+python_functions = vip*  test*  （可以多个） 用于运行以VIP开头的测试用例，如果不是VIP开头的就不会运行，就算是test开头的也不运行
+

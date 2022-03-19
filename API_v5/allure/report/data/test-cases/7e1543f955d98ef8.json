@@ -1,0 +1,128 @@
+{
+  "uid" : "7e1543f955d98ef8",
+  "name" : "test_all_shopping[args0]",
+  "fullName" : "testcase_py.test_user_all.TestUserLogin#test_all_shopping",
+  "historyId" : "09a3a624130959366aff98bf266b6ca8",
+  "time" : {
+    "start" : 1645586986112,
+    "stop" : 1645586986190,
+    "duration" : 78
+  },
+  "description" : "添加商品到下单的过程",
+  "descriptionHtml" : "<p>添加商品到下单的过程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "meici",
+    "time" : {
+      "start" : 1645586986112,
+      "stop" : 1645586986112,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1645586985886,
+      "stop" : 1645586985936,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "添加商品到下单的过程",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "be79652e2c3d72d0",
+      "name" : "log",
+      "source" : "be79652e2c3d72d0.txt",
+      "type" : "text/plain",
+      "size" : 2199
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "meici::0",
+    "time" : {
+      "start" : 1645586986191,
+      "stop" : 1645586986192,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "购物流程"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('meici')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase_py"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_all"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HNNG48V"
+  }, {
+    "name" : "thread",
+    "value" : "19552-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase_py.test_user_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': 134, 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('meici')" ]
+  },
+  "source" : "7e1543f955d98ef8.json",
+  "parameterValues" : [ "{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': 134, 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}" ]
+}

@@ -1,0 +1,29 @@
+
+- name: 测试用例1：加入商品到我的收藏
+  request:
+    method: post
+    url: /user/collect/create
+    params: {session,"goods_id":140}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例1：查看我的收藏
+  request:
+    method: post
+    url: /user/collect/list
+    params: {session,"pagination":{"count":10,"page":1},"rec_id":0}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例1：删除我的收藏中存在的一件商品
+  request:
+    method: post
+    url: /user/collect/list
+    params: {session,"rec_id":"5"}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}

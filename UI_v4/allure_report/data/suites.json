@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase_py",
+    "children" : [ {
+      "name" : "user_register",
+      "children" : [ {
+        "name" : "TestUserRegister",
+        "children" : [ {
+          "name" : "注册用户-输入所有正确的信息",
+          "uid" : "b5ee07d728a1ae7a",
+          "parentUid" : "29d79c536e64c8223a19902faeb29e10",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638455052553,
+            "stop" : 1638455070178,
+            "duration" : 17625
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "29d79c536e64c8223a19902faeb29e10"
+      } ],
+      "uid" : "46625c1552647eca73108801cac6e92a"
+    } ],
+    "uid" : "d61cd41015eec2bf0585f2df3a55433f"
+  } ]
+}

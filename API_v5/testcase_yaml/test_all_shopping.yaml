@@ -1,0 +1,52 @@
+
+
+- name: 测试用例1：进入商品ID为134的页面
+  request:
+    method: post
+    url: /goods
+    params: {"goods_id":134,session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例1：将商品添加到购物车
+  request:
+    method: post
+    url: /cart/create
+    params: {"spec":[],session,"goods_id":134,"number":1}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例1：点击购物车
+  request:
+    method: post
+    url: /cart/list
+    params: {session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例1：添加收货地址
+  request:
+    method: post
+    url: /address/add
+    params: {"address":{"default_address":0,"consignee":"王齐涛","tel":"18712341234","zipcode":"628000","country":"1","city":"52","id":0,"email":"1365810824@qq.com","address":"111街道","province":"2","district":"500","mobile":""},session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例1：提交订单
+  request:
+    method: post
+    url: /address/add
+    params: {"shipping_id":"1",session,"pay_id":"5"}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+

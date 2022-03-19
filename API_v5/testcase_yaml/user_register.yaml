@@ -1,0 +1,10 @@
+- name: 测试用例：用户注册
+  request:
+    method: post
+    url: /user/signup
+    params: {"field":[{"id":1,"value":"1365810123@qq.com"},{"id":2,"value":"1212331231"},{"id":3,"value":"18712342134"},{"id":4,"value":"18712341234"},{"id":5,"value":"18712345678"}],"email":"1365810824@qq.com","name":"wqt1234567","password":"wqt1234567"}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+

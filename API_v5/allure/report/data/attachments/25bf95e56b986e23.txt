@@ -1,0 +1,10 @@
+INFO     root:logger_handler.py:142  测试开始
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://192.168.154.129:80 "POST /ecmobile/?url=/user/collect/list HTTP/1.1" 200 79
+DEBUG    root:logger_handler.py:144 【开始执行测试用例：测试用例1：查看我的收藏】
+DEBUG    root:logger_handler.py:144 请求url：http://192.168.154.129/ecmobile/?url=/user/collect/list
+DEBUG    root:logger_handler.py:144 请求方法：post
+DEBUG    root:logger_handler.py:144 请求参数：{'json': '{"session": {"sid": "5f5fc1d24177993d72375950ead663f43341c10c", "uid": "1"}, "pagination": {"count": 10, "page": 1}, "rec_id": 0}'}
+DEBUG    root:logger_handler.py:144 响应结果：{'data': [], 'status': {'succeed': 1}, 'paginated': {'total': '0', 'count': 0, 'more': 0}}
+DEBUG    root:logger_handler.py:144 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+DEBUG    root:logger_handler.py:144 【测试结果：成功】
+INFO     root:logger_handler.py:142  测试结束

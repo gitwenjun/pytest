@@ -1,0 +1,239 @@
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:105 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:116 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:116 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:116 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:116 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:95 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:107 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:116 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:231 Starting new HTTP connection (1): 127.0.0.1:57263
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session HTTP/1.1" 200 790
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 ----------  测试开始  ----------
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/window/maximize {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/window/maximize HTTP/1.1" 200 52
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 浏览器最大化
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/url {"url": "http://192.168.4.115"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 读取url：http://192.168.4.115
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：xpath，定位元素的属性：//a[text()='注册']
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "xpath", "value": "//a[text()='\u6ce8\u518c']"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/114eaf1b-d519-451b-baa1-7dfdf878119e/click {"id": "114eaf1b-d519-451b-baa1-7dfdf878119e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/114eaf1b-d519-451b-baa1-7dfdf878119e/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 点击元素：('xpath', "//a[text()='注册']")
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：username
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"username\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/9494b0ed-f074-431d-aedd-19e7a30b299e/clear {"id": "9494b0ed-f074-431d-aedd-19e7a30b299e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/9494b0ed-f074-431d-aedd-19e7a30b299e/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/9494b0ed-f074-431d-aedd-19e7a30b299e/value {"text": "eren", "value": ["e", "r", "e", "n"], "id": "9494b0ed-f074-431d-aedd-19e7a30b299e"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/9494b0ed-f074-431d-aedd-19e7a30b299e/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：eren
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：id，定位元素的属性：email
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[id=\"email\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/adb9387d-0b97-478c-a9d0-63942880fb9b/clear {"id": "adb9387d-0b97-478c-a9d0-63942880fb9b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/adb9387d-0b97-478c-a9d0-63942880fb9b/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/adb9387d-0b97-478c-a9d0-63942880fb9b/value {"text": "jiehao@example.org", "value": ["j", "i", "e", "h", "a", "o", "@", "e", "x", "a", "m", "p", "l", "e", ".", "o", "r", "g"], "id": "adb9387d-0b97-478c-a9d0-63942880fb9b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/adb9387d-0b97-478c-a9d0-63942880fb9b/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：jiehao@example.org
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：password
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"password\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/c91c4807-c7e9-4182-9b66-a44bcb9336ee/clear {"id": "c91c4807-c7e9-4182-9b66-a44bcb9336ee"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/c91c4807-c7e9-4182-9b66-a44bcb9336ee/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/c91c4807-c7e9-4182-9b66-a44bcb9336ee/value {"text": "wqt123456", "value": ["w", "q", "t", "1", "2", "3", "4", "5", "6"], "id": "c91c4807-c7e9-4182-9b66-a44bcb9336ee"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/c91c4807-c7e9-4182-9b66-a44bcb9336ee/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：wqt123456
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：confirm_password
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"confirm_password\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/ca158b6d-29ba-4c5c-934a-a80bb4ef8539/clear {"id": "ca158b6d-29ba-4c5c-934a-a80bb4ef8539"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/ca158b6d-29ba-4c5c-934a-a80bb4ef8539/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/ca158b6d-29ba-4c5c-934a-a80bb4ef8539/value {"text": "wqt123456", "value": ["w", "q", "t", "1", "2", "3", "4", "5", "6"], "id": "ca158b6d-29ba-4c5c-934a-a80bb4ef8539"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/ca158b6d-29ba-4c5c-934a-a80bb4ef8539/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：wqt123456
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：extend_field1
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"extend_field1\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/ce858e48-dbbf-4472-b90e-f713501a0035/clear {"id": "ce858e48-dbbf-4472-b90e-f713501a0035"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/ce858e48-dbbf-4472-b90e-f713501a0035/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/ce858e48-dbbf-4472-b90e-f713501a0035/value {"text": "jinghan@example.net", "value": ["j", "i", "n", "g", "h", "a", "n", "@", "e", "x", "a", "m", "p", "l", "e", ".", "n", "e", "t"], "id": "ce858e48-dbbf-4472-b90e-f713501a0035"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/ce858e48-dbbf-4472-b90e-f713501a0035/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：jinghan@example.net
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：extend_field2
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"extend_field2\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/4355a5e2-4c6a-4b4b-ba25-d44587c2e6b8/clear {"id": "4355a5e2-4c6a-4b4b-ba25-d44587c2e6b8"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/4355a5e2-4c6a-4b4b-ba25-d44587c2e6b8/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/4355a5e2-4c6a-4b4b-ba25-d44587c2e6b8/value {"text": "59610366", "value": ["5", "9", "6", "1", "0", "3", "6", "6"], "id": "4355a5e2-4c6a-4b4b-ba25-d44587c2e6b8"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/4355a5e2-4c6a-4b4b-ba25-d44587c2e6b8/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：59610366
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：extend_field3
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"extend_field3\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/ac017d92-7e2a-4ca1-8da3-e195943c122a/clear {"id": "ac017d92-7e2a-4ca1-8da3-e195943c122a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/ac017d92-7e2a-4ca1-8da3-e195943c122a/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/ac017d92-7e2a-4ca1-8da3-e195943c122a/value {"text": "18214646412", "value": ["1", "8", "2", "1", "4", "6", "4", "6", "4", "1", "2"], "id": "ac017d92-7e2a-4ca1-8da3-e195943c122a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/ac017d92-7e2a-4ca1-8da3-e195943c122a/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：18214646412
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：extend_field4
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"extend_field4\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/9bdd82e2-d367-48e7-9940-23f2b394d6a6/clear {"id": "9bdd82e2-d367-48e7-9940-23f2b394d6a6"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/9bdd82e2-d367-48e7-9940-23f2b394d6a6/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/9bdd82e2-d367-48e7-9940-23f2b394d6a6/value {"text": "15789224829", "value": ["1", "5", "7", "8", "9", "2", "2", "4", "8", "2", "9"], "id": "9bdd82e2-d367-48e7-9940-23f2b394d6a6"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/9bdd82e2-d367-48e7-9940-23f2b394d6a6/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：15789224829
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：extend_field5
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"extend_field5\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/8b34e621-6a4f-4c1b-b24e-bb566cbab425/clear {"id": "8b34e621-6a4f-4c1b-b24e-bb566cbab425"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/8b34e621-6a4f-4c1b-b24e-bb566cbab425/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/8b34e621-6a4f-4c1b-b24e-bb566cbab425/value {"text": "15875372406", "value": ["1", "5", "8", "7", "5", "3", "7", "2", "4", "0", "6"], "id": "8b34e621-6a4f-4c1b-b24e-bb566cbab425"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/8b34e621-6a4f-4c1b-b24e-bb566cbab425/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：15875372406
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：sel_question
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"sel_question\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/98b88a4e-ad85-4d99-94f0-0713fec99aa8/click {"id": "98b88a4e-ad85-4d99-94f0-0713fec99aa8"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/98b88a4e-ad85-4d99-94f0-0713fec99aa8/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/98b88a4e-ad85-4d99-94f0-0713fec99aa8/name {"id": "98b88a4e-ad85-4d99-94f0-0713fec99aa8"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "GET /session/3280678b5559fb500eb2f35b935af151/element/98b88a4e-ad85-4d99-94f0-0713fec99aa8/name HTTP/1.1" 200 18
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/execute/sync {"script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k<arguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g<e;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8<=Number(G)),fa=y&&!(9<=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0<c&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u<U.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0<=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);", "args": [{"ELEMENT": "98b88a4e-ad85-4d99-94f0-0713fec99aa8", "element-6066-11e4-a52e-4f735466cecf": "98b88a4e-ad85-4d99-94f0-0713fec99aa8"}, "multiple"]}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/execute/sync HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/98b88a4e-ad85-4d99-94f0-0713fec99aa8/elements {"using": "xpath", "value": ".//option[normalize-space(.) = \"\u6211\u6700\u559c\u7231\u7684\u98df\u7269\uff1f\"]", "id": "98b88a4e-ad85-4d99-94f0-0713fec99aa8"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/98b88a4e-ad85-4d99-94f0-0713fec99aa8/elements HTTP/1.1" 200 90
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/aee7995a-a5cb-4b03-8e40-b663d27a1b98/selected {"id": "aee7995a-a5cb-4b03-8e40-b663d27a1b98"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "GET /session/3280678b5559fb500eb2f35b935af151/element/aee7995a-a5cb-4b03-8e40-b663d27a1b98/selected HTTP/1.1" 200 15
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/aee7995a-a5cb-4b03-8e40-b663d27a1b98/click {"id": "aee7995a-a5cb-4b03-8e40-b663d27a1b98"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/aee7995a-a5cb-4b03-8e40-b663d27a1b98/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：name，定位元素的属性：passwd_answer
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": "[name=\"passwd_answer\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/8e6ccd19-79b1-4cad-ab33-f7b1ab39f66a/clear {"id": "8e6ccd19-79b1-4cad-ab33-f7b1ab39f66a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/8e6ccd19-79b1-4cad-ab33-f7b1ab39f66a/clear HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/8e6ccd19-79b1-4cad-ab33-f7b1ab39f66a/value {"text": "\u8349\u8393", "value": ["\u8349", "\u8393"], "id": "8e6ccd19-79b1-4cad-ab33-f7b1ab39f66a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/8e6ccd19-79b1-4cad-ab33-f7b1ab39f66a/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 输入的值：草莓
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/screenshot {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "GET /session/3280678b5559fb500eb2f35b935af151/screenshot HTTP/1.1" 200 375520
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger_handler_v3.py:142 截图成功：22-24-14前端注册界面_注册信息详情截图.png ,保存路径：G:\Python_code\UI_Automation_v3\photos\2021\12-02\22-24-14前端注册界面_注册信息详情截图.png
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：class name，定位元素的属性：us_Submit_reg
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "css selector", "value": ".us_Submit_reg"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/404aa840-6a3e-4ec0-b7a1-f5362a282e43/click {"id": "404aa840-6a3e-4ec0-b7a1-f5362a282e43"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element/404aa840-6a3e-4ec0-b7a1-f5362a282e43/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 点击元素：('class name', 'us_Submit_reg')
+DEBUG    root:logger_handler_v3.py:144 定位元素的方法：xpath，定位元素的属性：//p[text()='用户名 eren 注册成功']
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element {"using": "xpath", "value": "//p[text()='\u7528\u6237\u540d eren \u6ce8\u518c\u6210\u529f']"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "POST /session/3280678b5559fb500eb2f35b935af151/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 元素定位成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/455e27a9-8b5c-40d5-ae74-8458e05044f3/text {"id": "455e27a9-8b5c-40d5-ae74-8458e05044f3"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "GET /session/3280678b5559fb500eb2f35b935af151/element/455e27a9-8b5c-40d5-ae74-8458e05044f3/text HTTP/1.1" 200 39
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger_handler_v3.py:142 获取界面的信息：用户名 eren 注册成功
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/element/455e27a9-8b5c-40d5-ae74-8458e05044f3/text {"id": "455e27a9-8b5c-40d5-ae74-8458e05044f3"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "GET /session/3280678b5559fb500eb2f35b935af151/element/455e27a9-8b5c-40d5-ae74-8458e05044f3/text HTTP/1.1" 200 39
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151/screenshot {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "GET /session/3280678b5559fb500eb2f35b935af151/screenshot HTTP/1.1" 200 164808
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:logger_handler_v3.py:142 截图成功：22-24-30前端注册界面_注册成功截图.png ,保存路径：G:\Python_code\UI_Automation_v3\photos\2021\12-02\22-24-30前端注册界面_注册成功截图.png
+DEBUG    root:logger_handler_v3.py:144 断言检查点--预期结果:注册成功，实际结果:用户名 eren 注册成功
+DEBUG    root:logger_handler_v3.py:144 【测试结果：断言成功】
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:57263/session/3280678b5559fb500eb2f35b935af151 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:57263 "DELETE /session/3280678b5559fb500eb2f35b935af151 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    root:logger_handler_v3.py:144 ----------  测试结束  ----------

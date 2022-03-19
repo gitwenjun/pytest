@@ -1,0 +1,21 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "前端操作",
+    "children" : [ {
+      "name" : "注册用户-输入所有正确的信息",
+      "uid" : "b5ee07d728a1ae7a",
+      "parentUid" : "a7617815656956f3270c628e38406987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638455052553,
+        "stop" : 1638455070178,
+        "duration" : 17625
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a7617815656956f3270c628e38406987"
+  } ]
+}

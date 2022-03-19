@@ -1,0 +1,31 @@
+2021-12-06 16:01:35 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试开始  ----------
+2021-12-06 16:01:35 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 浏览器最大化
+2021-12-06 16:01:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 读取url：http://39.106.69.242/thinksns/index.php?s=/Index/login
+2021-12-06 16:01:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqt123@qq.com
+2021-12-06 16:01:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqtwan123
+2021-12-06 16:01:48 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试结束  ----------
+2021-12-06 16:03:02 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试开始  ----------
+2021-12-06 16:03:02 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 浏览器最大化
+2021-12-06 16:03:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 读取url：http://39.106.69.242/thinksns/index.php?s=/Index/login
+2021-12-06 16:03:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqt123@qq.com
+2021-12-06 16:03:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqtwan123
+2021-12-06 16:03:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试结束  ----------
+2021-12-06 16:04:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试开始  ----------
+2021-12-06 16:04:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 浏览器最大化
+2021-12-06 16:04:50 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 读取url：http://39.106.69.242/thinksns/index.php?s=/Index/login
+2021-12-06 16:04:50 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqt123@qq.com
+2021-12-06 16:04:50 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqtwan123
+2021-12-06 16:05:02 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试结束  ----------
+2021-12-06 16:08:03 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试开始  ----------
+2021-12-06 16:08:03 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 浏览器最大化
+2021-12-06 16:08:05 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 读取url：http://39.106.69.242/thinksns/index.php?s=/Index/login
+2021-12-06 16:08:06 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqt123@qq.com
+2021-12-06 16:08:06 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqtwan123
+2021-12-06 16:08:18 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试结束  ----------
+2021-12-06 16:09:24 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试开始  ----------
+2021-12-06 16:09:25 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 浏览器最大化
+2021-12-06 16:09:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 读取url：http://39.106.69.242/thinksns/index.php?s=/Index/login
+2021-12-06 16:09:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqt123@qq.com
+2021-12-06 16:09:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 输入的值：wqtwan123
+2021-12-06 16:09:28 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 点击元素：('xpath', "//input[@value='确 定']")
+2021-12-06 16:09:30 - logger_handler.py - [line:144] - DEBUG - [日志信息]: ----------  测试结束  ----------

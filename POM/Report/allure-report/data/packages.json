@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases.test_login",
+    "children" : [ {
+      "name" : "登录成功用例",
+      "uid" : "cf7ec77051398b16",
+      "parentUid" : "5b9bff3cc878bfbc7326d20d4563c3d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644411063248,
+        "stop" : 1644411074826,
+        "duration" : 11578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'name': '18380447258@163.com', 'pwd': '123qwe', 'asserts': 'Sign Out'}" ]
+    } ],
+    "uid" : "TestCases.test_login"
+  } ]
+}

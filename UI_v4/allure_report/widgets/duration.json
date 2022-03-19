@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b5ee07d728a1ae7a",
+  "name" : "注册用户-输入所有正确的信息",
+  "time" : {
+    "start" : 1638455052553,
+    "stop" : 1638455070178,
+    "duration" : 17625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

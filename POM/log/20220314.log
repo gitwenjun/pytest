@@ -1,0 +1,22 @@
+[2022-03-14 20:31:28,512][logs.py 34][INFO]: ---测试开始---
+[2022-03-14 20:31:28,513][logs.py 35][DEBUG]: ---测试结束---
+[2022-03-14 20:31:28,513][logs.py 36][ERROR]: -------s
+[2022-03-14 20:41:58,849][screenshot.py 34][DEBUG]: 截图成功：登录失败,保存路径为：None
+[2022-03-14 20:44:18,227][screenshot.py 35][DEBUG]: 截图成功：登录失败,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 20:58:26,311][screenshot.py 35][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 20:58:41,030][screenshot.py 35][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 20:59:32,735][screenshot.py 35][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:00:17,573][screenshot.py 35][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:03:38,904][test_login.py 36][DEBUG]: 预期结果为：Change Password
+[2022-03-14 21:03:39,180][screenshot.py 35][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:05:43,936][test_login.py 36][DEBUG]: 预期结果为：Change Password
+[2022-03-14 21:05:44,171][screenshot.py 35][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:08:54,215][screenshot.py 34][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:09:19,796][test_login.py 37][DEBUG]: 预期结果为：<selenium.webdriver.remote.webelement.WebElement (session="c78eb4fdccfa07ffae8dafcade0d0bbf", element="556bb6a9-aabd-412b-aeb7-e1779ebabfe4")>
+[2022-03-14 21:09:20,051][screenshot.py 34][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:12:53,171][screenshot.py 34][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:13:29,526][screenshot.py 34][DEBUG]: 截图成功：登录成功_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:39:34,274][screenshot.py 34][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:45:03,225][screenshot.py 34][DEBUG]: 截图成功：登录成功_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 21:51:50,225][screenshot.py 34][DEBUG]: 截图成功：登录失败_,保存路径为：G:\Project\Pom\photos\2022\03-14
+[2022-03-14 22:11:17,737][screenshot.py 34][DEBUG]: 截图成功：登录成功_,保存路径为：G:\Project\Pom\photos\2022\03-14

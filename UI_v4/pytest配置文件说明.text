@@ -1,0 +1,30 @@
+pytest.ini 配置文件是不支持注释
+
+pytest.ini文件相关参数：
+    addopts = -s -v            参数，用于显示详细的数据
+    testpaths = ./             用来表示文件夹，下一级放着测试用例
+    python_files = 文件名*.py       模块名称（.py文件），识别以TestCases目录下以test开头的文件
+    python_classes = Test*     类名，识别以Test开头的类
+    python_functions = test*   函数名，识别以test开头的函数
+    log_cli=True               PASSED，类似于 -V  更加详细
+    markers =                  主要是自定义装饰器@pytest.mark.xxx要用到它来对测试用例进行分类，冒号 “:” 前面是标记名称，后面是 mark 标记的说明
+        test1:描述，也可以为空
+        test2:描述
+
+
+pytest中addopts参数详解：
+    -s      表示输出调试信息,包括print打印的信息
+    -v      表示更详细的信息
+    -m 参数[标记的函数名称]    #表示运行自己定义的@pytest.mark.xxxx 函数，一般用于冒烟测试
+    -p no:warnings      表示忽略waring信息，好像不能实现
+    -n 参数[number]     表示支持分布式运行测试用例，就是多线程。假如一共有6条用例，加上参数 -n 3 ，就表示还有3个进程执行用例，在控制台会出现[weg0 weg1 weg3]等字样
+    -k 参数[字段]       表示根据用例的部分字符串指定测试用例，比如有个用例名叫test11234，加上参数 -k ‘112’，就执行这个用例，类似于模糊匹配
+    --reruns 参数[number]    表示失败后重跑
+    --html 参数[路径]   表示可以生成HTML格式的测试报告,但还包含一个css文件的文件夹，就无法加入到邮件正文中
+    --reruns 参数[number]   表示失败用例重跑的个数，如果有某个用例执行失败，加上这个参数后就会重新再次执行
+    --alluredir ./allure_temps --clean-alluredir   表示生成的报告存放在临时目录./allure_temps中，参数--clean-alluredir表示每执行一次就清除上次的报告
+    --html=html_report/report.html --self-contained-html   表示生成一个包含css样式的html格式报告,好像邮箱发过去内容不对
+
+
+在命令行中运行：
+    使用 -m 参数运行标记的测试用例；  -m 参数支持 and、or 、not 等表达式；

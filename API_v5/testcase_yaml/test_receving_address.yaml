@@ -1,0 +1,40 @@
+
+
+- name: 测试用例1：查看收获地址
+  request:
+    method: post
+    url: /address/list
+    params: {session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例2：添加收获地址
+  request:
+    method: post
+    url: /address/add
+    params: {"address":{"default_address":0,"consignee":"王子丹","tel":"18780911234","zipcode":"628000","country":"1","city":"39","id":0,"email":"9971544402@qq.com","address":"111街道","province":"3","district":"421","mobile":""},session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例3：编辑收获地址
+  request:
+    method: post
+    url: /address/list
+    params: {"address":{"default_address":0,"consignee":"王齐涛1111122","tel":"18712341234","zipcode":"628000","country":"1","city":"52","id":0,"email":"1365810824@qq.com","address":"111街道","province":"2","district":"500","mobile":""},"address_id":"12",session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+- name: 测试用例4：删除收获地址
+  request:
+    method: post
+    url: /address/delete
+    params: {"address_id":"12",session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}

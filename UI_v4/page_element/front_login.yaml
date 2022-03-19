@@ -1,0 +1,9 @@
+
+用户名: "name==email"
+密码: "name==passwd"
+登录按钮: "xpath==//input[@value='确 定']"
+
+
+
+
+

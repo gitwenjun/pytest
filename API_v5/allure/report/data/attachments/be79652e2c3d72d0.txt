@@ -1,0 +1,10 @@
+INFO     root:logger_handler.py:142  测试开始
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://192.168.154.129:80 "POST /ecmobile/?url=/goods HTTP/1.1" 200 1455
+DEBUG    root:logger_handler.py:144 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+DEBUG    root:logger_handler.py:144 请求url：http://192.168.154.129/ecmobile/?url=/goods
+DEBUG    root:logger_handler.py:144 请求方法：post
+DEBUG    root:logger_handler.py:144 请求参数：{'json': '{"goods_id": 134, "session": {"sid": "5f5fc1d24177993d72375950ead663f43341c10c", "uid": "1"}}'}
+DEBUG    root:logger_handler.py:144 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '666', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+DEBUG    root:logger_handler.py:144 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+DEBUG    root:logger_handler.py:144 【测试结果：成功】
+INFO     root:logger_handler.py:142  测试结束

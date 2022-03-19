@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72dcfcba-98ac-44bc-8cc2-395f10c5f352" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request/.idea/Request.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Date/yaml_login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Date/yaml_login.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/page/login_av.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/page/login_av.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/report/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/testcases/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pytest" beforeDir="false" afterPath="$PROJECT_DIR$/../pytest" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PageObject/bing_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="216">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/test_bing_serach_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
+            <state relative-caret-position="702">
               <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -101,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="231" />
-    <option name="y" value="91" />
+    <option name="x" value="161" />
+    <option name="y" value="2" />
     <option name="width" value="1615" />
     <option name="height" value="882" />
   </component>
@@ -112,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,17 +129,21 @@
               <item name="BingSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="BingSearch" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BingSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BingSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -281,6 +295,7 @@
       <workItem from="1639662106487" duration="614000" />
       <workItem from="1639662749127" duration="107000" />
       <workItem from="1639662870989" duration="22000" />
+      <workItem from="1646652944715" duration="629000" />
     </task>
     <servers />
   </component>
@@ -317,7 +332,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29089000" />
+    <option name="totallyTimeSpent" value="29718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,9 +344,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="231" y="91" width="1615" height="882" extended-state="0" />
+    <frame x="161" y="2" width="1615" height="882" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.30032155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.30418006" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.22867803" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,13 +399,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../jiujia/main1.py" />
     <entry file="file://$PROJECT_DIR$/../jiujia/main.py" />
-    <entry file="file://$PROJECT_DIR$/PageObject/bing_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Commom/csv_bings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -420,11 +429,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/test_bing_serach_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="702">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObject/bing_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>

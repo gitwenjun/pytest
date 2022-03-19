@@ -1,0 +1,34 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "AV登录的总体描述",
+    "children" : [ {
+      "name" : "登录模块",
+      "children" : [ {
+        "name" : "AV登录用例",
+        "children" : [ {
+          "name" : "登录成功用例",
+          "uid" : "cf7ec77051398b16",
+          "parentUid" : "160ca7a9b6cbe5f2b373c09a7b7026e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1644411063248,
+            "stop" : 1644411074826,
+            "duration" : 11578
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '18380447258@163.com', 'pwd': '123qwe', 'asserts': 'Sign Out'}" ]
+        } ],
+        "uid" : "160ca7a9b6cbe5f2b373c09a7b7026e9"
+      } ],
+      "uid" : "d32b8313e17afd03fee5b4f7144f823a"
+    } ],
+    "uid" : "5bffb272f49798910f0f9dfd80247ba6"
+  } ]
+}

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 02 22:24:12 CST 2021","Thu Dec 02 22:24:30 CST 2021","17625","testcase_py","user_register","TestUserRegister","","","注册用户-输入所有正确的信息","前端注册用户"

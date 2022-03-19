@@ -1,0 +1,252 @@
+2022-02-22 10:48:53 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "3e1600b847473512821285a4e18f3b8bed9357b3", "uid": "1"}}'}
+2022-02-22 10:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'status': {'succeed': 0, 'error_code': 100, 'error_desc': '您的帐号已过期'}}
+2022-02-22 10:48:53 - logger_handler.py - [line:149] - ERROR - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 0, 'error_code': 100, 'error_desc': '您的帐号已过期'}
+2022-02-22 10:48:53 - logger_handler.py - [line:149] - ERROR - [日志信息]: 【测试结果：失败】
+2022-02-22 10:48:53 - logger_handler.py - [line:149] - ERROR - [日志信息]: 可能是session时效或者不正确，需要重新登录获取新的session，以下代码表示重新登录！
+2022-02-22 10:48:54 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：获取登录后的session值uid和sid】
+2022-02-22 10:48:54 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/user/signin
+2022-02-22 10:48:54 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 10:48:54 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'name': 'wqt123456', 'password': 'wqt123456'}
+2022-02-22 10:48:54 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'session': {'sid': '2d827a0c7a421caeb00da9496ba24a2f7505e943', 'uid': '1'}, 'user': {'id': '1', 'name': 'wqt123456', 'rank_name': '注册用户', 'rank_level': 0, 'collection_num': '0', 'email': '12342342@qq.com', 'order_num': {'await_pay': '0', 'await_ship': '0', 'shipped': '0', 'finished': '0'}}}, 'status': {'succeed': 1}}
+2022-02-22 10:48:54 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 10:48:54 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 10:48:54 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 10:49:16 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "2d827a0c7a421caeb00da9496ba24a2f7505e943", "uid": "1"}}'}
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '652', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 10:49:16 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 10:49:16 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 10:49:35 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure_report 压缩成功! 存放的位置：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure\\filezip\allure2022-02-22
+2022-02-22 10:52:06 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：获取登录后的session值uid和sid】
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/user/signin
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'name': 'wqt123456', 'password': 'wqt123456'}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'session': {'sid': 'e0c0f2a4e11b10241574ded4b1b57532e8c12551', 'uid': '1'}, 'user': {'id': '1', 'name': 'wqt123456', 'rank_name': '注册用户', 'rank_level': 0, 'collection_num': '0', 'email': '12342342@qq.com', 'order_num': {'await_pay': '0', 'await_ship': '0', 'shipped': '0', 'finished': '0'}}}, 'status': {'succeed': 1}}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 10:52:07 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 10:52:07 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "e0c0f2a4e11b10241574ded4b1b57532e8c12551", "uid": "1"}}'}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '653', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 10:52:07 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 10:52:07 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 10:52:11 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure_report 压缩成功! 存放的位置：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure\\filezip\allure2022-02-22
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：获取登录后的session值uid和sid】
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/user/signin
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'name': 'wqt123456', 'password': 'wqt123456'}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'session': {'sid': 'd4e9922bc054a13ce267e9c7dab5dbe1019c64f7', 'uid': '1'}, 'user': {'id': '1', 'name': 'wqt123456', 'rank_name': '注册用户', 'rank_level': 0, 'collection_num': '0', 'email': '12342342@qq.com', 'order_num': {'await_pay': '0', 'await_ship': '0', 'shipped': '0', 'finished': '0'}}}, 'status': {'succeed': 1}}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "d4e9922bc054a13ce267e9c7dab5dbe1019c64f7", "uid": "1"}}'}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '654', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：b'{"data":[{"id":"2","consignee":"","address":"","country_name":null,"province_name":null,"city_name":null,"district_name":null,"d'】
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：b'efault_address":1},{"id":"1","consignee":"\\u738b\\u9f50\\u6d9b","address":"111\\u8857\\u9053","country_name":"\\u4e2d\\u56fd","provinc'
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：b'e_name":"\\u5317\\u4eac","city_name":"\\u5317\\u4eac","district_name":"\\u4e1c\\u57ce\\u533a","default_address":0}],"status":{"succeed"'
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：b':1}}'
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': [{'id': '2', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 1}, {'id': '1', 'consignee': '王齐涛', 'address': '111街道', 'country_name': '中国', 'province_name': '北京', 'city_name': '北京', 'district_name': '东城区', 'default_address': 0}], 'status': {'succeed': 1}}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 13:58:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 13:58:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 13:58:50 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure_report 压缩成功! 存放的位置：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure\\filezip\allure2022-02-22
+2022-02-22 14:01:04 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：获取登录后的session值uid和sid】
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/user/signin
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'name': 'wqt123456', 'password': 'wqt123456'}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'session': {'sid': '9e047a263d141d31213a3253c3b29533e1aa6eb3', 'uid': '1'}, 'user': {'id': '1', 'name': 'wqt123456', 'rank_name': '注册用户', 'rank_level': 0, 'collection_num': '0', 'email': '12342342@qq.com', 'order_num': {'await_pay': '0', 'await_ship': '0', 'shipped': '0', 'finished': '0'}}}, 'status': {'succeed': 1}}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:01:04 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:01:04 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "9e047a263d141d31213a3253c3b29533e1aa6eb3", "uid": "1"}}'}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '655', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:01:04 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:01:04 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:01:09 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure_report 压缩成功! 存放的位置：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure\\filezip\allure2022-02-22
+2022-02-22 14:07:49 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：获取登录后的session值uid和sid】
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/user/signin
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'name': 'wqt123456', 'password': 'wqt123456'}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'session': {'sid': '50d9a4cb7b5068a3aa5aa81da6f0fccc040e74c2', 'uid': '1'}, 'user': {'id': '1', 'name': 'wqt123456', 'rank_name': '注册用户', 'rank_level': 0, 'collection_num': '0', 'email': '12342342@qq.com', 'order_num': {'await_pay': '0', 'await_ship': '0', 'shipped': '0', 'finished': '0'}}}, 'status': {'succeed': 1}}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:07:49 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:07:49 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "50d9a4cb7b5068a3aa5aa81da6f0fccc040e74c2", "uid": "1"}}'}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '656', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:07:49 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:07:49 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:08:03 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure_report 压缩成功! 存放的位置：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure\\filezip\allure2022-02-22
+2022-02-22 14:08:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: Whect邮箱发送成功 --> 收件人:['yangtao@aomeikeji.com']
+2022-02-22 14:34:08 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：获取登录后的session值uid和sid】
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/user/signin
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'name': 'wqt123456', 'password': 'wqt123456'}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'session': {'sid': '0235b488ec7492c61bd0780307138a9309c7225e', 'uid': '1'}, 'user': {'id': '1', 'name': 'wqt123456', 'rank_name': '注册用户', 'rank_level': 0, 'collection_num': '0', 'email': '12342342@qq.com', 'order_num': {'await_pay': '0', 'await_ship': '0', 'shipped': '0', 'finished': '0'}}}, 'status': {'succeed': 1}}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:34:08 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:34:08 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}}'}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '657', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:34:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:34:08 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:34:08 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:34:09 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:34:23 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure_report 压缩成功! 存放的位置：C:\Users\AOMEI 2021\Desktop\TestEcshop\API_v5\allure\\filezip\allure2022-02-22
+2022-02-22 14:34:27 - logger_handler.py - [line:144] - DEBUG - [日志信息]: Whect邮箱发送成功 --> 收件人:['yangtao@aomeikeji.com']
+2022-02-22 14:40:30 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:40:31 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:48:45 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:48:45 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：查看收获地址】
+2022-02-22 14:48:45 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/address/list
+2022-02-22 14:48:45 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:48:45 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}}'}
+2022-02-22 14:48:45 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': [{'id': '6', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 1}, {'id': '5', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 0}, {'id': '4', 'consignee': '王齐涛', 'address': '111街道', 'country_name': '中国', 'province_name': '北京', 'city_name': '北京', 'district_name': '东城区', 'default_address': 0}, {'id': '3', 'consignee': '王齐涛', 'address': '111街道', 'country_name': '中国', 'province_name': '北京', 'city_name': '北京', 'district_name': '东城区', 'default_address': 0}, {'id': '2', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 0}], 'status': {'succeed': 1}}
+2022-02-22 14:48:45 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:48:45 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:48:45 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '660', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：查看收获地址】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/address/list
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': [{'id': '6', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 1}, {'id': '5', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 0}, {'id': '4', 'consignee': '王齐涛', 'address': '111街道', 'country_name': '中国', 'province_name': '北京', 'city_name': '北京', 'district_name': '东城区', 'default_address': 0}, {'id': '3', 'consignee': '王齐涛', 'address': '111街道', 'country_name': '中国', 'province_name': '北京', 'city_name': '北京', 'district_name': '东城区', 'default_address': 0}, {'id': '2', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 0}], 'status': {'succeed': 1}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：查看我的收藏】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/user/collect/list
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}, "pagination": {"count": 10, "page": 1}, "rec_id": 0}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': [], 'status': {'succeed': 1}, 'paginated': {'total': '0', 'count': 0, 'more': 0}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/goods
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": 134, "session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '661', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.129/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：将商品添加到购物车】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/cart/create
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"spec": [], "session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}, "goods_id": 134, "number": 1}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': [], 'status': {'succeed': 1}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：点击购物车】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/cart/list
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'goods_list': [{'rec_id': '2', 'goods_id': '134', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'market_price': '￥144.00元', 'goods_price': '￥110.00元', 'goods_number': '3', 'goods_attr': '', 'is_real': '1', 'extension_code': '', 'parent_id': '0', 'rec_type': '0', 'is_gift': '0', 'is_shipping': '0', 'can_handsel': '0', 'goods_attr_id': '', 'pid': '134', 'subtotal': '￥330.00元', 'goods_img': 'images/201410/goods_img/134_G_1413930635959.jpg', 'original_img': 'images/201410/source_img/134_G_1413930635467.jpg', 'img': {'thumb': 'http://192.168.154.129/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.129/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.129/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}}], 'total': {'goods_price': '￥330.00元', 'market_price': '￥432.00元', 'saving': '￥102.00元', 'save_rate': '24%', 'goods_amount': 330, 'real_goods_count': 1, 'virtual_goods_count': 0}}, 'status': {'succeed': 1}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：添加收货地址】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/address/add
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"address": {"default_address": 0, "consignee": "\\u738b\\u9f50\\u6d9b", "tel": "18712341234", "zipcode": "628000", "country": "1", "city": "52", "id": 0, "email": "1365810824@qq.com", "address": "111\\u8857\\u9053", "province": "2", "district": "500", "mobile": ""}, "session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': [], 'status': {'succeed': 1}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：提交订单】
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.129/ecmobile/?url=/address/add
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"shipping_id": "1", "session": {"sid": "0235b488ec7492c61bd0780307138a9309c7225e", "uid": "1"}, "pay_id": "5"}'}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': [], 'status': {'succeed': 1}}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2022-02-22 14:49:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2022-02-22 14:49:32 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束

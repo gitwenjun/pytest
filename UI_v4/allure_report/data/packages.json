@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase_py.user_register",
+    "children" : [ {
+      "name" : "注册用户-输入所有正确的信息",
+      "uid" : "b5ee07d728a1ae7a",
+      "parentUid" : "7a620bfc6f64f365af51574ad705cd1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638455052553,
+        "stop" : 1638455070178,
+        "duration" : 17625
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase_py.user_register"
+  } ]
+}

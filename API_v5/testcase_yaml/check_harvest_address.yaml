@@ -1,0 +1,10 @@
+- name: 测试用例1：查看收获地址
+  request:
+    method: post
+    url: /address/list
+    params: {session}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+

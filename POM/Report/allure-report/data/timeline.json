@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-76566J4",
+    "children" : [ {
+      "name" : "13412-MainThread",
+      "children" : [ {
+        "name" : "登录成功用例",
+        "uid" : "cf7ec77051398b16",
+        "parentUid" : "24b03c7915647385c87422b9520aaa98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644411063248,
+          "stop" : 1644411074826,
+          "duration" : 11578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '18380447258@163.com', 'pwd': '123qwe', 'asserts': 'Sign Out'}" ]
+      } ],
+      "uid" : "24b03c7915647385c87422b9520aaa98"
+    } ],
+    "uid" : "7adacc43a74dfbcda54049371eb5aa6a"
+  } ]
+}

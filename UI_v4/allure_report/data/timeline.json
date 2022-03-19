@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-HNNG48V",
+    "children" : [ {
+      "name" : "23716-MainThread",
+      "children" : [ {
+        "name" : "注册用户-输入所有正确的信息",
+        "uid" : "b5ee07d728a1ae7a",
+        "parentUid" : "0e4347ab75b5f1ac9f65c50b8a240d1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638455052553,
+          "stop" : 1638455070178,
+          "duration" : 17625
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e4347ab75b5f1ac9f65c50b8a240d1d"
+    } ],
+    "uid" : "48425ad324296c65c6b35e8632469aca"
+  } ]
+}

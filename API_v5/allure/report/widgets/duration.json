@@ -1,0 +1,81 @@
+[ {
+  "uid" : "f2077daec127db22",
+  "name" : "test_all_shopping[args3]",
+  "time" : {
+    "start" : 1645586986304,
+    "stop" : 1645586986345,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bac1720eadf8bf6d",
+  "name" : "test_all_shopping[args2]",
+  "time" : {
+    "start" : 1645586986242,
+    "stop" : 1645586986300,
+    "duration" : 58
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6c19b0f1cee3b43",
+  "name" : "test_go_goods_page[args0]",
+  "time" : {
+    "start" : 1645586985937,
+    "stop" : 1645586986021,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e1543f955d98ef8",
+  "name" : "test_all_shopping[args0]",
+  "time" : {
+    "start" : 1645586986112,
+    "stop" : 1645586986190,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89071c79ca5380e1",
+  "name" : "test_check_harvest_address[args0]",
+  "time" : {
+    "start" : 1645586986025,
+    "stop" : 1645586986070,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f68b41394910220",
+  "name" : "test_check_my_collection[args0]",
+  "time" : {
+    "start" : 1645586986074,
+    "stop" : 1645586986109,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c0d063ef24d13fb",
+  "name" : "test_all_shopping[args4]",
+  "time" : {
+    "start" : 1645586986349,
+    "stop" : 1645586986392,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "128811982b2e2b6f",
+  "name" : "test_all_shopping[args1]",
+  "time" : {
+    "start" : 1645586986195,
+    "stop" : 1645586986238,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

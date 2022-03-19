@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/common/logger_handler.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/read_mysql.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/read_yaml.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/email_data.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/http_data.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/config/mysql_data.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/ecshop_session.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_py/conftest.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcase_py/get.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/check_harvest_address.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/check_my_collection.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/get.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/get_login_session.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/go_goods_page.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/test_all_shopping.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/test_my_collections.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/test_receving_address.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/user_register.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_yaml/无用的.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utils/console_fmt.py" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

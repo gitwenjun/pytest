@@ -1,0 +1,96 @@
+2021-12-22 16:30:38 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 16:30:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2021-12-22 16:30:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:30:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:30:59 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 16:31:09 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:31:18 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 16:31:47 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 16:31:47 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2021-12-22 16:31:47 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:31:47 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:32:08 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 16:32:12 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:32:27 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 16:45:44 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 16:45:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2021-12-22 16:45:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:45:44 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:46:05 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 16:46:10 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:46:20 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 16:46:38 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 16:46:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：获取登录后的session值uid和sid】
+2021-12-22 16:46:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.148/ecmobile/?url=/user/signin
+2021-12-22 16:46:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2021-12-22 16:46:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'name': 'wqt123456', 'password': 'wqt123456'}
+2021-12-22 16:46:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'session': {'sid': '3e1600b847473512821285a4e18f3b8bed9357b3', 'uid': '1'}, 'user': {'id': '1', 'name': 'wqt123456', 'rank_name': '注册用户', 'rank_level': 0, 'collection_num': '0', 'email': '12342342@qq.com', 'order_num': {'await_pay': '0', 'await_ship': '0', 'shipped': '0', 'finished': '0'}}}, 'status': {'succeed': 1}}
+2021-12-22 16:46:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2021-12-22 16:46:38 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2021-12-22 16:46:38 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 16:47:13 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 16:47:13 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2021-12-22 16:47:13 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:47:13 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:47:14 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2021-12-22 16:47:14 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.148/ecmobile/?url=/goods
+2021-12-22 16:47:14 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2021-12-22 16:47:14 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "3e1600b847473512821285a4e18f3b8bed9357b3", "uid": "1"}}'}
+2021-12-22 16:47:14 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '648', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.148/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.148/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2021-12-22 16:47:14 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2021-12-22 16:47:14 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2021-12-22 16:47:14 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 16:47:18 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:47:28 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 16:48:53 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:51:15 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:56:32 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:58:24 - logger_handler.py - [line:142] - INFO - [日志信息]: QQ邮箱发送失败 --> 报错提示:[Errno 11001] getaddrinfo failed
+2021-12-22 16:58:26 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.148/ecmobile/?url=/goods
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "3e1600b847473512821285a4e18f3b8bed9357b3", "uid": "1"}}'}
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '649', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.148/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.148/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2021-12-22 16:58:26 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2021-12-22 16:58:26 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 16:58:31 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 16:58:42 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 17:00:31 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 17:00:39 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 17:10:13 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure_zip\allure2021-12-22
+2021-12-22 17:10:22 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 17:13:52 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.148/ecmobile/?url=/goods
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "3e1600b847473512821285a4e18f3b8bed9357b3", "uid": "1"}}'}
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '650', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.148/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.148/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2021-12-22 17:13:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2021-12-22 17:13:52 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 17:37:36 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试开始
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 这里需要参数的替换，修改内容如下
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改前参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '${goods_number}', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 修改后参数：{'name': '测试用例1：进入商品ID为134的页面', 'request': {'method': 'post', 'url': '/goods', 'params': {'goods_id': '134', 'session': None}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【开始执行测试用例：测试用例1：进入商品ID为134的页面】
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求url：http://192.168.154.148/ecmobile/?url=/goods
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求方法：post
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 请求参数：{'json': '{"goods_id": "134", "session": {"sid": "3e1600b847473512821285a4e18f3b8bed9357b3", "uid": "1"}}'}
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 响应结果：{'data': {'id': '134', 'cat_id': '29', 'goods_sn': 'ECS000000', 'goods_name': '韩味HW-2014初冬套装 毛衣外套 长袖连衣裙 蓬蓬裙 气质长袖针织衫+半身裙 两件套连衣裙套装', 'collected': 0, 'market_price': '￥144元', 'shop_price': '￥120.00元', 'integral': 100, 'click_count': '651', 'brand_id': '11', 'goods_number': '97', 'goods_weight': '0克', 'promote_price': '110.00', 'formated_promote_price': '￥110.00元', 'promote_start_date': '2013/10/02 00:00:00 +0800', 'promote_end_date': '2031/10/02 00:00:00 +0800', 'is_shipping': '0', 'img': {'thumb': 'http://192.168.154.148/images/201410/goods_img/134_G_1413930635959.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_G_1413930635467.jpg', 'small': 'http://192.168.154.148/images/201410/thumb_img/134_thumb_G_1413930635678.jpg'}, 'rank_prices': [{'id': 1, 'rank_name': '注册用户', 'price': '￥120元'}, {'id': 2, 'rank_name': 'vip', 'price': '￥114元'}], 'pictures': [{'small': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'thumb': 'http://192.168.154.148/images/201410/goods_img/134_P_1413930635444.jpg', 'url': 'http://192.168.154.148/images/201410/source_img/134_P_1413930635043.jpg'}], 'properties': [{'name': None, 'value': '其他'}], 'specification': []}, 'status': {'succeed': 1}}
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+2021-12-22 17:37:36 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 【测试结果：成功】
+2021-12-22 17:37:36 - logger_handler.py - [line:142] - INFO - [日志信息]:  测试结束
+2021-12-22 17:37:41 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure\\filezip\allure2021-12-22
+2021-12-22 17:37:52 - logger_handler.py - [line:144] - DEBUG - [日志信息]: QQ邮箱发送成功 --> 收件人:['997154440@qq.com']
+2021-12-22 17:59:46 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure\\filezip\allure2021-12-22
+2021-12-22 17:59:51 - logger_handler.py - [line:144] - DEBUG - [日志信息]: Whect邮箱发送成功 --> 收件人:['linrui@aomeikeji.com']
+2021-12-22 18:00:08 - logger_handler.py - [line:144] - DEBUG - [日志信息]: 文件：G:\Python_code\Interface_Automation_v2\allure_report 压缩成功! 存放的位置：G:\Python_code\Interface_Automation_v2\allure\\filezip\allure2021-12-22
+2021-12-22 18:00:12 - logger_handler.py - [line:144] - DEBUG - [日志信息]: Whect邮箱发送成功 --> 收件人:['linrui@aomeikeji.com']

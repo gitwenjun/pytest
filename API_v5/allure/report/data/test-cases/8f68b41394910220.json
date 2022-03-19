@@ -1,0 +1,128 @@
+{
+  "uid" : "8f68b41394910220",
+  "name" : "test_check_my_collection[args0]",
+  "fullName" : "testcase_py.test_user_all.TestUserLogin#test_check_my_collection",
+  "historyId" : "ee6bf0fd1f81709ebc5a9b1c5e53f524",
+  "time" : {
+    "start" : 1645586986074,
+    "stop" : 1645586986109,
+    "duration" : 35
+  },
+  "description" : "查看收藏的商品",
+  "descriptionHtml" : "<p>查看收藏的商品</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "meici",
+    "time" : {
+      "start" : 1645586986073,
+      "stop" : 1645586986073,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1645586985886,
+      "stop" : 1645586985936,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "查看收藏的商品",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25bf95e56b986e23",
+      "name" : "log",
+      "source" : "25bf95e56b986e23.txt",
+      "type" : "text/plain",
+      "size" : 1009
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "meici::0",
+    "time" : {
+      "start" : 1645586986109,
+      "stop" : 1645586986110,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "购物流程"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('meici')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase_py"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_all"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HNNG48V"
+  }, {
+    "name" : "thread",
+    "value" : "19552-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase_py.test_user_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '测试用例1：查看我的收藏', 'request': {'method': 'post', 'url': '/user/collect/list', 'params': {'session': None, 'pagination': {'count': 10, 'page': 1}, 'rec_id': 0}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('meici')" ]
+  },
+  "source" : "8f68b41394910220.json",
+  "parameterValues" : [ "{'name': '测试用例1：查看我的收藏', 'request': {'method': 'post', 'url': '/user/collect/list', 'params': {'session': None, 'pagination': {'count': 10, 'page': 1}, 'rec_id': 0}}, 'assert': [{'equals': {'status_code': 200}}, {'equals': {'succeed': 1}}]}" ]
+}

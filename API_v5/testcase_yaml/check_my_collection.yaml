@@ -1,0 +1,10 @@
+- name: 测试用例1：查看我的收藏
+  request:
+    method: post
+    url: /user/collect/list
+    params: {session,"pagination":{"count":10,"page":1},"rec_id":0}
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+

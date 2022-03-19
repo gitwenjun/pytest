@@ -1,0 +1,15 @@
+#  等级  DEBUG < INFO < WARNING < ERROR < CRITICAL
+# 不要轻易改  s%(asctime)s  属性
+# 本文件没有被利用
+
+
+log:
+  console_fmt: '%(log_color) s%(asctime)s -[line:%(lineno)d]-%(levelname)s-[日志信息]: %(message)s'
+  logger_fmt: '%(asctime)s - %(filename)s - [line:%(lineno)d] - %(levelname)s - [日志信息]: %(message)s'
+  date_fmt: '%Y/%m/%d/%X'
+  colors:
+    'DEBUG': 'white'
+    'INFO': 'cyan'
+    'WARNING': 'yellow'
+    'ERROR': 'red'
+    'CRITICAL': 'red,bg_white'

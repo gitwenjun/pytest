@@ -1,0 +1,14 @@
+- name: 测试用例1：获取登录后的session值uid和sid
+  request:
+    method: post
+    url: /user/signin
+    params:
+      name: wqt123456
+      password: wqt123456
+  assert:
+    - equals: {status_code: 200}
+    - equals: {succeed: 1}
+
+
+
+

@@ -1,0 +1,27 @@
+
+email_qq:
+  name: QQ邮箱
+  host: smtp.qq.com
+  user: 1365810824@qq.com
+  pass: fhakgreinnkmbaea
+  recipients: 997154440@qq.com
+  subject: Ecshop手机版测试报告
+  part: 测试的正文部分
+
+
+email_wechat:
+  name: 企业邮箱
+  host: smtp.exmail.qq.com
+  user: wangqitao@aomeikeji.com
+  pass: bdhepFnqqjxT8P3G
+  recipients: linrui@aomeikeji.com
+  subject: Ecshop手机版测试报告
+  part: 测试的正文部分
+
+
+
+
+
+
+
+

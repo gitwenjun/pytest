@@ -1,0 +1,10 @@
+INFO     root:logger_handler.py:142  测试开始
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://192.168.154.129:80 "POST /ecmobile/?url=/address/list HTTP/1.1" 200 884
+DEBUG    root:logger_handler.py:144 【开始执行测试用例：测试用例1：查看收获地址】
+DEBUG    root:logger_handler.py:144 请求url：http://192.168.154.129/ecmobile/?url=/address/list
+DEBUG    root:logger_handler.py:144 请求方法：post
+DEBUG    root:logger_handler.py:144 请求参数：{'json': '{"session": {"sid": "5f5fc1d24177993d72375950ead663f43341c10c", "uid": "1"}}'}
+DEBUG    root:logger_handler.py:144 响应结果：{'data': [{'id': '12', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 1}, {'id': '11', 'consignee': '王齐涛', 'address': '111街道', 'country_name': '中国', 'province_name': '北京', 'city_name': '北京', 'district_name': '东城区', 'default_address': 0}, {'id': '10', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 0}, {'id': '9', 'consignee': '王齐涛', 'address': '111街道', 'country_name': '中国', 'province_name': '北京', 'city_name': '北京', 'district_name': '东城区', 'default_address': 0}, {'id': '8', 'consignee': '', 'address': '', 'country_name': None, 'province_name': None, 'city_name': None, 'district_name': None, 'default_address': 0}], 'status': {'succeed': 1}}
+DEBUG    root:logger_handler.py:144 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 1}
+DEBUG    root:logger_handler.py:144 【测试结果：成功】
+INFO     root:logger_handler.py:142  测试结束

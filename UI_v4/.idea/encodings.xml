@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/common/logger_handler.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/logger_handler.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/read_mysql.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/read_yaml.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/element_type.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/config/email_data.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/http_data.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/config/mysql_data.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/user_data.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/page/Base.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/page/Base.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/page_element/front_login.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_py/conftest.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcase_py/normal_direction_flow.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcase_py/订单流程.text" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/废文件" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

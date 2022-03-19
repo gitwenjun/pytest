@@ -1,0 +1,3 @@
+2022-02-22 10:48:53 - logger_handler.py - [line:149] - ERROR - [日志信息]: 断言检查点：预期结果{'succeed': 1}，实际结果{'succeed': 0, 'error_code': 100, 'error_desc': '您的帐号已过期'}
+2022-02-22 10:48:53 - logger_handler.py - [line:149] - ERROR - [日志信息]: 【测试结果：失败】
+2022-02-22 10:48:53 - logger_handler.py - [line:149] - ERROR - [日志信息]: 可能是session时效或者不正确，需要重新登录获取新的session，以下代码表示重新登录！

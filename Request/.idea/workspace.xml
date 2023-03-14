@@ -2,18 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d621ca4-9d1c-4876-9a31-1c1c74a7dab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Request.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BingSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BingSearch/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/common/all_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/common/all_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/common/assert_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/common/log_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/common/yaml_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/data/change_info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/data/login.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/data/query.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/data/register.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/data/session.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/logs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/report/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/testcases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/testcases/test_login_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/testcases/test_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/util/consel_fmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API_1/util/template_par.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium_test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../POM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POM/Date/yaml_login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Date/yaml_login.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Common/screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Common/screenshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Common/wait_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Common/wait_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Common/yaml_av.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Common/yaml_av.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/932ac40b-8297-4176-bddc-339b748ef6c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/a2a83d0b-a315-4d38-aa50-dd4cbf306c81-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/test-cases/cf7ec77051398b16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/Report/allure-report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/Report/d31dc684-ddc7-4605-94cd-11bfa0c16423-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../POM/base/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/base/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../POM/page/login_av.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/page/login_av.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POM/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POM/report/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/photos/2022/03-14/登录失败_21-39-34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/photos/2022/03-14/登录失败_21-51-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/photos/2022/03-14/登录成功_21-13-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/photos/2022/03-14/登录成功_21-45-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/photos/2022/03-14/登录成功_22-11-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/04d8ee71-f8f2-43eb-9b3e-17dc06fd0410-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/0850ad64-aa5e-4ae3-83ff-c621077d538d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/09dd8a0a-f3b2-4d2f-8ff4-db82f6d2fb71-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/0dbf0e79-6d28-4028-b9c7-f6a9d17e1d73-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/1172716f-fca2-40bd-a69a-bb7b445eee18-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/142ac70a-b658-4b21-8f24-d88f8f2b7d24-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/1eb72e8a-3364-4e3a-bd67-4ec9b10d82c3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/22f3fde7-2fad-4f8d-ae38-73f778aa13f8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/2469b597-da05-4a58-b531-1016be5359c3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/26da1ef2-c1e1-4aa6-8fbc-1e9c475280dd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/275f4104-8b2f-47de-894d-cf6623986e18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/2888f282-d28c-4c88-861c-1ad5dd09b8a8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/2ba5be22-2f90-4e7a-bc4a-6b463ae5129d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/302dd979-952d-4963-b334-9f9c66c08d49-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/30efabd8-4991-40a8-9489-61b3910ba313-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/37ede4ba-ccd8-4ea9-913b-2befa028e045-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/3c0ee203-094e-40e9-9bac-2da1d3b21d8a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/3c2b6516-7053-4dcf-b333-9b601270b6ca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/413bf9fd-7554-43c3-9453-b758db65ff57-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/5f4892b8-54a4-42d3-9ae9-aac18fb613d5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/6159c0fb-ac3e-4031-b55a-d9c42d8810cf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/64705144-4d7b-4a48-91a1-a4f4ae572d23-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/6b956135-f984-4b39-b827-1905a6d7a709-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/715fe8c2-8168-4483-9434-0879ba38d120-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/764a4df3-55d6-41aa-87e0-45d417878abc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/7903dec6-60c3-44f2-87f7-ab55a06aa2c9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/7d045ed8-2474-4cab-8086-b515e67acc6b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/7fda5109-7e1c-48d4-a6fd-cc0a63250c3c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/82add83f-ed56-4b0c-a8b0-5b5ac6321959-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/88b0f45d-cab1-4fc7-a636-098a688f65d7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/8e8b1f60-9cee-4dce-b6c5-1a580de6c185-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/91d436fe-4f07-4adc-a59b-c14ac91567ed-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/9268d0fa-5bbb-495c-a620-9be8e703fd6c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/968196d2-eea9-4005-9ad8-10f94cb6beba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/97d7854b-511c-4ebe-9a7e-3d126ac493ff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/9a20e2b7-5113-4761-95df-8f29cafe27aa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/9e2d067d-0780-4ffc-9f04-b81a7001dde6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/a274cf2e-8d26-4383-9a0d-3919fecdf7e1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/a6bb659b-707d-4c54-93ce-59e6a56ea082-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/c096d247-845d-4d8c-a1d0-facf23d1576c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/c16ab84b-5e61-4686-9c86-70f56e47ee3f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/c2c0431b-fb4e-4f75-8e74-79543246f025-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/d202f48c-bff9-41c3-b532-3b6186fe431f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/d57cc451-90e4-422b-b3a0-e87f781245db-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/d5e7dac1-2932-40a7-85c4-5ac19e5c192c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/d81ce04f-7ab6-4756-9fd6-a575191b6e8b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/df5858d0-fe6f-40ca-9f88-f4749ac13954-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/e1267bf9-27d7-4b2d-b3be-03aa4e4cb318-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/e56979e8-3dc9-454d-b2e4-7dd79f70db19-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/ea385e45-3494-4b7e-8054-c2baecd115ba-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/ec0ebc90-ac5b-499f-bea9-bc25a821054b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/ed93d1fd-22de-4213-aab8-3631e6c8a3fd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/f03578c3-e68d-41b0-ab8e-e448c4e17c50-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/f2dc133b-b94e-432b-8894-34f5c32d99a3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/Report/ff269644-ca66-4d1c-9cc7-8a42bfba5e44-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM/testcases/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/testcases/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../POM/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../POM/testcases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/replace_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/Common/replace_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/change_info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/change_info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/yaml_re.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/yaml_re.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_info_vip.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_info_vip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_test/Selenium_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_test/Selenium_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_v4/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_v4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pytest" beforeDir="false" afterPath="$PROJECT_DIR$/../pytest" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +144,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcases/test_login.py">
+        <entry file="file://$PROJECT_DIR$/testcases/test_info_vip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="262">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#20#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/oper_excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/request_result.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,20 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/yaml_req.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testcases/test_info_vip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-              <folding>
-                <element signature="e#20#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="486">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -70,10 +198,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/yaml_re.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/change_info.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/replace_params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="156">
+              <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -82,22 +228,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/request_result.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/consel_fmt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="351">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -112,11 +246,6 @@
               <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/session.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -138,25 +267,26 @@
         <option value="$PROJECT_DIR$/Common/logs.py" />
         <option value="$PROJECT_DIR$/Data/token&amp;uuid.yaml" />
         <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/Data/yaml_re.yaml" />
         <option value="$PROJECT_DIR$/Common/assert_respose.py" />
         <option value="$PROJECT_DIR$/util/request_parameter.py" />
         <option value="$PROJECT_DIR$/Common/yaml_req.py" />
         <option value="$PROJECT_DIR$/Data/info_vip.yaml" />
         <option value="$PROJECT_DIR$/testcases/conftest.py" />
-        <option value="$PROJECT_DIR$/Data/change_info.yaml" />
-        <option value="$PROJECT_DIR$/Common/replace_params.py" />
         <option value="$PROJECT_DIR$/util/consel_fmt.py" />
         <option value="$PROJECT_DIR$/Data/session.yaml" />
-        <option value="$PROJECT_DIR$/testcases/test_login.py" />
-        <option value="$PROJECT_DIR$/testcases/test_info_vip.py" />
         <option value="$PROJECT_DIR$/util/request_result.py" />
+        <option value="$PROJECT_DIR$/Data/yaml_re.yaml" />
+        <option value="$PROJECT_DIR$/testcases/test_login.py" />
+        <option value="$PROJECT_DIR$/Common/oper_excel.py" />
+        <option value="$PROJECT_DIR$/testcases/test_info_vip.py" />
+        <option value="$PROJECT_DIR$/Common/replace_params.py" />
+        <option value="$PROJECT_DIR$/Data/change_info.yaml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="87" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="90" />
+    <option name="y" value="28" />
     <option name="width" value="1703" />
     <option name="height" value="916" />
   </component>
@@ -168,7 +298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +308,17 @@
             <path>
               <item name="Request" type="b2602c69:ProjectViewProjectNode" />
               <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
               <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Request" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Request" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Request" type="b2602c69:ProjectViewProjectNode" />
@@ -190,6 +329,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +358,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_info_vip.py">
+  <component name="RunManager" selected="Python.replace_params">
+    <configuration name="oper_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/oper_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="replace_params" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Request" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/replace_params.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_info_vip.TestInfoVip.test_change_local" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Request" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,38 +416,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_info_vip.TestInfoVip.test_change_local&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_info_vip.TestInfoVip.test_info_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Request" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_info_vip.TestInfoVip.test_info_01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_login.TestLogin.test_login_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Request" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.TestLogin.test_login_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -301,11 +453,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.replace_params" />
         <item itemvalue="Python tests.pytest in test_info_vip.py" />
+        <item itemvalue="Python.oper_excel" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest for test_info_vip.TestInfoVip.test_change_local" />
-        <item itemvalue="Python tests.pytest for test_info_vip.TestInfoVip.test_info_01" />
-        <item itemvalue="Python tests.pytest for test_login.TestLogin.test_login_01" />
       </list>
     </recent_temporary>
   </component>
@@ -330,26 +482,25 @@
       <workItem from="1646651931946" duration="4685000" />
       <workItem from="1646660536930" duration="434000" />
       <workItem from="1647256825120" duration="552000" />
-      <workItem from="1647671762037" duration="708000" />
+      <workItem from="1647671762037" duration="1532000" />
+      <workItem from="1647764179149" duration="19000" />
+      <workItem from="1648199851469" duration="2414000" />
+      <workItem from="1648375732669" duration="422000" />
+      <workItem from="1648376456406" duration="2138000" />
+      <workItem from="1651751401682" duration="775000" />
+      <workItem from="1652251078906" duration="1340000" />
+      <workItem from="1652319580302" duration="359000" />
+      <workItem from="1652342705850" duration="600000" />
+      <workItem from="1652877998711" duration="1058000" />
+      <workItem from="1653896620690" duration="2343000" />
+      <workItem from="1654157039526" duration="671000" />
+      <workItem from="1655791549360" duration="698000" />
+      <workItem from="1656637353283" duration="65000" />
+      <workItem from="1677917739042" duration="2224000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_info_vip_TestInfoVip_test_info_01 - 2022.03.07 at 19h 31m 29s.xml">
-      <configuration name="pytest for test_info_vip.TestInfoVip.test_info_01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_info_vip_TestInfoVip_test_change_local - 2022.03.07 at 19h 32m 46s.xml">
-      <configuration name="pytest for test_info_vip.TestInfoVip.test_change_local" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_info_vip_py - 2022.03.07 at 19h 38m 41s.xml">
-      <configuration name="pytest in test_info_vip.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_info_vip_py - 2022.03.07 at 19h 43m 58s.xml">
-      <configuration name="pytest in test_info_vip.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_info_vip_py - 2022.03.07 at 19h 53m 43s.xml">
-      <configuration name="pytest in test_info_vip.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_login_py - 2022.03.07 at 20h 02m 27s.xml">
       <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
@@ -365,20 +516,35 @@
     <history-entry file="pytest_in_test_info_vip_py - 2022.03.07 at 20h 18m 37s.xml">
       <configuration name="pytest in test_info_vip.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2022.03.27 at 18h 09m 50s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2022.03.27 at 18h 11m 34s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2022.03.27 at 18h 21m 31s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2022.03.27 at 18h 33m 09s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_info_vip_py - 2023.03.04 at 16h 19m 20s.xml">
+      <configuration name="pytest in test_info_vip.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60297000" />
+    <option name="totallyTimeSpent" value="76247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="225" y="60" width="1703" height="916" extended-state="0" />
+    <frame x="90" y="28" width="1703" height="916" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26719415" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31710285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47826087" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3567775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35805628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,9 +570,10 @@
     <SUITE FILE_PATH="coverage/Request$request_parameter.coverage" NAME="request_parameter Coverage Results" MODIFIED="1646470985730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Request$pytest_for_test_info_vip_TestInfoVip_test_info_01.coverage" NAME="pytest for test_info_vip.TestInfoVip.test_info_01 Coverage Results" MODIFIED="1646652687888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Request$yaml_req.coverage" NAME="yaml_req Coverage Results" MODIFIED="1646468647477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Request$pytest_in_test_info_vip_py.coverage" NAME="pytest in test_info_vip.py Coverage Results" MODIFIED="1646655513511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
-    <SUITE FILE_PATH="coverage/Request$replace_params.coverage" NAME="replace_params Coverage Results" MODIFIED="1646567881008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
-    <SUITE FILE_PATH="coverage/Request$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1646654538181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Request$pytest_in_test_info_vip_py.coverage" NAME="pytest in test_info_vip.py Coverage Results" MODIFIED="1677917956107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/Request$oper_excel.coverage" NAME="oper_excel Coverage Results" MODIFIED="1653898354566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Request$replace_params.coverage" NAME="replace_params Coverage Results" MODIFIED="1677919009860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Request$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1648377185497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Request$pytest_for_test_info_vip_TestInfoVip_test_change_local.coverage" NAME="pytest for test_info_vip.TestInfoVip.test_change_local Coverage Results" MODIFIED="1646652765095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/Request$logs.coverage" NAME="logs Coverage Results" MODIFIED="1646456241757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
     <SUITE FILE_PATH="coverage/Request$pytest_for_test_login_TestLogin_test_login_01.coverage" NAME="pytest for test_login.TestLogin.test_login_01 Coverage Results" MODIFIED="1646569341806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
@@ -525,20 +692,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/request_parameter.py" />
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/yaml_re.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/mark/structures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9669">
@@ -553,19 +706,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/change_info.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="96" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="96" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Data/session.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/info_vip.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -574,10 +716,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/yaml_req.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/consel_fmt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="351">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -591,26 +764,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/session.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/request_result.py">
+    <entry file="file://$PROJECT_DIR$/Common/oper_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/replace_params.py">
+    <entry file="file://$PROJECT_DIR$/Data/yaml_re.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -624,30 +788,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_login.py">
+    <entry file="file://$PROJECT_DIR$/Common/replace_params.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        <state relative-caret-position="156">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/yaml_req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/test_info_vip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="262">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
             <element signature="e#20#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/request_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/change_info.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

@@ -6,37 +6,37 @@ import traceback
 
 class ScreenShot:
 
-    # 一级目录名
+    # 一级目录
     @staticmethod
-    def curren_date():
-        date_name = os.path.join(PHOTO_PATH,datetime.now().strftime('%Y'))
-        if not os.path.exists(date_name):
-            os.mkdir(date_name)
-        return date_name
+    def dateDir():
+        dateDir = os.path.join(PHOTO_PATH,datetime.now().strftime('%Y'))
+        if not os.path.exists(dateDir):
+            os.mkdir(dateDir)
+        return dateDir
 
-    # 二级目录名
-    @staticmethod
-    def time_dir():
-        time_name = os.path.join(ScreenShot().curren_date(),datetime.now().strftime('%m-%d'))
-        if not os.path.exists(time_name):
-            os.mkdir(time_name)
-        return time_name
 
-    # 截图方法
+    # 二级目录
     @staticmethod
-    def screen_shot(driver,name):
-        # 生成当前时间
-        file_time = datetime.now().strftime('%H-%M-%S')
-        # 文件名
-        photo_name = os.path.join(ScreenShot().time_dir(),name+file_time+".png")
+    def timeDir():
+        timeDir = os.path.join(ScreenShot().dateDir(),datetime.now().strftime("%m-%d"))
+        if not os.path.exists(timeDir):
+            os.mkdir(timeDir)
+        return timeDir
+
+    #截图方法
+    @staticmethod
+    def screeshotPhoto(driver,name):
+        file_time = datetime.now().strftime("%H-%M-%S")
+        photoName = os.path.join(ScreenShot().timeDir(),name+file_time+'.jpg')
         try:
-            driver.get_screenshot_as_file(photo_name)
-            logger.debug(f"截图成功：{name},保存路径为：{ScreenShot().time_dir()}")
+            driver.get_screenshot_as_file(photoName)
+            logger.info(f"截图成功，保存位置：{ScreenShot.timeDir()}")
         except Exception:
-            logger.error(f"截图失败：{name},报错提示：{traceback.print_exc()}")
+            logger.debug(f"截图失败,报错提示：{traceback.print_exc()}")
             raise
 
 
-if __name__ == '__main__':
-    s = ScreenShot()
-    s.screen_shot('测试')
+# if __name__ == '__main__':
+#     s = ScreenShot()
+#     driver = webdriver.Chrome()
+#     s.screeshotPhoto(driver,'测试')

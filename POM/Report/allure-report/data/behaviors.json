@@ -2,20 +2,20 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "AV登录的总体描述",
+    "name" : "AVUI测试",
     "children" : [ {
-      "name" : "登录模块",
+      "name" : "AV登录功能",
       "children" : [ {
-        "name" : "AV登录用例",
+        "name" : "登录测试用例",
         "children" : [ {
-          "name" : "登录成功用例",
-          "uid" : "cf7ec77051398b16",
-          "parentUid" : "160ca7a9b6cbe5f2b373c09a7b7026e9",
-          "status" : "passed",
+          "name" : "登录用例一",
+          "uid" : "4b1a4ea4a9e3ab18",
+          "parentUid" : "08d1ec2940297d01e085f2429cab2cb2",
+          "status" : "broken",
           "time" : {
-            "start" : 1644411063248,
-            "stop" : 1644411074826,
-            "duration" : 11578
+            "start" : 1652239006168,
+            "stop" : 1652239034535,
+            "duration" : 28367
           },
           "flaky" : false,
           "newFailed" : false,
@@ -23,12 +23,12 @@
           "newBroken" : false,
           "retriesCount" : 0,
           "retriesStatusChange" : false,
-          "parameters" : [ "{'name': '18380447258@163.com', 'pwd': '123qwe', 'asserts': 'Sign Out'}" ]
+          "parameters" : [ "{'login': {'name': '18380447258@163.com', 'pwd': '123qwer'}}" ]
         } ],
-        "uid" : "160ca7a9b6cbe5f2b373c09a7b7026e9"
+        "uid" : "08d1ec2940297d01e085f2429cab2cb2"
       } ],
-      "uid" : "d32b8313e17afd03fee5b4f7144f823a"
+      "uid" : "995e7dcc7f05e756fecdf6555ad36b85"
     } ],
-    "uid" : "5bffb272f49798910f0f9dfd80247ba6"
+    "uid" : "677c0d2a22f75aaa06d1756ee364ef59"
   } ]
 }

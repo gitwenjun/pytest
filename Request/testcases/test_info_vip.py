@@ -44,7 +44,7 @@ class TestInfoVip:
     @pytest.mark.run(order=1)
     @pytest.mark.parametrize('arg', YamlParams().yaml_read("G:\Project\Request\Data\change_info.yaml"))
     def test_change_local(self,arg):
-        ext_info = {"location": "成都"}
+        ext_info = {"location": "成都2"}
         arg = Relace().replace_dict(arg,ext_info) # 替换yaml文件中的$参数
         ResuiltParams().resuilt_ast_ststus(arg)
 

@@ -32,6 +32,8 @@ class TestLogin:
             data = arg['request']['data']
             exc = arg['assert'][0]['eq']['err_code'] #预期响应码
             res = Request().request_hanle(method=method,url=url,json=data).json()
+            logger.debug(f"测试结果为：{res}")
+
             act = res['data']['err_code'] #实际响应码
             if exc == act:
                 token = res["data"]["token"]
@@ -45,4 +47,4 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-    pytest.main(['-v','q','--reruns','1','--reruns-delay','2','-n','auto'])
+    pytest.main(['-v','s','--reruns','1','--reruns-delay','2','-n','auto'])

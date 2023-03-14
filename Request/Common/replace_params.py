@@ -1,6 +1,8 @@
 from string import Template
 import yaml
 
+from Common.logs import logger
+
 
 class Relace:
 
@@ -18,8 +20,11 @@ class Relace:
 
 
 
-# if __name__ == '__main__':
-#     r = Relace()
-#     ext_info = {"location": "成都"}
-#     arg = r.relace_file("G:\Project\Request\Data\change_info.yaml",ext_info)
-#     logger.debug(arg)
+if __name__ == '__main__':
+    r = Relace()
+    ext_info = {"location": "成都"}
+    arg = eval.relace_file("G:\Project\Request\Data\change_info.yaml",ext_info)
+    logger.debug(f"类型：{type(arg)}")
+    method = arg["request"]["method"]
+    print(method)
+    logger.debug(arg)

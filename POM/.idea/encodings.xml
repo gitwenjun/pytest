@@ -4,8 +4,12 @@
     <file url="file://$PROJECT_DIR$/Common/all_path.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Common/logs.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Common/screenshot.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Page/change_name.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestCases/conftest.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TestCases/mock.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TestCases/mock_1.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TestCases/test.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestCases/test_av.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestCases/test_login.py" charset="UTF-8" />
   </component>
 </project>

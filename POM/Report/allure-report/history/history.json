@@ -1,20 +1,21 @@
 {
-  "654884f11f0dbf1fa05e1d96da51c568" : {
+  "b99c478131b7401eea9896799f814d97" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf7ec77051398b16",
-      "status" : "passed",
+      "uid" : "4b1a4ea4a9e3ab18",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0040B8F3+2406643]\n\tOrdinal0 [0x0039AF31+1945393]\n\tOrdinal0 [0x0028C748+837448]\n\tOrdinal0 [0x002B92E0+1020640]\n\tOrdinal0 [0x002B957B+1021307]\n\tOrdinal0 [0x002E6372+1205106]\n\tOrdinal0 [0x002D42C4+1131204]\n\tOrdinal0 [0x002E4682+1197698]\n\tOrdinal0 [0x002D4096+1130646]\n\tOrdinal0 [0x002AE636+976438]\n\tOrdinal0 [0x002AF546+980294]\n\tGetHandleVerifier [0x00679612+2498066]\n\tGetHandleVerifier [0x0066C920+2445600]\n\tGetHandleVerifier [0x004A4F2A+579370]\n\tGetHandleVerifier [0x004A3D36+574774]\n\tOrdinal0 [0x003A1C0B+1973259]\n\tOrdinal0 [0x003A6688+1992328]\n\tOrdinal0 [0x003A6775+1992565]\n\tOrdinal0 [0x003AF8D1+2029777]\n\tBaseThreadInitThunk [0x768BFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777B7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777B7A6E+238]",
       "time" : {
-        "start" : 1644411063248,
-        "stop" : 1644411074826,
-        "duration" : 11578
+        "start" : 1652239006168,
+        "stop" : 1652239034535,
+        "duration" : 28367
       }
     } ]
   }

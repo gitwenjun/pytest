@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0040B8F3+2406643]\n\tOrdinal0 [0x0039AF31+1945393]\n\tOrdinal0 [0x0028C748+837448]\n\tOrdinal0 [0x002B92E0+1020640]\n\tOrdinal0 [0x002B957B+1021307]\n\tOrdinal0 [0x002E6372+1205106]\n\tOrdinal0 [0x002D42C4+1131204]\n\tOrdinal0 [0x002E4682+1197698]\n\tOrdinal0 [0x002D4096+1130646]\n\tOrdinal0 [0x002AE636+976438]\n\tOrdinal0 [0x002AF546+980294]\n\tGetHandleVerifier [0x00679612+2498066]\n\tGetHandleVerifier [0x0066C920+2445600]\n\tGetHandleVerifier [0x004A4F2A+579370]\n\tGetHandleVerifier [0x004A3D36+574774]\n\tOrdinal0 [0x003A1C0B+1973259]\n\tOrdinal0 [0x003A6688+1992328]\n\tOrdinal0 [0x003A6775+1992565]\n\tOrdinal0 [0x003AF8D1+2029777]\n\tBaseThreadInitThunk [0x768BFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x777B7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x777B7A6E+238]",
+      "children" : [ {
+        "name" : "登录用例一",
+        "uid" : "4b1a4ea4a9e3ab18",
+        "parentUid" : "3c18dcab704007df411533467d340178",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652239006168,
+          "stop" : 1652239034535,
+          "duration" : 28367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'login': {'name': '18380447258@163.com', 'pwd': '123qwer'}}" ]
+      } ],
+      "uid" : "3c18dcab704007df411533467d340178"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

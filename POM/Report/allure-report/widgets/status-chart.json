@@ -1,11 +1,11 @@
 [ {
-  "uid" : "cf7ec77051398b16",
-  "name" : "登录成功用例",
+  "uid" : "4b1a4ea4a9e3ab18",
+  "name" : "登录用例一",
   "time" : {
-    "start" : 1644411063248,
-    "stop" : 1644411074826,
-    "duration" : 11578
+    "start" : 1652239006168,
+    "stop" : 1652239034535,
+    "duration" : 28367
   },
-  "status" : "passed",
-  "severity" : "critical"
+  "status" : "broken",
+  "severity" : "normal"
 } ]

@@ -7,6 +7,9 @@
       app_key: A745B9D2CF7B8495944441DBF1BE9751
       username: qqmsn149
       password: 123qwe
+    extract:
+      - ret: $.ret
+  rt: $ret
   assert:
     - eq: {err_code: 0}
 #  common:

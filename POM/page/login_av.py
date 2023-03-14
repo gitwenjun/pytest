@@ -2,22 +2,20 @@ from Base.base import Base
 from selenium.webdriver.common.by import By
 
 
-class LoginAv(Base):
-    url = 'https://www.anyviewer.com/login.html'
-    user = (By.NAME,'email')
-    pwd = (By.NAME,'password')
-    btn = (By.ID,'login')
-    asts = (By.CSS_SELECTOR,'.change-password')
+class login_page(Base):
 
-    #登录流程
+    url = "https://www.anyviewer.com/login.html"
+    name = (By.NAME, 'email')
+    pwd = (By.NAME, 'password')
+    btn = (By.ID, 'login')
+    asts = (By.CSS_SELECTOR, '.change-password')
+
     def login(self,name,pwd):
-        self.get_url(self.url)
-        self.clear(self.user)
-        self.send_key(self.user,name)
-        self.clear(self.pwd)
-        self.send_key(self.pwd,pwd)
-        self.click_btn(self.btn)
+        self.open_url(self.url)
+        self.send_keys(self.name,name)
+        self.send_keys(self.pwd,pwd)
+        self.click_but(self.btn)
 
-    #断言登录成功
+    # 断言登录成功
     def ast(self):
         return self.find_element(self.asts)

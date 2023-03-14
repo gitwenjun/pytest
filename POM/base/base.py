@@ -1,33 +1,24 @@
-from selenium.webdriver.support.wait import WebDriverWait
-from Common.wait_time import wait_element
+from Common.wait_time import wait_element,wait_elements
+from selenium import webdriver
 
 class Base:
     def __init__(self,driver):
         self.driver = driver
 
-    #打开链接
-    def get_url(self,url):
+    def open_url(self,url):
         self.driver.get(url)
 
-    #定位元素 ，方法一，直接用匿名函数
-    def find_elements(self,loc):
-        element = WebDriverWait(self.driver, timeout=10).until(lambda x: x.find_element(*loc))
-        return element
-        # return self.driver.find_element(*loc)
+    def find_element(self,local):
+        return wait_element(self.driver,*local)
 
-    # 定位元素方法二，调用封装的方法
-    def find_element(self,local_):
-        element = wait_element(self.driver,*local_)
-        return element
+    def find_elements(self,local):
+        return wait_elements(self.driver,*local)
 
-    # 点击
-    def click_btn(self,loc):
-        self.find_element(loc).click()
+    def click_but(self,local):
+        self.find_element(local).click()
 
-    # 输入
-    def send_key(self,loc,txt):
-        self.find_element(loc).send_keys(txt)
+    def send_keys(self,local,txt):
+        self.find_element(local).send_keys(txt)
 
-    # 清除
-    def clear(self,loc):
-        self.find_element(loc).clear()
+    def clear(self,local):
+        self.find_element(local).clear()

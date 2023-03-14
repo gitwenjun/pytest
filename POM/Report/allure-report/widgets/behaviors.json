@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "5bffb272f49798910f0f9dfd80247ba6",
-    "name" : "AV登录的总体描述",
+    "uid" : "677c0d2a22f75aaa06d1756ee364ef59",
+    "name" : "AVUI测试",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

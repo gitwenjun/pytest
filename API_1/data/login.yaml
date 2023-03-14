@@ -1,0 +1,12 @@
+-
+  name: 会员登录接口
+  request:
+    method: post
+    url: http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+    paramse:
+      username: qqmsn152
+      password: 123qwe
+      app_key: A745B9D2CF7B8495944441DBF1BE9751
+  validata:
+    - equals: {status_code: 200}
+    - contains: {err_code: 0}

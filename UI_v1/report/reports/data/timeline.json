@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-76566J4",
+    "children" : [ {
+      "name" : "5804-MainThread",
+      "children" : [ {
+        "name" : "登录成功测试用例",
+        "uid" : "8ba4c19faafd9e4",
+        "parentUid" : "f0f6c4e2e04c7229ca7fdd8eca2186ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678617102261,
+          "stop" : 1678617106811,
+          "duration" : 4550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'email': 'myy@xxxs.com', 'pwd': 123456}" ]
+      } ],
+      "uid" : "f0f6c4e2e04c7229ca7fdd8eca2186ef"
+    } ],
+    "uid" : "7adacc43a74dfbcda54049371eb5aa6a"
+  } ]
+}

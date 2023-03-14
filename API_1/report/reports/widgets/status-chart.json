@@ -1,0 +1,11 @@
+[ {
+  "uid" : "324e9e44e0633315",
+  "name" : "会员密码修改成功测试用例",
+  "time" : {
+    "start" : 1678006114522,
+    "stop" : 1678006114639,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

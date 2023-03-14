@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 05 16:48:34 CST 2023","Sun Mar 05 16:48:34 CST 2023","117","testcases","test_change_pwd","TestChangePwd","","","会员密码修改成功测试用例",""

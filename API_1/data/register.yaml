@@ -1,0 +1,13 @@
+-
+  name: 注册会员接口
+  request:
+    method: get
+    url: http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+    headers:
+    paramse:
+      username: qqmsn153
+      password: 123qwe
+      app_key: A745B9D2CF7B8495944441DBF1BE9751
+  validata:
+    - equals: {status_code: 200}
+    - contains: {err_code: 0}

@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-76566J4",
+    "children" : [ {
+      "name" : "7824-MainThread",
+      "children" : [ {
+        "name" : "会员密码修改成功测试用例",
+        "uid" : "324e9e44e0633315",
+        "parentUid" : "23c301171a28f1fe7799796445aeda2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1678006114522,
+          "stop" : 1678006114639,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.AlterPassword', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'username': 'qqmsn151', 'old_password': '46f94c8de14fb36680850768ff1b7f2a', 'new_password': 'beb6b72231daafe7d913baa818a63f0c'}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}" ]
+      } ],
+      "uid" : "23c301171a28f1fe7799796445aeda2a"
+    } ],
+    "uid" : "7adacc43a74dfbcda54049371eb5aa6a"
+  } ]
+}

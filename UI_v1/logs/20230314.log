@@ -1,0 +1,38 @@
+[2023-03-14 09:51:05,017][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 09:51:22,450][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:01:44,579][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:02:25,359][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:09:23,303][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:10:03,727][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:17:37,687][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:17:58,883][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:37:44,999][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:38:05,194][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:49:14,317][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:49:19,683][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:52:15,670][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:52:20,964][base.py 68][DEBUG]: 框架-------<selenium.webdriver.remote.webelement.WebElement (session="609a12e8733cfbefd01499a1c937d3a9", element="7f6429b3-d7c0-4386-a22b-6ea9e4d53a7a")>
+[2023-03-14 10:52:21,207][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:53:28,114][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:53:33,269][base.py 68][DEBUG]: 框架-------<selenium.webdriver.remote.webelement.WebElement (session="177635efeafcfa9fdb54201f2af0cb16", element="893c9d84-b921-4025-855a-c7b8309594e4")>
+[2023-03-14 10:53:44,498][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 10:54:41,779][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 10:54:47,172][base.py 68][DEBUG]: 框架-------<selenium.webdriver.remote.webelement.WebElement (session="9f4f9ac053fca89ea8b802dbb95245b4", element="c708d9fd-e56a-4c84-beff-90c0f56f3c2c")>
+[2023-03-14 10:54:58,458][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 11:04:12,493][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 11:04:21,565][base.py 68][DEBUG]: 框架-------<selenium.webdriver.remote.webelement.WebElement (session="87e924ec054015a099fc4b832d711606", element="eac58145-98d9-459e-a8aa-27d3d821479c")>
+[2023-03-14 11:04:29,043][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 11:08:30,955][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 11:08:41,252][base.py 68][DEBUG]: 框架-------<selenium.webdriver.remote.webelement.WebElement (session="afaf18fb9720cd38e0557761714fc792", element="61d7e4ed-8373-4721-a1a8-e7051a1a0de8")>
+[2023-03-14 11:08:46,673][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 11:20:43,348][test_submit_job.py 14][INFO]: ------开始执行测试用例------
+[2023-03-14 11:20:58,560][test_submit_job.py 18][INFO]: ------测试用例执行结束------
+[2023-03-14 11:47:48,319][test_submit_job.py 16][INFO]: ------开始执行测试用例------
+[2023-03-14 11:48:22,495][test_submit_job.py 20][INFO]: ------测试用例执行结束------
+[2023-03-14 14:26:12,127][test_submit_job.py 16][INFO]: ------开始执行测试用例------
+[2023-03-14 14:26:31,823][test_submit_job.py 33][DEBUG]: 返回结果为：开始匹配任务
+[2023-03-14 14:26:31,823][assert_result.py 11][INFO]: 【预期结果】:开始匹配任务 
+【实际结果】:开始匹配任务
+[2023-03-14 14:26:31,823][assert_result.py 12][INFO]: 【测试结果：断言成功】
+[2023-03-14 14:26:31,995][screenshot.py 31][INFO]: 截图成功-发布新任务.png，保存位置：G:\Project\UI_v1\photos\2023\03-14
+[2023-03-14 14:26:31,996][test_submit_job.py 20][INFO]: ------测试用例执行结束------

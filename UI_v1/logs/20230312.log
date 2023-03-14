@@ -1,0 +1,831 @@
+[2023-03-12 16:42:49,881][assert_result.py 12][ERROR]: 断言检查点--预期结果:欢迎您的到来，实际结果:<html><head></head><body></body></html>
+[2023-03-12 16:42:49,881][assert_result.py 13][ERROR]: 【测试结果：断言失败】
+[2023-03-12 16:45:13,520][assert_result.py 12][ERROR]: 断言检查点--预期结果:欢迎您的到来，实际结果:<html><head></head><body></body></html>
+[2023-03-12 16:45:13,520][assert_result.py 13][ERROR]: 【测试结果：断言失败】
+[2023-03-12 16:51:14,651][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 16:51:20,804][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 16:54:27,523][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 16:54:33,303][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 16:55:57,222][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 16:56:03,347][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 16:56:42,358][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 16:56:48,201][assert_result.py 12][ERROR]: 断言检查点--预期结果:欢迎您的到来，实际结果:<html class="js cssanimations"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="PESCMS Ticket是一款以GPLv2协议发布的开源工单客服系统">
+    <meta name="keywords" content="PESCMS,PESCMS Ticket,开源的工单系统,工单系统,工单客服系统,客服工单系统,GPL工单,GPL客服系统,GPL工单客服系统">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>个人中心 - PESCMS Ticket</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <link rel="icon" type="image/png" href="/favicon.ico?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/amazeui.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/app.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/index.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/ui-dialog.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/amazeui.datetimepicker.css?v=8fed80d70c">
+    <script src="https://hm.baidu.com/hm.js?f0690aac15345cc1534fd2979a477c1e"></script><script src="/Theme/assets/js/jquery.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/amazeui.min.js?v=8fed80d70c"></script>
+
+    <script src="/Theme/assets/js/dialog-min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/dialog-plus-min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/amazeui.datetimepicker.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/spectrum.min.js?v=8fed80d70c"></script>
+
+    <!--编辑器-->
+    <script>var PESCMS_PATH = '';</script>
+    <script src="/Theme/assets/ueditor/ueditor.config.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/ueditor/ueditor.all.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/ueditor/lang/zh-cn/zh-cn.min.js?v=8fed80d70c"></script>
+
+    <!--图片放大器-->
+    <script src="/Theme/assets/js/jquery.fancybox.min.js?v=8fed80d70c"></script>
+    <link rel="stylesheet" href="/Theme/assets/css/jquery.fancybox.min.css?v=8fed80d70c">
+    <!--图片放大器-->
+
+    <!--百度上传控件-->
+    <link rel="stylesheet" href="/Theme/assets/css/webuploader.min.css?v=8fed80d70c">
+    <script src="/Theme/assets/js/webuploader.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/AMUIwebuploader.min.js?v=8fed80d70c"></script>
+    <script>
+        $(function(){
+            $.webuploaderConfig({
+                server:'/?m=Upload&a=ueditor&method=POST&action=uploadimage'
+            });
+        })
+    </script>
+    <!--百度上传控件-->
+
+    <script src="/Theme/assets/js/app.min.js?v=8fed80d70c"></script>
+
+    
+</head>
+<body><div class="am-alert am-alert-warning am-text-xs am-margin-0" data-am-alert="">
+    演示程序版本不定期更新，当前演示版本为：[1.3.17] | 演示版本功能受限，建议自行安装最新版体验完整功能。下载地址：<a href="https://www.pescms.com/download/5.html" target="_blank" style="color: #fff;font-weight: bold;"><i class="am-icon-download"></i> [获取最新版]</a>
+</div>
+<header class="am-topbar" id="ticket-nav">
+    <div class="am-u-sm-12 am-u-lg-11 am-u-sm-centered">
+        <div class="am-fl am-padding-top-sm am-padding-bottom-sm am-margin-left">
+            <span class="am-margin-right-xs"><i class="am-icon-weixin"></i> <a href="javascript:;" data-am-popover="{content: '<img src=\'/Theme/assets/i/gh_97857fdc998f_344.jpg\' width=300>', trigger: 'hover focus'}">微信小程序</a></span>
+        </div>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only" data-am-collapse="{target: '#ticket-topbar-collapse'}">
+            <span class="am-sr-only">导航切换</span> <span class="am-icon-angle-double-down"></span></button>
+
+        <div class="am-collapse am-topbar-collapse am-topbar-right am-text-sm" id="ticket-topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav admin-header-list">
+
+                                    <li>
+                        <a href="javascript:;">毛月悦 先生/女士, 您好</a>
+                    </li>
+                    <li><a href="/?m=Member&amp;a=index"><i class="am-icon-info-circle"></i> 个人中心</a></li>
+                    <li>
+                        <a href="/?m=Login&amp;a=logout"><i class="am-icon-sign-out"></i> 退出登录</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+
+</header>
+<header class="am-topbar tool-container">
+    <div class="am-u-sm-12 am-u-lg-11 am-u-sm-centered">
+        <div class="logo am-fl">
+            <a href="/">
+                <img src="/Theme/assets/i/logo.png">
+                <h1 class="am-inline am-text-lg am-text-middle">PESCMS Ticket</h1>
+            </a>
+        </div>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#tool-container-collapse'}">
+            <span class="am-sr-only">导航切换</span> <span class="am-icon-angle-double-down"></span></button>
+
+        <div class="am-collapse am-topbar-collapse am-topbar-right am-text-sm" id="tool-container-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav admin-header-list">
+                                                            <li>
+                            <a href="/">网站首页</a>
+                        </li>
+                                            <li>
+                            <a href="/?m=Category&amp;a=index">提交工单</a>
+                        </li>
+                                            <li>
+                            <a href="/?m=Fqa&amp;a=list">常见问题</a>
+                        </li>
+                                            <li>
+                            <a href="/?m=Member&amp;a=ticket">我的工单</a>
+                        </li>
+                                                    <li>
+                    <a href="/admin.php"><i class="am-icon-tachometer"></i> 后台客服端</a>
+                </li>
+		<li class="am-dropdown" data-am-dropdown="">
+			<a class="am-dropdown-toggle" data-am-dropdown-toggle="" href="javascript:;">
+			    其他系统演示 <span class="am-icon-caret-down"></span>
+			</a>
+			<ul class="am-dropdown-content">
+			    <li>
+			        <a href="//team.pescms.com">任务管理系统</a>
+			    </li>
+			    <li>
+			        <a href="//doc.pescms.com">文档管理系统</a>
+			    </li>
+			</ul>
+		</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div id="wrapper" class="am-text-sm ">
+    <div class="am-g">
+    <div class="am-u-sm-11 am-u-sm-centered">
+        <div class="am-panel am-panel-default">
+            <div class="am-panel-bd member-center">
+                <div class="am-g">
+                    <div class="am-u-sm-12 am-u-lg-2">
+                        <img class="am-img-thumbnail am-radius" alt="logo" src="/Theme/assets/i/logo.png">
+                        <hr>
+                        <h3>我常提交的工单</h3>
+                                                                                    <a href="/?m=Category&amp;a=ticket&amp;number=VRYX42340795051" class="am-badge am-badge-primary">定制咨询</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=RM13709758970" class="am-badge am-badge-primary">反馈建议</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=DH93323046916" class="am-badge am-badge-primary">反馈建议</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=TRF11182840491" class="am-badge am-badge-primary">反馈建议</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=XW26302216589" class="am-badge am-badge-primary">定制咨询</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=YMTC20655466347" class="am-badge am-badge-primary">访问异常</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=STJFD73570626158" class="am-badge am-badge-primary">服务器订购</a>
+                                                                        </div>
+
+                    <div class="am-u-sm-12 am-u-lg-10">
+                        <div class="am-margin-bottom">
+                            <h2 class="am-inline am-text-xl ">毛月悦</h2> 先生/女士
+                            <small class="am-text-xs am-margin-left" style="color: #ccc"><i class="am-icon-bookmark-o"></i> 欢迎您的到来</small>
+                        </div>
+
+                        <div class="am-panel am-panel-default">
+                            <div class="am-panel-bd am-padding-xs">
+                                <div class="am-cf">
+                                    <h3 class="am-margin-0 am-fl"><i class="am-icon-yelp"></i> 最近工单</h3>
+                                    <a href="/?m=Member&amp;a=ticket" class="am-fr">更多&gt;&gt;</a>
+                                </div>
+                            </div>
+                            <ul class="am-list am-list-static">
+                                                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=AK9056334787800&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=NPF105327011170&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=NQD557380024690&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=FU6539736299000&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=OZLQV6287418270&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                    
+                            </ul>
+                        </div>
+
+
+                        <div class="am-tabs pes-tabs am-margin-top-lg" data-am-tabs="">
+                            <ul class="am-tabs-nav am-nav am-nav-tabs">
+                                <li class="am-active"><a href="#tab1"><i class="am-icon-user"></i> 个人信息</a></li>
+                                <li><a href="#tab2"><i class="am-icon-refresh"></i> 更新信息</a></li>
+                            </ul>
+
+                            <div class="am-tabs-bd" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                                    <form class="am-form ajax-submit" action="/?m=Member&amp;a=changeEmail" method="post" data-am-validator="" novalidate="novalidate">
+                                    <input type="hidden" name="token" value="7a964268c25a08fa3dd04be5e8786cc0_4696754702796">                                    <input type="hidden" name="method" value="PUT">
+                                    <table class="am-table am-remove-border member-info">
+                                        <tbody><tr>
+                                            <th>邮箱地址</th>
+                                            <td>
+                                                myy@xxxs.com<a href="javascript:;" class="change-email">[更改]</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>手机号码</th>
+                                            <td>12345678902</td>
+                                        </tr>
+                                        <tr class="change-email am-hide">
+                                            <td colspan="2">
+                                                <hr>
+                                            </td>
+                                        </tr>
+                                        <tr class="change-email am-hide">
+                                            <th class="am-text-middle">更改邮箱地址</th>
+                                            <td class="am-text-middle">
+                                                <input type="email" name="email" class="am-input-sm" placeholder="邮箱地址" value="" required="required" pattern="^((([a-zA-Z]|\d|[!#\$%&amp;'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-zA-Z]|\d|[!#\$%&amp;'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$">
+                                            </td>
+                                        </tr>
+                                        <tr class="change-email am-hide">
+                                            <td class="am-text-middle am-text-center" colspan="2">
+                                                <input type="submit" class="am-btn am-btn-danger am-btn-sm " value="确认更改">
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                    </form>
+                                </div>
+                                <div class="am-tab-panel am-fade" id="tab2">
+                                    <form class="am-form ajax-submit" method="post" data-am-validator="" novalidate="novalidate">
+                                        <input type="hidden" name="method" value="PUT">
+                                        <input type="hidden" name="token" value="7a964268c25a08fa3dd04be5e8786cc0_4696754702796">                                        <table class="am-table am-remove-border">
+                                            <tbody><tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">手机号码:</div>
+                                                        <input type="text" name="phone" placeholder="手机号码" value="12345678902" required="required" maxlength="11">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">用户昵称:</div>
+                                                        <input type="text" name="name" placeholder="用户昵称" value="毛月悦" required="required" maxlength="10">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">企业微信ID:</div>
+                                                        <input type="text" name="wxWork" placeholder="企业微信ID" value="" required="required">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">钉钉ID:</div>
+                                                        <input type="text" name="dingtalk" placeholder="钉钉ID" value="" required="required">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group">
+                                                        <div class="am-margin-bottom-xs">旧密码:</div>
+                                                        <input type="password" name="oldpassword" placeholder="旧密码">
+                                                    </div>
+                                                    <div class="am-form-group">
+                                                        <div class="am-margin-bottom-xs">新密码:</div>
+                                                        <input type="password" name="password" placeholder="新密码">
+                                                    </div>
+                                                    <div class="am-form-group">
+                                                        <div class="am-margin-bottom-xs">确认新密码:</div>
+                                                        <input type="password" name="repassword" placeholder="确认新密码">
+                                                    </div>
+                                                    <input type="submit" class="am-btn am-btn-success am-btn-block am-btn-sm " value="更新信息">
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        $('.change-email').on('click', function(){
+            $('.change-email').removeClass('am-hide')
+        })
+    })
+</script></div>
+<footer class="my-footer pescms-footer-3">
+    <!--这部分关于PESCMS产品简介的可以自行修改或删除-->
+        <div class="am-g pescms-introduce">
+        <div class="am-u-sm-12 am-u-lg-11 am-u-sm-centered">
+    <div class="am-g">
+        <div class="am-u-sm-12 am-u-lg-3">
+            <h4>关于我们</h4>
+            <p>当前正在使用PESCMS Ticket客服工单系统。页脚内容为预设，请按照业务需求设置页脚内容。</p>
+        </div>
+        <div class="am-u-sm-12 am-u-lg-3">
+            <h4>产品列表</h4>
+            <ul>
+                <li><a href="https://www.pescms.com/download/2.html">PESCMS TEAM 团队任务管理系统</a></li>
+                <li><a href="https://www.pescms.com/download/3.html">PESCMS DOC 文档管理系统</a></li>
+                <li><a href="https://www.pescms.com/download/5.html">PESCMS TICKET 客服工单系统</a></li>
+                <li><a href="https://www.pescms.com/download/4.html">PESCMS LOGIN 网站登录管理</a></li>
+                <li><a href="https://www.pescms.com/download/6.html">基金定投助手</a></li>
+            </ul>
+        </div>
+        <div class="am-u-sm-12 am-u-lg-3 am-u-end">
+            <h4>产品服务</h4>
+            <ul>
+                <li><a href="https://www.pescms.com/Page/Authorization.html">商业授权</a></li>
+                <li><a href="https://www.pescms.com/Authorize-Verify">授权查询</a></li>
+                <li><a href="https://www.pescms.com/service.html">有偿服务</a></li>
+                <li><a href="https://www.pescms.com/Page/ad.html">广告投放</a></li>
+                <li><a href="https://www.pescms.com/Page/donate.html">赞助捐赠</a></li>
+            </ul>
+        </div>
+    </div>
+</div>    </div>
+        <!--这部分关于PESCMS产品简介的可以自行修改或删除-->
+
+    <div class="copyright am-text-center">
+        <small>© Copyright 2015-2023. Power by <a href="https://www.pescms.com" target="_blank">PESCMS Ticket</a>        </small>
+    </div>
+</footer>
+<div class="am-hide">
+        <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?f0690aac15345cc1534fd2979a477c1e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+
+<div class="amz-toolbar" id="amz-toolbar" style="">
+    <a href="#top" title="回到顶部" class="am-icon-btn am-icon-arrow-up " id="amz-go-top" data-am-smooth-scroll=""></a>
+        <a href="javascript:;" title="关闭浮窗" class="pes-close-amz-toolbar am-icon-btn am-icon-chain-broken"></a>
+</div>
+
+<div class="am-popover am-popover-top" id="am-popover-twbrz" style="top: -5.8125px; left: 13.9844px;"><div class="am-popover-inner"><img src="/Theme/assets/i/gh_97857fdc998f_344.jpg" width="300"></div><div class="am-popover-caret"></div></div></body></html>
+[2023-03-12 16:56:48,210][assert_result.py 13][ERROR]: 【测试结果：断言失败】
+[2023-03-12 16:56:48,211][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 16:57:58,410][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 16:58:04,187][assert_result.py 12][ERROR]: 断言检查点--预期结果:个人中心，实际结果:<html class="js cssanimations"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="PESCMS Ticket是一款以GPLv2协议发布的开源工单客服系统">
+    <meta name="keywords" content="PESCMS,PESCMS Ticket,开源的工单系统,工单系统,工单客服系统,客服工单系统,GPL工单,GPL客服系统,GPL工单客服系统">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>个人中心 - PESCMS Ticket</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <link rel="icon" type="image/png" href="/favicon.ico?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/amazeui.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/app.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/index.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/ui-dialog.min.css?v=8fed80d70c">
+    <link rel="stylesheet" href="/Theme/assets/css/amazeui.datetimepicker.css?v=8fed80d70c">
+    <script src="https://hm.baidu.com/hm.js?f0690aac15345cc1534fd2979a477c1e"></script><script src="/Theme/assets/js/jquery.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/amazeui.min.js?v=8fed80d70c"></script>
+
+    <script src="/Theme/assets/js/dialog-min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/dialog-plus-min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/amazeui.datetimepicker.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/spectrum.min.js?v=8fed80d70c"></script>
+
+    <!--编辑器-->
+    <script>var PESCMS_PATH = '';</script>
+    <script src="/Theme/assets/ueditor/ueditor.config.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/ueditor/ueditor.all.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/ueditor/lang/zh-cn/zh-cn.min.js?v=8fed80d70c"></script>
+
+    <!--图片放大器-->
+    <script src="/Theme/assets/js/jquery.fancybox.min.js?v=8fed80d70c"></script>
+    <link rel="stylesheet" href="/Theme/assets/css/jquery.fancybox.min.css?v=8fed80d70c">
+    <!--图片放大器-->
+
+    <!--百度上传控件-->
+    <link rel="stylesheet" href="/Theme/assets/css/webuploader.min.css?v=8fed80d70c">
+    <script src="/Theme/assets/js/webuploader.min.js?v=8fed80d70c"></script>
+    <script src="/Theme/assets/js/AMUIwebuploader.min.js?v=8fed80d70c"></script>
+    <script>
+        $(function(){
+            $.webuploaderConfig({
+                server:'/?m=Upload&a=ueditor&method=POST&action=uploadimage'
+            });
+        })
+    </script>
+    <!--百度上传控件-->
+
+    <script src="/Theme/assets/js/app.min.js?v=8fed80d70c"></script>
+
+    
+</head>
+<body><div class="am-alert am-alert-warning am-text-xs am-margin-0" data-am-alert="">
+    演示程序版本不定期更新，当前演示版本为：[1.3.17] | 演示版本功能受限，建议自行安装最新版体验完整功能。下载地址：<a href="https://www.pescms.com/download/5.html" target="_blank" style="color: #fff;font-weight: bold;"><i class="am-icon-download"></i> [获取最新版]</a>
+</div>
+<header class="am-topbar" id="ticket-nav">
+    <div class="am-u-sm-12 am-u-lg-11 am-u-sm-centered">
+        <div class="am-fl am-padding-top-sm am-padding-bottom-sm am-margin-left">
+            <span class="am-margin-right-xs"><i class="am-icon-weixin"></i> <a href="javascript:;" data-am-popover="{content: '<img src=\'/Theme/assets/i/gh_97857fdc998f_344.jpg\' width=300>', trigger: 'hover focus'}">微信小程序</a></span>
+        </div>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only" data-am-collapse="{target: '#ticket-topbar-collapse'}">
+            <span class="am-sr-only">导航切换</span> <span class="am-icon-angle-double-down"></span></button>
+
+        <div class="am-collapse am-topbar-collapse am-topbar-right am-text-sm" id="ticket-topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav admin-header-list">
+
+                                    <li>
+                        <a href="javascript:;">毛月悦 先生/女士, 您好</a>
+                    </li>
+                    <li><a href="/?m=Member&amp;a=index"><i class="am-icon-info-circle"></i> 个人中心</a></li>
+                    <li>
+                        <a href="/?m=Login&amp;a=logout"><i class="am-icon-sign-out"></i> 退出登录</a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+
+</header>
+<header class="am-topbar tool-container">
+    <div class="am-u-sm-12 am-u-lg-11 am-u-sm-centered">
+        <div class="logo am-fl">
+            <a href="/">
+                <img src="/Theme/assets/i/logo.png">
+                <h1 class="am-inline am-text-lg am-text-middle">PESCMS Ticket</h1>
+            </a>
+        </div>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#tool-container-collapse'}">
+            <span class="am-sr-only">导航切换</span> <span class="am-icon-angle-double-down"></span></button>
+
+        <div class="am-collapse am-topbar-collapse am-topbar-right am-text-sm" id="tool-container-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav admin-header-list">
+                                                            <li>
+                            <a href="/">网站首页</a>
+                        </li>
+                                            <li>
+                            <a href="/?m=Category&amp;a=index">提交工单</a>
+                        </li>
+                                            <li>
+                            <a href="/?m=Fqa&amp;a=list">常见问题</a>
+                        </li>
+                                            <li>
+                            <a href="/?m=Member&amp;a=ticket">我的工单</a>
+                        </li>
+                                                    <li>
+                    <a href="/admin.php"><i class="am-icon-tachometer"></i> 后台客服端</a>
+                </li>
+		<li class="am-dropdown" data-am-dropdown="">
+			<a class="am-dropdown-toggle" data-am-dropdown-toggle="" href="javascript:;">
+			    其他系统演示 <span class="am-icon-caret-down"></span>
+			</a>
+			<ul class="am-dropdown-content">
+			    <li>
+			        <a href="//team.pescms.com">任务管理系统</a>
+			    </li>
+			    <li>
+			        <a href="//doc.pescms.com">文档管理系统</a>
+			    </li>
+			</ul>
+		</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div id="wrapper" class="am-text-sm ">
+    <div class="am-g">
+    <div class="am-u-sm-11 am-u-sm-centered">
+        <div class="am-panel am-panel-default">
+            <div class="am-panel-bd member-center">
+                <div class="am-g">
+                    <div class="am-u-sm-12 am-u-lg-2">
+                        <img class="am-img-thumbnail am-radius" alt="logo" src="/Theme/assets/i/logo.png">
+                        <hr>
+                        <h3>我常提交的工单</h3>
+                                                                                    <a href="/?m=Category&amp;a=ticket&amp;number=VRYX42340795051" class="am-badge am-badge-primary">定制咨询</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=RM13709758970" class="am-badge am-badge-primary">反馈建议</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=DH93323046916" class="am-badge am-badge-primary">反馈建议</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=TRF11182840491" class="am-badge am-badge-primary">反馈建议</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=XW26302216589" class="am-badge am-badge-primary">定制咨询</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=YMTC20655466347" class="am-badge am-badge-primary">访问异常</a>
+                                                            <a href="/?m=Category&amp;a=ticket&amp;number=STJFD73570626158" class="am-badge am-badge-primary">服务器订购</a>
+                                                                        </div>
+
+                    <div class="am-u-sm-12 am-u-lg-10">
+                        <div class="am-margin-bottom">
+                            <h2 class="am-inline am-text-xl ">毛月悦</h2> 先生/女士
+                            <small class="am-text-xs am-margin-left" style="color: #ccc"><i class="am-icon-bookmark-o"></i> 欢迎您的到来</small>
+                        </div>
+
+                        <div class="am-panel am-panel-default">
+                            <div class="am-panel-bd am-padding-xs">
+                                <div class="am-cf">
+                                    <h3 class="am-margin-0 am-fl"><i class="am-icon-yelp"></i> 最近工单</h3>
+                                    <a href="/?m=Member&amp;a=ticket" class="am-fr">更多&gt;&gt;</a>
+                                </div>
+                            </div>
+                            <ul class="am-list am-list-static">
+                                                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=AK9056334787800&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=NPF105327011170&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=NQD557380024690&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=FU6539736299000&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="/?m=View&amp;a=ticket&amp;number=OZLQV6287418270&amp;back_url=Lz9tPU1lbWJlciZhPWluZGV4" class="am-padding-0">演示版本生成工单标题</a>
+                                    </li>
+                                                                    
+                            </ul>
+                        </div>
+
+
+                        <div class="am-tabs pes-tabs am-margin-top-lg" data-am-tabs="">
+                            <ul class="am-tabs-nav am-nav am-nav-tabs">
+                                <li class="am-active"><a href="#tab1"><i class="am-icon-user"></i> 个人信息</a></li>
+                                <li><a href="#tab2"><i class="am-icon-refresh"></i> 更新信息</a></li>
+                            </ul>
+
+                            <div class="am-tabs-bd" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                                    <form class="am-form ajax-submit" action="/?m=Member&amp;a=changeEmail" method="post" data-am-validator="" novalidate="novalidate">
+                                    <input type="hidden" name="token" value="12778143926efa62a301f818d6320bad_4696754915444">                                    <input type="hidden" name="method" value="PUT">
+                                    <table class="am-table am-remove-border member-info">
+                                        <tbody><tr>
+                                            <th>邮箱地址</th>
+                                            <td>
+                                                myy@xxxs.com<a href="javascript:;" class="change-email">[更改]</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>手机号码</th>
+                                            <td>12345678902</td>
+                                        </tr>
+                                        <tr class="change-email am-hide">
+                                            <td colspan="2">
+                                                <hr>
+                                            </td>
+                                        </tr>
+                                        <tr class="change-email am-hide">
+                                            <th class="am-text-middle">更改邮箱地址</th>
+                                            <td class="am-text-middle">
+                                                <input type="email" name="email" class="am-input-sm" placeholder="邮箱地址" value="" required="required" pattern="^((([a-zA-Z]|\d|[!#\$%&amp;'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-zA-Z]|\d|[!#\$%&amp;'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$">
+                                            </td>
+                                        </tr>
+                                        <tr class="change-email am-hide">
+                                            <td class="am-text-middle am-text-center" colspan="2">
+                                                <input type="submit" class="am-btn am-btn-danger am-btn-sm " value="确认更改">
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                    </form>
+                                </div>
+                                <div class="am-tab-panel am-fade" id="tab2">
+                                    <form class="am-form ajax-submit" method="post" data-am-validator="" novalidate="novalidate">
+                                        <input type="hidden" name="method" value="PUT">
+                                        <input type="hidden" name="token" value="12778143926efa62a301f818d6320bad_4696754915444">                                        <table class="am-table am-remove-border">
+                                            <tbody><tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">手机号码:</div>
+                                                        <input type="text" name="phone" placeholder="手机号码" value="12345678902" required="required" maxlength="11">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">用户昵称:</div>
+                                                        <input type="text" name="name" placeholder="用户昵称" value="毛月悦" required="required" maxlength="10">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">企业微信ID:</div>
+                                                        <input type="text" name="wxWork" placeholder="企业微信ID" value="" required="required">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group am-margin-bottom-0">
+                                                        <div class="am-margin-bottom-xs">钉钉ID:</div>
+                                                        <input type="text" name="dingtalk" placeholder="钉钉ID" value="" required="required">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="am-form-group">
+                                                        <div class="am-margin-bottom-xs">旧密码:</div>
+                                                        <input type="password" name="oldpassword" placeholder="旧密码">
+                                                    </div>
+                                                    <div class="am-form-group">
+                                                        <div class="am-margin-bottom-xs">新密码:</div>
+                                                        <input type="password" name="password" placeholder="新密码">
+                                                    </div>
+                                                    <div class="am-form-group">
+                                                        <div class="am-margin-bottom-xs">确认新密码:</div>
+                                                        <input type="password" name="repassword" placeholder="确认新密码">
+                                                    </div>
+                                                    <input type="submit" class="am-btn am-btn-success am-btn-block am-btn-sm " value="更新信息">
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        $('.change-email').on('click', function(){
+            $('.change-email').removeClass('am-hide')
+        })
+    })
+</script></div>
+<footer class="my-footer pescms-footer-3">
+    <!--这部分关于PESCMS产品简介的可以自行修改或删除-->
+        <div class="am-g pescms-introduce">
+        <div class="am-u-sm-12 am-u-lg-11 am-u-sm-centered">
+    <div class="am-g">
+        <div class="am-u-sm-12 am-u-lg-3">
+            <h4>关于我们</h4>
+            <p>当前正在使用PESCMS Ticket客服工单系统。页脚内容为预设，请按照业务需求设置页脚内容。</p>
+        </div>
+        <div class="am-u-sm-12 am-u-lg-3">
+            <h4>产品列表</h4>
+            <ul>
+                <li><a href="https://www.pescms.com/download/2.html">PESCMS TEAM 团队任务管理系统</a></li>
+                <li><a href="https://www.pescms.com/download/3.html">PESCMS DOC 文档管理系统</a></li>
+                <li><a href="https://www.pescms.com/download/5.html">PESCMS TICKET 客服工单系统</a></li>
+                <li><a href="https://www.pescms.com/download/4.html">PESCMS LOGIN 网站登录管理</a></li>
+                <li><a href="https://www.pescms.com/download/6.html">基金定投助手</a></li>
+            </ul>
+        </div>
+        <div class="am-u-sm-12 am-u-lg-3 am-u-end">
+            <h4>产品服务</h4>
+            <ul>
+                <li><a href="https://www.pescms.com/Page/Authorization.html">商业授权</a></li>
+                <li><a href="https://www.pescms.com/Authorize-Verify">授权查询</a></li>
+                <li><a href="https://www.pescms.com/service.html">有偿服务</a></li>
+                <li><a href="https://www.pescms.com/Page/ad.html">广告投放</a></li>
+                <li><a href="https://www.pescms.com/Page/donate.html">赞助捐赠</a></li>
+            </ul>
+        </div>
+    </div>
+</div>    </div>
+        <!--这部分关于PESCMS产品简介的可以自行修改或删除-->
+
+    <div class="copyright am-text-center">
+        <small>© Copyright 2015-2023. Power by <a href="https://www.pescms.com" target="_blank">PESCMS Ticket</a>        </small>
+    </div>
+</footer>
+<div class="am-hide">
+        <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?f0690aac15345cc1534fd2979a477c1e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</div>
+
+<div class="amz-toolbar" id="amz-toolbar" style="">
+    <a href="#top" title="回到顶部" class="am-icon-btn am-icon-arrow-up " id="amz-go-top" data-am-smooth-scroll=""></a>
+        <a href="javascript:;" title="关闭浮窗" class="pes-close-amz-toolbar am-icon-btn am-icon-chain-broken"></a>
+</div>
+
+<div class="am-popover am-popover-top" id="am-popover-nshoh" style="top: -5.8125px; left: 13.9844px;"><div class="am-popover-inner"><img src="/Theme/assets/i/gh_97857fdc998f_344.jpg" width="300"></div><div class="am-popover-caret"></div></div></body></html>
+[2023-03-12 16:58:04,195][assert_result.py 13][ERROR]: 【测试结果：断言失败】
+[2023-03-12 16:58:04,196][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:06:12,754][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:06:18,717][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:09:48,792][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:09:55,051][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:10:18,594][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:10:24,617][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:11:06,042][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:11:11,829][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:11:47,879][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:11:53,504][test_login.py 25][DEBUG]: 
+[2023-03-12 17:11:53,505][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:12:29,072][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:12:34,765][test_login.py 25][DEBUG]: 测试的值为<selenium.webdriver.remote.webelement.WebElement (session="96de700f1b44f34e5742920b2c1c8d52", element="a00d98b5-b4f8-4281-883f-f17670f3d1a3")>
+[2023-03-12 17:12:34,765][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:13:01,221][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:13:06,863][test_login.py 25][DEBUG]: 测试的值为None
+[2023-03-12 17:13:06,864][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:14:35,682][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:14:41,295][test_login.py 25][DEBUG]: 测试的值为None
+[2023-03-12 17:14:41,296][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:20:17,996][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:20:23,885][test_login.py 25][DEBUG]: 测试的值为微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:20:23,886][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:22:26,814][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:22:32,712][assert_result.py 12][ERROR]: 断言检查点--预期结果:个人中心，实际结果:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:22:32,712][assert_result.py 13][ERROR]: 【测试结果：断言失败】
+[2023-03-12 17:22:32,713][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:24:05,856][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:24:11,698][assert_result.py 11][DEBUG]: 类型是"\u4e2a\u4eba\u4e2d\u5fc3"
+[2023-03-12 17:24:11,698][assert_result.py 16][ERROR]: 断言检查点--预期结果:"\u4e2a\u4eba\u4e2d\u5fc3"，实际结果:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:24:11,698][assert_result.py 17][ERROR]: 【测试结果：断言失败】
+[2023-03-12 17:24:11,699][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:25:11,063][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:25:16,638][assert_result.py 9][DEBUG]: 类型1111是个人中心
+[2023-03-12 17:25:16,638][assert_result.py 17][ERROR]: 断言检查点--预期结果:个人中心，实际结果:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:25:16,638][assert_result.py 18][ERROR]: 【测试结果：断言失败】
+[2023-03-12 17:25:16,639][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:26:48,023][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:26:53,685][test_login.py 26][DEBUG]: 测试的值类型为<class 'str'>
+[2023-03-12 17:26:53,715][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:27:53,680][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:27:59,289][assert_result.py 14][ERROR]: 断言检查点--预期结果:您好，实际结果:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:27:59,289][assert_result.py 15][ERROR]: 【测试结果：断言失败】
+[2023-03-12 17:27:59,290][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:32:21,743][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:32:27,796][test_login.py 26][DEBUG]: 测试的值类型为
+[2023-03-12 17:32:27,796][assert_result.py 11][DEBUG]: 断言检查点--预期结果:欢迎，实际结果:
+[2023-03-12 17:32:27,796][assert_result.py 12][DEBUG]: 【测试结果：断言成功】
+[2023-03-12 17:32:27,797][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:33:42,656][test_login.py 12][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:33:48,341][test_login.py 26][DEBUG]: 测试的值类型为微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:33:48,341][assert_result.py 11][DEBUG]: 断言检查点--预期结果:个人中心，实际结果:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:33:48,341][assert_result.py 12][DEBUG]: 【测试结果：断言成功】
+[2023-03-12 17:33:48,342][test_login.py 16][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:47:23,853][test_login.py 13][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:47:29,545][assert_result.py 11][DEBUG]: 断言检查点--预期结果:个人中心，实际结果:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:47:29,545][assert_result.py 12][DEBUG]: 【测试结果：断言成功】
+[2023-03-12 17:47:29,547][test_login.py 17][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:49:29,191][test_login.py 13][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:49:34,943][assert_result.py 11][DEBUG]: 断言检查点--预期结果:个人中心，实际结果:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:49:34,943][assert_result.py 12][DEBUG]: 【测试结果：断言成功】
+[2023-03-12 17:49:34,944][test_login.py 17][INFO]: ---------测试用例执行结束----------
+[2023-03-12 17:52:16,962][test_login.py 13][INFO]: ---------测试用例开始执行----------
+[2023-03-12 17:52:22,547][assert_result.py 11][DEBUG]: 【预期结果】:个人中心，
+【实际结果】:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 17:52:22,547][assert_result.py 12][DEBUG]: 【测试结果：断言成功】
+[2023-03-12 17:52:22,548][test_login.py 17][INFO]: ---------测试用例执行结束----------
+[2023-03-12 18:29:09,739][test_login.py 14][INFO]: ---------测试用例开始执行----------
+[2023-03-12 18:29:16,574][screenshot.py 31][INFO]: 截图成功-登录.png，保存位置：G:\Project\UI_v1\photos\2023\03-12
+[2023-03-12 18:29:16,596][assert_result.py 11][INFO]: 【预期结果】:个人中心 
+【实际结果】:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 18:29:16,596][assert_result.py 12][INFO]: 【测试结果：断言成功】
+[2023-03-12 18:29:16,598][test_login.py 18][INFO]: ---------测试用例执行结束----------
+[2023-03-12 18:31:40,964][test_login.py 14][INFO]: ---------测试用例开始执行----------
+[2023-03-12 18:31:46,668][assert_result.py 11][INFO]: 【预期结果】:个人中心 
+【实际结果】:微信小程序
+毛月悦 先生/女士, 您好
+个人中心
+退出登录
+[2023-03-12 18:31:46,668][assert_result.py 12][INFO]: 【测试结果：断言成功】
+[2023-03-12 18:31:46,810][screenshot.py 31][INFO]: 截图成功-登录.png，保存位置：G:\Project\UI_v1\photos\2023\03-12
+[2023-03-12 18:31:46,811][test_login.py 18][INFO]: ---------测试用例执行结束----------

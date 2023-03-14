@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8ba4c19faafd9e4",
+  "name" : "登录成功测试用例",
+  "time" : {
+    "start" : 1678617102261,
+    "stop" : 1678617106811,
+    "duration" : 4550
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

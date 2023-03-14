@@ -1,0 +1,411 @@
+[2023-03-05 14:37:12,142][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:37:12,368][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:37:12,369][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:37:12,369][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:37:12,369][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:37:12,369][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '373B0EC8BA45AEF3426442D30420170546B47B3C20789847E23733F69D3E02C2', 'role': 'user'}, 'msg': '', '_t': 1677998230, '_auth': '7a36b748fc4579c6dda5e694169df9a4'}
+[2023-03-05 14:37:12,369][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:37:12,369][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:37:12,370][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:37:12,373][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 14:37:12,373][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东123'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 14:37:12,710][consel_fmt.py 24][DEBUG]: 请求参数------<class 'dict'>
+[2023-03-05 14:37:12,710][consel_fmt.py 25][DEBUG]: 响应我------{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东123'}}, 'msg': '', '_t': 1677998230, '_auth': '9b5924879ecded047bae62100c3c3f31'}
+[2023-03-05 14:37:12,710][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 14:37:12,710][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 14:37:12,710][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo
+[2023-03-05 14:37:12,711][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '373B0EC8BA45AEF3426442D30420170546B47B3C20789847E23733F69D3E02C2', 'ext_info': {'location': '广东123'}}
+[2023-03-05 14:37:12,711][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东123'}}, 'msg': '', '_t': 1677998230, '_auth': '9b5924879ecded047bae62100c3c3f31'}
+[2023-03-05 14:37:12,711][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 14:37:12,711][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 14:37:12,711][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 14:37:12,712][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 14:39:19,053][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:39:19,443][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:39:19,443][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:39:19,443][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:39:19,444][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:39:19,444][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '9A1AEE20CADEF0CD85C226CBEA6C54681FD8C329C3B8435228A432FC62B8BA62', 'role': 'user'}, 'msg': '', '_t': 1677998357, '_auth': 'a251f34c2114422fa4996cf26cd20045'}
+[2023-03-05 14:39:19,444][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:39:19,444][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:39:19,444][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:39:19,447][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 14:39:19,448][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东123'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 14:39:19,716][consel_fmt.py 25][DEBUG]: 请求参数------<class 'dict'>
+[2023-03-05 14:39:19,716][consel_fmt.py 26][DEBUG]: 响应我------{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东123'}}, 'msg': '', '_t': 1677998357, '_auth': 'a99ae4ed522ccfa754b2fa2dfe32edc4'}
+[2023-03-05 14:39:19,716][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 14:39:19,716][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 14:39:19,716][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo
+[2023-03-05 14:39:19,716][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '9A1AEE20CADEF0CD85C226CBEA6C54681FD8C329C3B8435228A432FC62B8BA62', 'ext_info': {'location': '广东123'}}
+[2023-03-05 14:39:19,716][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东123'}}, 'msg': '', '_t': 1677998357, '_auth': 'a99ae4ed522ccfa754b2fa2dfe32edc4'}
+[2023-03-05 14:39:19,716][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 14:39:19,716][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 14:39:19,716][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 14:39:19,718][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 14:42:52,185][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:42:52,310][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:42:52,310][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:42:52,310][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:42:52,310][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:42:52,310][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '00324E7DB4952F30FD27AB5DE9C94CE88563F3558CDC96CF0F7BB83CBC4ED629', 'role': 'user'}, 'msg': '', '_t': 1677998570, '_auth': 'e0a7dd2187d97c000a638cf443e70ebd'}
+[2023-03-05 14:42:52,311][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:42:52,311][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:42:52,311][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:42:52,602][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 14:42:52,602][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 14:42:52,602][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 14:42:52,603][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '00324E7DB4952F30FD27AB5DE9C94CE88563F3558CDC96CF0F7BB83CBC4ED629', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 14:42:52,603][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1677998570, '_auth': 'e2375793f2dba26d49d440fa0a879ab1'}
+[2023-03-05 14:42:52,603][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 14:42:52,603][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 14:42:52,603][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 14:42:52,604][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 14:45:50,349][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:45:50,726][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:45:50,726][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:45:50,726][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:45:50,726][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:45:50,727][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '0E213B38C69FFE9BFB541A3D1ABC0345E3AC11C82B121F3280A3D9F03D10F339', 'role': 'user'}, 'msg': '', '_t': 1677998748, '_auth': 'af9d38f66ff098cce0182fd90742afba'}
+[2023-03-05 14:45:50,727][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:45:50,727][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:45:50,727][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:45:50,835][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 14:45:50,835][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 14:45:50,835][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 14:45:50,835][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '0E213B38C69FFE9BFB541A3D1ABC0345E3AC11C82B121F3280A3D9F03D10F339', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 14:45:50,835][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1677998748, '_auth': 'da559c1b238a6814a675aa485d3185e7'}
+[2023-03-05 14:45:50,835][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 14:45:50,835][assert_response.py 35][INFO]: 实际结果：{'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}
+[2023-03-05 14:45:50,835][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 14:45:50,836][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 14:46:20,073][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:46:20,252][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:46:20,253][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:46:20,253][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:46:20,253][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:46:20,253][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '868972B2E44EEDBB90F1344E6C87809B5B49E803DF4A0F630564EFE82ACE104A', 'role': 'user'}, 'msg': '', '_t': 1677998778, '_auth': 'd417b1fe02e8275cbf7a07c1a0c0fe70'}
+[2023-03-05 14:46:20,253][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:46:20,253][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:46:20,253][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:46:20,569][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 14:46:20,569][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 14:46:20,569][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 14:46:20,570][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '868972B2E44EEDBB90F1344E6C87809B5B49E803DF4A0F630564EFE82ACE104A', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 14:46:20,570][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1677998778, '_auth': '76ba2b634dc6c178e1c4f5ce3945e799'}
+[2023-03-05 14:46:20,570][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 14:46:20,570][assert_response.py 35][INFO]: 实际结果：{'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}
+[2023-03-05 14:46:20,570][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 14:46:20,571][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 14:46:46,476][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:46:46,597][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:46:46,597][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:46:46,597][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:46:46,598][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:46:46,598][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'EF20BA96312F5D56D1C24831E5BB7740D374C922742877AE79FF6EBB3927B358', 'role': 'user'}, 'msg': '', '_t': 1677998804, '_auth': '25fb490f623db2fb450d93c69e517f37'}
+[2023-03-05 14:46:46,598][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:46:46,598][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:46:46,598][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:46:46,932][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 14:46:46,932][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 14:46:46,932][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 14:46:46,933][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'EF20BA96312F5D56D1C24831E5BB7740D374C922742877AE79FF6EBB3927B358', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 14:46:46,933][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1677998805, '_auth': '7b75b4af1de35b619ca1516b77ffc62d'}
+[2023-03-05 14:46:46,933][assert_response.py 34][INFO]: 预期结果：1
+[2023-03-05 14:46:46,933][assert_response.py 35][INFO]: 实际结果：{'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}
+[2023-03-05 14:46:46,933][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 14:46:46,934][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 14:47:25,871][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:47:26,036][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:47:26,036][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:47:26,036][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:47:26,036][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:47:26,036][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '6520CABEBAF96E93A99F64CFBBA967B81E3B1384C49B00A7795E7ED52D6E76F2', 'role': 'user'}, 'msg': '', '_t': 1677998844, '_auth': '7388421f9ed64743724106e362fe9dea'}
+[2023-03-05 14:47:26,036][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:47:26,036][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:47:26,037][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:47:26,332][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 14:47:26,333][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 14:47:26,333][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 14:47:26,333][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '6520CABEBAF96E93A99F64CFBBA967B81E3B1384C49B00A7795E7ED52D6E76F2', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 14:47:26,333][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1677998844, '_auth': '0279562daaeb79e863680eb942b4aae1'}
+[2023-03-05 14:47:26,333][assert_response.py 38][ERROR]: 预期结果：{'err_code': 1}
+[2023-03-05 14:47:26,333][assert_response.py 39][ERROR]: 实际结果：{'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}
+[2023-03-05 14:47:26,333][assert_response.py 40][ERROR]: 测试结果：失败
+[2023-03-05 14:47:26,334][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 14:47:43,400][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 14:47:43,761][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 14:47:43,761][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 14:47:43,761][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 14:47:43,762][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 14:47:43,762][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'B90F91ABB76DCF0BACAE0FD93587CF8CFA6379C11E92A61DA8614A3E55867427', 'role': 'user'}, 'msg': '', '_t': 1677998861, '_auth': 'e3f3bd941080b70b88fc141f86240bf4'}
+[2023-03-05 14:47:43,762][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 14:47:43,762][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 14:47:43,762][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 14:47:43,871][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 14:47:43,871][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 14:47:43,871][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 14:47:43,871][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'B90F91ABB76DCF0BACAE0FD93587CF8CFA6379C11E92A61DA8614A3E55867427', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 14:47:43,871][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1677998861, '_auth': 'a1ee8adb73ef3dfdca1c788dc9a77448'}
+[2023-03-05 14:47:43,871][assert_response.py 38][ERROR]: 预期结果：{'err_code': 0}
+[2023-03-05 14:47:43,871][assert_response.py 39][ERROR]: 实际结果：{'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}
+[2023-03-05 14:47:43,871][assert_response.py 40][ERROR]: 测试结果：失败
+[2023-03-05 14:47:43,873][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:07:42,437][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:07:42,488][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:10:06,761][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:10:06,801][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:10:51,728][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:10:51,768][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:13:03,280][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:13:03,322][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:14:45,118][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:14:45,279][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:14:45,279][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:14:45,279][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:14:45,279][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:14:45,279][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '6CFDF6A6F5662261B955A66BFA380A6B96A626657CD923920B24AF5D9B9EA678', 'role': 'user'}, 'msg': '', '_t': 1678000483, '_auth': 'e6d50055f79e43c016e8f6511c7e1a4c'}
+[2023-03-05 15:14:45,279][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:14:45,279][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:14:45,279][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:14:45,577][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 15:14:45,577][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 15:14:45,577][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 15:14:45,577][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '6CFDF6A6F5662261B955A66BFA380A6B96A626657CD923920B24AF5D9B9EA678', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 15:14:45,577][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1678000483, '_auth': '32d71dd35f9e4750dea9fb2515c1200a'}
+[2023-03-05 15:14:45,577][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 15:14:45,577][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 15:14:45,577][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 15:14:45,579][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:15:31,004][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:15:31,044][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:18:17,211][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:18:17,243][consel_fmt.py 26][DEBUG]: 响应我------None
+[2023-03-05 15:18:17,251][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:21:41,690][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:21:41,721][consel_fmt.py 26][DEBUG]: 响应我------None
+[2023-03-05 15:21:41,729][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:27:25,215][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:27:25,248][consel_fmt.py 26][DEBUG]: 响应我------None
+[2023-03-05 15:27:25,257][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:31:37,470][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:31:37,635][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:31:37,635][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:31:37,636][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:31:37,636][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:31:37,636][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '33C7FC2CAE5422EA5C40B96CA1C326B97714AAAF7A8A590E1D6FFB1FC9178E5D', 'role': 'user'}, 'msg': '', '_t': 1678001495, '_auth': 'b12c57427337c94c745e4e8ce2677076'}
+[2023-03-05 15:31:37,636][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:31:37,636][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:31:37,636][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:31:37,922][consel_fmt.py 26][DEBUG]: 响应我------<Response [200]>
+[2023-03-05 15:31:37,951][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:32:21,967][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:32:22,099][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:32:22,099][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:32:22,099][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:32:22,099][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:32:22,099][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '633C54D275FA224C1EA443668C6AF5773B03E779FC8753D7522873B0F34E3416', 'role': 'user'}, 'msg': '', '_t': 1678001540, '_auth': '9af538fd401e812b3aa25db1a0039a4b'}
+[2023-03-05 15:32:22,099][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:32:22,099][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:32:22,099][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:32:22,210][consel_fmt.py 26][DEBUG]: 响应我------{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1678001540, '_auth': 'ea9feca6e5b5cd48a25b0e719c444d3a'}
+[2023-03-05 15:32:22,210][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 15:32:22,210][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 15:32:22,210][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 15:32:22,211][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '633C54D275FA224C1EA443668C6AF5773B03E779FC8753D7522873B0F34E3416', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 15:32:22,211][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东123'}, 'status': 0}}, 'msg': '', '_t': 1678001540, '_auth': 'ea9feca6e5b5cd48a25b0e719c444d3a'}
+[2023-03-05 15:32:22,211][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 15:32:22,211][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 15:32:22,211][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 15:32:22,212][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:33:25,219][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:33:25,409][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:33:25,409][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:33:25,409][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:33:25,409][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:33:25,409][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '03DB4249782BFE9F73A6FBBC0EE929EE7D72F59AE0106E88000D2A6B4658ED8D', 'role': 'user'}, 'msg': '', '_t': 1678001603, '_auth': 'cc045b3b6281caa4889158992574acfc'}
+[2023-03-05 15:33:25,410][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:33:25,410][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:33:25,410][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:33:25,414][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:33:25,414][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东12'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:33:25,509][consel_fmt.py 26][DEBUG]: 响应我------{'ret': 400, 'data': {}, 'msg': '客户端非法请求：参数ext_info的JSON数据格式错误', '调试信息': {'当前接口': 'App.User.UpdateExtInfo', '请求参数': {'s': 'App.User.UpdateExtInfo', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '03DB4249782BFE9F73A6FBBC0EE929EE7D72F59AE0106E88000D2A6B4658ED8D', 'ext_info': 'location'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo&app_key=A745B9D2CF7B8495944441DBF1BE9751&uuid=EFD8943F536943C5CE7F9EEC382EB072&token=03DB4249782BFE9F73A6FBBC0EE929EE7D72F59AE0106E88000D2A6B4658ED8D&ext_info=location', '当前时间': '2023-03-05 15:33:23'}, '_t': 1678001603, '_auth': 'f5606253408c22f5eed65a4c489edc1d'}
+[2023-03-05 15:33:25,536][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:43:22,917][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:43:23,085][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:43:23,085][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:43:23,085][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:43:23,085][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:43:23,085][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '16A6EFB5CFD4C7F0BD68A7A2E89CE964E4FB199EBB1DD9FB57B244DD50CBABA5', 'role': 'user'}, 'msg': '', '_t': 1678002201, '_auth': 'e813fb3101e7120fdd75a0a2d909f3d3'}
+[2023-03-05 15:43:23,086][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:43:23,086][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:43:23,086][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:43:23,090][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:43:23,090][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东12'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:43:23,189][consel_fmt.py 27][DEBUG]: 响应我------{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数app_key', '调试信息': {'当前接口': 'App.User.UpdateExtInfo', '请求参数': {'s': 'App.User.UpdateExtInfo'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', '当前时间': '2023-03-05 15:43:21'}, '_t': 1678002201, '_auth': 'd92cb7cfbe853e3da57187b8d644d3b2'}
+[2023-03-05 15:43:23,217][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:46:22,861][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:46:23,303][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:46:23,303][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:46:23,304][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:46:23,304][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:46:23,304][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'BDF43EBE2429365D19C7A243C52C96FB5E66D510329373C4B8C03E9F1D7C1ED1', 'role': 'user'}, 'msg': '', '_t': 1678002381, '_auth': 'ba7f4b03e1d056156b92a6a8cd666f5d'}
+[2023-03-05 15:46:23,304][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:46:23,304][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:46:23,304][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:46:23,308][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:46:23,308][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东12'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:46:23,336][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:56:24,620][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:56:25,046][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:56:25,046][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:56:25,046][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:56:25,046][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:56:25,047][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '1BAA4D85A2F5EEA07908F7722F01C54DEB5ED9F68018E3D18A866B97872DFE35', 'role': 'user'}, 'msg': '', '_t': 1678002982, '_auth': '77298f6f8a1e2690ede7bc31032c7aa4'}
+[2023-03-05 15:56:25,047][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:56:25,047][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:56:25,047][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:56:25,050][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:56:25,051][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东12'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:56:25,051][consel_fmt.py 24][ERROR]: headers{'content-type': 'application/json'}
+[2023-03-05 15:56:25,079][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 15:58:51,603][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 15:58:51,776][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 15:58:51,776][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 15:58:51,776][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 15:58:51,776][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 15:58:51,776][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '4247426353B073D31294D69E49104701552CE27CCA83F4FA5EDE7553CE3BE202', 'role': 'user'}, 'msg': '', '_t': 1678003129, '_auth': '260eedde7a68363bcfda36d3d1a30af3'}
+[2023-03-05 15:58:51,776][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 15:58:51,776][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 15:58:51,776][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 15:58:51,780][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:58:51,781][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东12'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 15:58:51,781][consel_fmt.py 24][ERROR]: headers{'content-type': 'application/json'}
+[2023-03-05 15:58:51,781][consel_fmt.py 25][ERROR]: headers-----参数application/json
+[2023-03-05 15:58:51,900][consel_fmt.py 29][DEBUG]: 响应我------{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东12'}}, 'msg': '', '_t': 1678003129, '_auth': '532c4488f0e500b343206d5f239841f3'}
+[2023-03-05 15:58:51,900][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 15:58:51,900][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 15:58:51,901][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo
+[2023-03-05 15:58:51,901][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '4247426353B073D31294D69E49104701552CE27CCA83F4FA5EDE7553CE3BE202', 'ext_info': {'location': '广东12'}}
+[2023-03-05 15:58:51,901][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东12'}}, 'msg': '', '_t': 1678003129, '_auth': '532c4488f0e500b343206d5f239841f3'}
+[2023-03-05 15:58:51,901][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 15:58:51,901][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 15:58:51,901][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 15:58:51,902][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:00:04,861][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:00:04,990][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 16:00:04,990][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 16:00:04,990][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 16:00:04,990][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 16:00:04,990][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '58B9A04A5BC47F38D4937E1FF1A2D7772D408353D7AA88D9B6C19BF0A46AB5B7', 'role': 'user'}, 'msg': '', '_t': 1678003202, '_auth': '394fd77d5308214bb8f34b20487e28b4'}
+[2023-03-05 16:00:04,991][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 16:00:04,991][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 16:00:04,991][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 16:00:05,025][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:02:17,747][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:02:18,151][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 16:02:18,151][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 16:02:18,151][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 16:02:18,151][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 16:02:18,151][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'AA37E8122A17F9CBFD41A0359F8DAA3BA649F4A474FA057E2FEC134ECE36ECAE', 'role': 'user'}, 'msg': '', '_t': 1678003336, '_auth': 'fe9bce86774a09fab3b0b408032a0d61'}
+[2023-03-05 16:02:18,152][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 16:02:18,152][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 16:02:18,152][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 16:02:18,266][assert_response.py 25][INFO]: 测试用例名：查询会员接口
+[2023-03-05 16:02:18,267][assert_response.py 26][INFO]: 测试方法：get
+[2023-03-05 16:02:18,267][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-05 16:02:18,267][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'AA37E8122A17F9CBFD41A0359F8DAA3BA649F4A474FA057E2FEC134ECE36ECAE', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-03-05 16:02:18,267][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1678003336, '_auth': '78821e9b7633b3142c257a5c6ff5792c'}
+[2023-03-05 16:02:18,267][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 16:02:18,267][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 16:02:18,267][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 16:02:18,268][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:07:51,020][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:07:51,184][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 16:07:51,184][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 16:07:51,184][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 16:07:51,184][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 16:07:51,185][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '137AF2BCC383DD4359CCAB8A539A3B29BE0B40D8BB41BDB69980E46657DA97D4', 'role': 'user'}, 'msg': '', '_t': 1678003669, '_auth': '5b8ca9754e80c236a07ad3b08dbae943'}
+[2023-03-05 16:07:51,185][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 16:07:51,185][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 16:07:51,185][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 16:07:51,188][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 16:07:51,189][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东12'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 16:07:51,300][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 16:07:51,300][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 16:07:51,300][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo
+[2023-03-05 16:07:51,300][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '137AF2BCC383DD4359CCAB8A539A3B29BE0B40D8BB41BDB69980E46657DA97D4', 'ext_info': {'location': '广东12'}}
+[2023-03-05 16:07:51,301][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东12'}}, 'msg': '', '_t': 1678003669, '_auth': 'fe3491d16de7abd74a26737de2616d16'}
+[2023-03-05 16:07:51,301][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 16:07:51,301][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 16:07:51,301][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 16:07:51,302][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:08:09,193][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:08:09,573][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-03-05 16:08:09,573][assert_response.py 10][INFO]: 请求方法：post
+[2023-03-05 16:08:09,573][assert_response.py 11][INFO]: 请求URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-05 16:08:09,573][assert_response.py 12][INFO]: 请求参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-05 16:08:09,573][assert_response.py 13][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '6D4F29B5A574D3D4898FF1AB5C31FA69F21FC42E0CFDF8C4A80F347FEA445737', 'role': 'user'}, 'msg': '', '_t': 1678003687, '_auth': '23ec0ac9ddb03cd8431760a21e497d3a'}
+[2023-03-05 16:08:09,573][assert_response.py 16][INFO]: 预期结果：0
+[2023-03-05 16:08:09,573][assert_response.py 17][INFO]: 实际结果：0
+[2023-03-05 16:08:09,573][assert_response.py 18][INFO]: 测试结果：成功
+[2023-03-05 16:08:09,577][template_par.py 12][DEBUG]: 替换前的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '$location'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 16:08:09,577][template_par.py 15][DEBUG]: 替换后的参数：{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'ext_info': {'location': '广东12'}}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}
+[2023-03-05 16:08:09,901][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 16:08:09,901][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 16:08:09,901][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.UpdateExtInfo
+[2023-03-05 16:08:09,901][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '6D4F29B5A574D3D4898FF1AB5C31FA69F21FC42E0CFDF8C4A80F347FEA445737', 'ext_info': {'location': '广东12'}}
+[2023-03-05 16:08:09,901][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'ext_info': {'location': '广东12'}}, 'msg': '', '_t': 1678003687, '_auth': '4c8cd9e15c86a4746a0f5ef855e590a6'}
+[2023-03-05 16:08:09,902][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 16:08:09,902][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 16:08:09,902][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 16:08:09,903][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:41:13,216][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:41:13,536][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 16:41:13,537][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 16:41:13,537][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.AlterPassword
+[2023-03-05 16:41:13,537][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'username': 'qqmsn151', 'old_password': '46f94c8de14fb36680850768ff1b7f2a', 'new_password': 'beb6b72231daafe7d913baa818a63f0c'}
+[2023-03-05 16:41:13,537][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': ''}, 'msg': '', '_t': 1678005671, '_auth': '01ae0d5a8830af78ed5076cac5b3c516'}
+[2023-03-05 16:41:13,537][assert_response.py 34][INFO]: 预期结果：0
+[2023-03-05 16:41:13,537][assert_response.py 35][INFO]: 实际结果：0
+[2023-03-05 16:41:13,537][assert_response.py 36][INFO]: 测试结果：成功
+[2023-03-05 16:41:13,538][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:41:37,465][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:41:37,685][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 16:41:37,685][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 16:41:37,685][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.AlterPassword
+[2023-03-05 16:41:37,685][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'username': 'qqmsn151', 'old_password': '46f94c8de14fb36680850768ff1b7f2a', 'new_password': 'beb6b72231daafe7d913baa818a63f0c'}
+[2023-03-05 16:41:37,685][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 1, 'err_msg': '密码修改失败，原密码错误或账号不存在'}, 'msg': '', '_t': 1678005695, '_auth': 'afe520d029c5028dd0e995b735a89471'}
+[2023-03-05 16:41:37,685][assert_response.py 38][ERROR]: 预期结果：0
+[2023-03-05 16:41:37,685][assert_response.py 39][ERROR]: 实际结果：1
+[2023-03-05 16:41:37,686][assert_response.py 40][ERROR]: 测试结果：失败
+[2023-03-05 16:41:37,687][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:41:55,100][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:41:55,335][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 16:41:55,335][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 16:41:55,335][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.AlterPassword
+[2023-03-05 16:41:55,336][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'username': 'qqmsn151', 'old_password': '46f94c8de14fb36680850768ff1b7f2a', 'new_password': 'beb6b72231daafe7d913baa818a63f0c'}
+[2023-03-05 16:41:55,336][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 1, 'err_msg': '密码修改失败，原密码错误或账号不存在'}, 'msg': '', '_t': 1678005713, '_auth': 'd28670811d056885b12c63c6ed846c08'}
+[2023-03-05 16:41:55,336][assert_response.py 38][ERROR]: 预期结果：0
+[2023-03-05 16:41:55,336][assert_response.py 39][ERROR]: 实际结果：1
+[2023-03-05 16:41:55,336][assert_response.py 40][ERROR]: 测试结果：失败
+[2023-03-05 16:41:55,337][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:44:39,117][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:44:39,400][assert_response.py 25][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 16:44:39,400][assert_response.py 26][INFO]: 测试方法：post
+[2023-03-05 16:44:39,400][assert_response.py 27][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.AlterPassword
+[2023-03-05 16:44:39,401][assert_response.py 28][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'username': 'qqmsn151', 'old_password': '46f94c8de14fb36680850768ff1b7f2a', 'new_password': 'beb6b72231daafe7d913baa818a63f0c'}
+[2023-03-05 16:44:39,401][assert_response.py 29][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 1, 'err_msg': '密码修改失败，原密码错误或账号不存在'}, 'msg': '', '_t': 1678005877, '_auth': '2a5b6813debd37438509d8bbc882fe72'}
+[2023-03-05 16:44:39,401][assert_response.py 38][ERROR]: 预期结果：0
+[2023-03-05 16:44:39,401][assert_response.py 39][ERROR]: 实际结果：1
+[2023-03-05 16:44:39,401][assert_response.py 40][ERROR]: 测试结果：失败
+[2023-03-05 16:44:39,402][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-05 16:48:34,520][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-05 16:48:34,637][assert_response.py 43][INFO]: 测试用例名：修改会员信息接口
+[2023-03-05 16:48:34,637][assert_response.py 44][INFO]: 测试方法：post
+[2023-03-05 16:48:34,637][assert_response.py 45][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.AlterPassword
+[2023-03-05 16:48:34,637][assert_response.py 46][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'username': 'qqmsn151', 'old_password': '46f94c8de14fb36680850768ff1b7f2a', 'new_password': 'beb6b72231daafe7d913baa818a63f0c'}
+[2023-03-05 16:48:34,638][assert_response.py 47][INFO]: 响应结果：{'ret': 200, 'data': {'err_code': 1, 'err_msg': '密码修改失败，原密码错误或账号不存在'}, 'msg': '', '_t': 1678006112, '_auth': '79960150c5017549b4dc72d0436fc1a3'}
+[2023-03-05 16:48:34,638][assert_response.py 56][ERROR]: 预期结果：0
+[2023-03-05 16:48:34,638][assert_response.py 57][ERROR]: 实际结果：1
+[2023-03-05 16:48:34,638][assert_response.py 58][ERROR]: 测试结果：失败
+[2023-03-05 16:48:34,639][conftest.py 11][INFO]: ------测试用例执行结束------

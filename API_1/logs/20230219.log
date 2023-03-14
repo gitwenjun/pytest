@@ -1,0 +1,257 @@
+[2023-02-19 14:47:22,725][log_handler.py 32][INFO]: ---测试开始---
+[2023-02-19 14:47:22,725][log_handler.py 33][DEBUG]: ---测试结束---
+[2023-02-19 15:30:22,317][assert_response.py 7][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:30:22,317][assert_response.py 8][INFO]: 测试方法：get
+[2023-02-19 15:30:22,317][assert_response.py 9][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:30:22,318][assert_response.py 10][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:30:22,318][assert_response.py 16][DEBUG]: 预期结果：{'err_code': 0},实际结果：用户已注册，不能重复注册
+[2023-02-19 15:30:22,318][assert_response.py 17][DEBUG]: 测试结果：失败
+[2023-02-19 15:31:43,732][assert_response.py 7][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:31:43,732][assert_response.py 8][INFO]: 测试方法：get
+[2023-02-19 15:31:43,732][assert_response.py 9][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:31:43,732][assert_response.py 10][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:31:43,733][assert_response.py 16][DEBUG]: 预期结果：{'err_code': 0},实际结果：1
+[2023-02-19 15:31:43,733][assert_response.py 17][DEBUG]: 测试结果：失败
+[2023-02-19 15:46:13,574][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:46:13,574][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 15:46:13,575][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:46:13,575][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:46:13,575][assert_response.py 32][DEBUG]: 预期结果：{'messge': '注册成功'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 15:46:13,575][assert_response.py 33][DEBUG]: 测试结果：失败
+[2023-02-19 15:48:07,575][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:48:07,576][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 15:48:07,576][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:48:07,576][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:48:07,576][assert_response.py 32][DEBUG]: 预期结果：{'err_msg': '用户已注册注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 15:48:07,576][assert_response.py 33][DEBUG]: 测试结果：失败
+[2023-02-19 15:52:40,855][assert_response.py 23][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:52:40,855][assert_response.py 24][INFO]: 测试方法：get
+[2023-02-19 15:52:40,855][assert_response.py 25][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:52:40,855][assert_response.py 26][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:52:40,856][assert_response.py 33][DEBUG]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 15:52:40,856][assert_response.py 34][DEBUG]: 测试结果：失败
+[2023-02-19 15:54:45,209][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:54:45,209][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 15:54:45,209][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:54:45,209][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:54:45,210][assert_response.py 27][DEBUG]: 预期的类型是 <class 'str'>
+[2023-02-19 15:54:45,210][assert_response.py 35][DEBUG]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 15:54:45,210][assert_response.py 36][DEBUG]: 测试结果：失败
+[2023-02-19 15:56:06,931][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:56:06,931][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 15:56:06,931][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:56:06,931][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:56:06,931][assert_response.py 34][DEBUG]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 15:56:06,932][assert_response.py 35][DEBUG]: 测试结果：失败
+[2023-02-19 15:57:29,360][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:57:29,361][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 15:57:29,361][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:57:29,361][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 15:57:29,361][assert_response.py 34][DEBUG]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 15:57:29,361][assert_response.py 35][DEBUG]: 类型是 <class 'dict'>
+[2023-02-19 15:57:29,362][assert_response.py 36][DEBUG]: 测试结果：失败
+[2023-02-19 15:59:25,455][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 15:59:25,456][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 15:59:25,456][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 15:59:25,456][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:01:37,519][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:01:37,519][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:01:37,519][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:01:37,520][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:01:37,520][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'str'>
+[2023-02-19 16:01:37,520][assert_response.py 34][DEBUG]: 预期结果：{'err_msg': '用户已注册'},实际结果：{"err_code": 1, "err_msg": "用户已注册，不能重复注册", "uuid": ""}
+[2023-02-19 16:01:37,520][assert_response.py 35][DEBUG]: 类型是 <class 'str'>
+[2023-02-19 16:01:37,520][assert_response.py 36][DEBUG]: 测试结果：失败
+[2023-02-19 16:10:16,985][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:10:16,985][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:10:16,985][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:10:16,985][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:10:16,986][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:10:16,986][assert_response.py 34][DEBUG]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:10:16,986][assert_response.py 35][DEBUG]: 类型是 <class 'dict'>
+[2023-02-19 16:10:16,986][assert_response.py 36][DEBUG]: 测试结果：失败
+[2023-02-19 16:12:09,528][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:12:09,528][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:12:09,528][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:12:09,528][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:12:09,529][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:12:09,529][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:13:19,769][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:13:19,769][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:13:19,769][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:13:19,770][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:13:19,770][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:13:19,770][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:13:19,770][assert_response.py 32][INFO]: 测试结果：成功
+[2023-02-19 16:13:39,387][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:13:39,388][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:13:39,388][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:13:39,388][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:13:39,388][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:13:39,388][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:13:39,389][assert_response.py 33][INFO]: 测试结果：成功
+[2023-02-19 16:14:02,759][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:14:02,759][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:14:02,759][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:14:02,759][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:14:02,759][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:14:02,760][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},\实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:14:02,760][assert_response.py 32][INFO]: 测试结果：成功
+[2023-02-19 16:14:17,352][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:14:17,352][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:14:17,352][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:14:17,352][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:14:17,353][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:14:17,353][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},\实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:14:17,353][assert_response.py 32][INFO]: 测试结果：成功
+[2023-02-19 16:14:27,333][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:14:27,334][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:14:27,334][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:14:27,334][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:14:27,334][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:14:27,334][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},\n实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:14:27,334][assert_response.py 32][INFO]: 测试结果：成功
+[2023-02-19 16:14:40,933][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:14:40,933][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:14:40,933][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:14:40,933][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:14:40,933][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:14:40,933][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},/n实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:14:40,934][assert_response.py 32][INFO]: 测试结果：成功
+[2023-02-19 16:14:59,790][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:14:59,790][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:14:59,790][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:14:59,791][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:14:59,791][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:14:59,791][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'},\r实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:14:59,791][assert_response.py 32][INFO]: 测试结果：成功
+[2023-02-19 16:16:35,932][assert_response.py 22][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:16:35,932][assert_response.py 23][INFO]: 测试方法：get
+[2023-02-19 16:16:35,933][assert_response.py 24][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:16:35,933][assert_response.py 25][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:16:35,933][assert_response.py 29][DEBUG]: 打印111111111111111是 <class 'dict'>
+[2023-02-19 16:16:35,933][assert_response.py 31][INFO]: 预期结果：{'err_msg': '用户已注册'}
+[2023-02-19 16:16:35,933][assert_response.py 32][INFO]: 实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:16:35,934][assert_response.py 33][INFO]: 测试结果：成功
+[2023-02-19 16:19:00,289][assert_response.py 24][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:19:00,289][assert_response.py 25][INFO]: 测试方法：get
+[2023-02-19 16:19:00,289][assert_response.py 26][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:19:00,290][assert_response.py 27][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:19:00,290][assert_response.py 33][DEBUG]: 打印111111111111111是 <class 'str'>
+[2023-02-19 16:19:00,290][assert_response.py 39][ERROR]: 预期结果：{'err_msg': '用户已注册'}
+[2023-02-19 16:19:00,290][assert_response.py 40][ERROR]: 实际结果：{'err_code': 1, 'err_msg': '用户已注册，不能重复注册', 'uuid': ''}
+[2023-02-19 16:19:00,290][assert_response.py 41][ERROR]: 测试结果：失败
+[2023-02-19 16:22:23,880][assert_response.py 24][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:22:23,880][assert_response.py 25][INFO]: 测试方法：get
+[2023-02-19 16:22:23,880][assert_response.py 26][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:22:23,880][assert_response.py 27][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:22:23,880][assert_response.py 33][DEBUG]: 打印111111111111111是 <class 'str'>
+[2023-02-19 16:22:23,881][assert_response.py 35][INFO]: 预期结果：1
+[2023-02-19 16:22:23,881][assert_response.py 36][INFO]: 实际结果：1
+[2023-02-19 16:22:23,881][assert_response.py 37][INFO]: 测试结果：成功
+[2023-02-19 16:22:59,893][assert_response.py 9][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:22:59,894][assert_response.py 10][INFO]: 测试方法：get
+[2023-02-19 16:22:59,894][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:22:59,894][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:22:59,894][assert_response.py 19][ERROR]: 预期结果：1
+[2023-02-19 16:22:59,894][assert_response.py 20][ERROR]: 实际结果：1
+[2023-02-19 16:22:59,894][assert_response.py 21][ERROR]: 测试结果：失败
+[2023-02-19 16:24:07,907][assert_response.py 9][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:24:07,908][assert_response.py 10][INFO]: 测试方法：get
+[2023-02-19 16:24:07,908][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:24:07,908][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:24:07,908][assert_response.py 13][DEBUG]: 打印111111111111111是 <class 'int'>
+[2023-02-19 16:24:07,908][assert_response.py 14][DEBUG]: 预期是 <class 'str'>
+[2023-02-19 16:24:07,908][assert_response.py 21][ERROR]: 预期结果：1
+[2023-02-19 16:24:07,909][assert_response.py 22][ERROR]: 实际结果：1
+[2023-02-19 16:24:07,909][assert_response.py 23][ERROR]: 测试结果：失败
+[2023-02-19 16:24:21,789][assert_response.py 9][INFO]: 测试用例名：注册会员接口
+[2023-02-19 16:24:21,789][assert_response.py 10][INFO]: 测试方法：get
+[2023-02-19 16:24:21,789][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.RegisterExt
+[2023-02-19 16:24:21,789][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:24:21,789][assert_response.py 13][DEBUG]: 打印111111111111111是 <class 'int'>
+[2023-02-19 16:24:21,790][assert_response.py 14][DEBUG]: 预期是 <class 'int'>
+[2023-02-19 16:24:21,790][assert_response.py 17][INFO]: 预期结果：1
+[2023-02-19 16:24:21,790][assert_response.py 18][INFO]: 实际结果：1
+[2023-02-19 16:24:21,790][assert_response.py 19][INFO]: 测试结果：成功
+[2023-02-19 16:52:54,405][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-02-19 16:52:54,406][assert_response.py 10][INFO]: 测试方法：post
+[2023-02-19 16:52:54,406][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 16:52:54,406][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:52:54,406][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 16:52:54,406][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 16:52:54,406][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 16:56:23,490][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-02-19 16:56:23,491][assert_response.py 10][INFO]: 测试方法：post
+[2023-02-19 16:56:23,491][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 16:56:23,491][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 16:56:23,491][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 16:56:23,491][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 16:56:23,491][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 17:06:39,231][assert_response.py 24][INFO]: 测试用例名：会员登录接口
+[2023-02-19 17:06:39,231][assert_response.py 25][INFO]: 测试方法：post
+[2023-02-19 17:06:39,231][assert_response.py 26][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 17:06:39,232][assert_response.py 27][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 17:06:39,232][assert_response.py 31][INFO]: 预期结果：0
+[2023-02-19 17:06:39,232][assert_response.py 32][INFO]: 实际结果：0
+[2023-02-19 17:06:39,232][assert_response.py 33][INFO]: 测试结果：成功
+[2023-02-19 17:14:17,100][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-02-19 17:14:17,100][assert_response.py 10][INFO]: 测试方法：post
+[2023-02-19 17:14:17,101][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 17:14:17,101][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 17:14:17,101][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 17:14:17,101][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 17:14:17,101][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 17:15:11,051][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-02-19 17:15:11,052][assert_response.py 10][INFO]: 测试方法：post
+[2023-02-19 17:15:11,052][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 17:15:11,052][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 17:15:11,052][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 17:15:11,052][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 17:15:11,052][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 17:47:33,604][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-02-19 17:47:33,605][assert_response.py 10][INFO]: 测试方法：post
+[2023-02-19 17:47:33,605][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 17:47:33,605][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 17:47:33,605][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 17:47:33,605][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 17:47:33,605][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 17:51:26,326][assert_response.py 9][INFO]: 测试用例名：查询会员接口
+[2023-02-19 17:51:26,327][assert_response.py 10][INFO]: 测试方法：get
+[2023-02-19 17:51:26,327][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-02-19 17:51:26,327][assert_response.py 12][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '42A1DD5B7E05008035B325AAC13CC5B7421428C843F31037758DF74D758297DD', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-02-19 17:51:26,327][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 17:51:26,327][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 17:51:26,327][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 18:04:16,572][conftest.py 8][INFO]: ---开始执行测试用例---
+[2023-02-19 18:04:16,994][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-02-19 18:04:16,995][assert_response.py 10][INFO]: 测试方法：post
+[2023-02-19 18:04:16,995][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 18:04:16,995][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 18:04:16,995][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 18:04:16,995][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 18:04:16,995][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 18:04:17,319][assert_response.py 9][INFO]: 测试用例名：查询会员接口
+[2023-02-19 18:04:17,319][assert_response.py 10][INFO]: 测试方法：get
+[2023-02-19 18:04:17,319][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-02-19 18:04:17,319][assert_response.py 12][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': 'A496D0BFB6FAE42217E96FC4EE080F86F892C7DF7D8044E72B1786B7B177F66B', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-02-19 18:04:17,319][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 18:04:17,319][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 18:04:17,319][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 18:04:17,320][conftest.py 11][INFO]: ---测试用例执行结束---
+[2023-02-19 18:04:58,052][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-02-19 18:04:58,221][assert_response.py 9][INFO]: 测试用例名：会员登录接口
+[2023-02-19 18:04:58,221][assert_response.py 10][INFO]: 测试方法：post
+[2023-02-19 18:04:58,222][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-02-19 18:04:58,222][assert_response.py 12][INFO]: 测试参数：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-02-19 18:04:58,222][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 18:04:58,222][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 18:04:58,222][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 18:04:58,334][assert_response.py 9][INFO]: 测试用例名：查询会员接口
+[2023-02-19 18:04:58,334][assert_response.py 10][INFO]: 测试方法：get
+[2023-02-19 18:04:58,334][assert_response.py 11][INFO]: 测试URL：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-02-19 18:04:58,334][assert_response.py 12][INFO]: 测试参数：{'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'token': '9A3041B150E2658569D67EF580D1DEE97F5351342D0C6FEDF1D06C1787F641A5', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072'}
+[2023-02-19 18:04:58,335][assert_response.py 15][INFO]: 预期结果：0
+[2023-02-19 18:04:58,335][assert_response.py 16][INFO]: 实际结果：0
+[2023-02-19 18:04:58,335][assert_response.py 17][INFO]: 测试结果：成功
+[2023-02-19 18:04:58,336][conftest.py 11][INFO]: ------测试用例执行结束------

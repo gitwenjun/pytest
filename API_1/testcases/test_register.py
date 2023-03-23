@@ -13,7 +13,7 @@ class TestRegister:
     @allure.issue("https://www.baidu.com", name="禅道BUG的链接")
     @allure.testcase("https://www.jd.com", name="测试用例的链接")
     @pytest.mark.L0
-    @pytest.mark.parametrize("arg",YamlHandler().read_yaml("./data/register.yaml"))
+    @pytest.mark.parametrize("arg",YamlHandler().read_yaml("register.yaml"))
     def test_reg(self,arg):
         name = arg["name"]
         method = arg["request"]["method"]

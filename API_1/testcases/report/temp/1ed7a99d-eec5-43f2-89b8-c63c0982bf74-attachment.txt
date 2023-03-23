@@ -1,0 +1,8 @@
+INFO     log:conftest.py:8 ------开始执行测试用例------
+DEBUG    log:request_util.py:48 最终的值为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+DEBUG    log:request_util.py:127 请求结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '0DEF6F4EC805F0D442E53353FB2E250C6ECDE663C465EABEC125F02253A324DF', 'role': 'user'}, 'msg': '', '_t': 1679583338, '_auth': '2c5be61d6d0725fd2a37e993a60a8d52'}
+INFO     log:request_util.py:87 【预期结果】：200,【实际结果】：200
+INFO     log:request_util.py:94 【预期结果】：0,【实际结果】：[0]
+INFO     log:request_util.py:106 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '0DEF6F4EC805F0D442E53353FB2E250C6ECDE663C465EABEC125F02253A324DF', 'role': 'user'}, 'msg': '', '_t': 1679583338, '_auth': '2c5be61d6d0725fd2a37e993a60a8d52'}
+INFO     log:request_util.py:80 断言成功，测试通过
+INFO     log:conftest.py:11 ------测试用例执行结束------

@@ -3,11 +3,10 @@
   request:
     method: get
     url: http://hn216.api.yesapi.cn/?s=App.User.Profile
-    headers:
     params:
       app_key: A745B9D2CF7B8495944441DBF1BE9751
       uuid: ${read_extrct_yaml(uuid)}
       token: ${read_extrct_yaml(token)}
-  validata:
+  validate:
     - equals: {status_code: 200}
-    - contains: {err_code: 0}
+    - contains: data

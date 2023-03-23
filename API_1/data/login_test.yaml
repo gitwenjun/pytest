@@ -3,10 +3,14 @@
   request:
     method: post
     url: http://hn216.api.yesapi.cn/?s=App.User.LoginExt
-    paramse:
+    data:
       username: qqmsn152
       password: 123qwe
       app_key: A745B9D2CF7B8495944441DBF1BE9751
-  validata:
+  extract:
+    uuid: $.data.uuid
+    token: '"token":"(.*?)"'
+  validate:
     - equals: {status_code: 200}
-    - contains: {err_code: 0}
+    - equals: {err_code: 0}
+    - contains: data

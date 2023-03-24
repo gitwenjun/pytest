@@ -1,5 +1,6 @@
 -
-  name: 查询会员接口
+  feature: 会员接口
+  name: 查询会员成功测试用例
   request:
     method: get
     url: http://hn216.api.yesapi.cn/?s=App.User.Profile

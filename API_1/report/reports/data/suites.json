@@ -4,18 +4,18 @@
   "children" : [ {
     "name" : "testcases",
     "children" : [ {
-      "name" : "test_change_pwd",
+      "name" : "test_login_query",
       "children" : [ {
-        "name" : "TestChangePwd",
+        "name" : "TestLoginQuery",
         "children" : [ {
-          "name" : "会员密码修改成功测试用例",
-          "uid" : "324e9e44e0633315",
-          "parentUid" : "321fcf036f7c31693bc0cd4c7a989813",
+          "name" : "会员登录成功测试用例",
+          "uid" : "5fb60f783179a2da",
+          "parentUid" : "e2ef796c4f6b5fb2d46cad312302b3f4",
           "status" : "passed",
           "time" : {
-            "start" : 1678006114522,
-            "stop" : 1678006114639,
-            "duration" : 117
+            "start" : 1679627076211,
+            "stop" : 1679627076335,
+            "duration" : 124
           },
           "flaky" : false,
           "newFailed" : false,
@@ -23,11 +23,28 @@
           "newBroken" : false,
           "retriesCount" : 0,
           "retriesStatusChange" : false,
-          "parameters" : [ "{'name': '修改会员信息接口', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.AlterPassword', 'headers': {'content-type': 'application/json'}, 'paramse': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': None, 'token': None, 'username': 'qqmsn151', 'old_password': '46f94c8de14fb36680850768ff1b7f2a', 'new_password': 'beb6b72231daafe7d913baa818a63f0c'}}, 'validata': [{'equals': {'status_code': 200}}, {'contains': {'err_code': 0}}]}" ]
+          "parameters" : [ "{'feature': '会员接口', 'name': '会员登录成功测试用例', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', 'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}, 'extract': {'uuid': '$.data.uuid', 'token': '\"token\":\"(.*?)\"'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'err_code': 0}}, {'contains': 'data'}]}" ]
+        }, {
+          "name" : "查询会员成功测试用例",
+          "uid" : "632d0fa7860fa7d",
+          "parentUid" : "e2ef796c4f6b5fb2d46cad312302b3f4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1679627076339,
+            "stop" : 1679627076408,
+            "duration" : 69
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'feature': '会员接口', 'name': '查询会员成功测试用例', 'request': {'method': 'get', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.Profile', 'params': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': '${read_extrct_yaml(uuid)}', 'token': '${read_extrct_yaml(token)}'}}, 'validate': [{'equals': {'status_code': 200}}, {'contains': 'data'}]}" ]
         } ],
-        "uid" : "321fcf036f7c31693bc0cd4c7a989813"
+        "uid" : "e2ef796c4f6b5fb2d46cad312302b3f4"
       } ],
-      "uid" : "2beffccf6f8677a3303bfdefddf82858"
+      "uid" : "5c7e6172719e474000f692d780a72367"
     } ],
     "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
   } ]

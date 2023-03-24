@@ -1,5 +1,6 @@
 -
-  name: 会员登录接口
+  feature: 会员接口
+  name: 会员登录成功测试用例
   request:
     method: post
     url: http://hn216.api.yesapi.cn/?s=App.User.LoginExt

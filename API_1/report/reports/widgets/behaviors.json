@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "1aa6a7d36d3a8773b8616ddc90d6ed02",
-    "name" : "修改会员密码接口",
+    "uid" : "4c0f044f0abeae472fa874eddb5df143",
+    "name" : "会员接口总体描述",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

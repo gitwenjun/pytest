@@ -1,0 +1,153 @@
+[2023-03-28 21:13:15,192][request_excel.py 64][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:13:15,192][request_excel.py 65][INFO]: 请求方法为：post
+[2023-03-28 21:13:15,192][request_excel.py 66][INFO]: 请求参数为为：{'data': "{'username': 'qqmsn152','password':'123qwe''app_key':'A745B9D2CF7B8495944441DBF1BE9751'}"}
+[2023-03-28 21:13:15,334][request_excel.py 136][DEBUG]: 响应结果为：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数app_key', '调试信息': {'当前接口': 'App.User.LoginExt', '请求参数': {'s': 'App.User.LoginExt'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', '当前时间': '2023-03-28 21:13:13'}, '_t': 1680009193, '_auth': 'e8c663a205291b10f4b4aae8b55159b4'}
+[2023-03-28 21:14:52,730][request_excel.py 64][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:14:52,730][request_excel.py 65][INFO]: 请求方法为：post
+[2023-03-28 21:14:52,730][request_excel.py 66][INFO]: 请求参数为为：{'data': "{'username': 'qqmsn152','password':'123qwe','app_key':'A745B9D2CF7B8495944441DBF1BE9751'}"}
+[2023-03-28 21:14:52,841][request_excel.py 136][DEBUG]: 响应结果为：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数app_key', '调试信息': {'当前接口': 'App.User.LoginExt', '请求参数': {'s': 'App.User.LoginExt'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', '当前时间': '2023-03-28 21:14:51'}, '_t': 1680009291, '_auth': 'c2247453ac1eeef7e57ce89998066b8c'}
+[2023-03-28 21:18:13,329][request_excel.py 64][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:18:13,329][request_excel.py 65][INFO]: 请求方法为：post
+[2023-03-28 21:18:13,330][request_excel.py 66][INFO]: 请求参数为为：{'data': "{'username': 'qqmsn152','password':'123qwe','app_key':'A745B9D2CF7B8495944441DBF1BE9751'}"}
+[2023-03-28 21:18:13,330][request_excel.py 67][INFO]: 请求参数类型为为：<class 'dict'>
+[2023-03-28 21:18:13,472][request_excel.py 137][DEBUG]: 响应结果为：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数app_key', '调试信息': {'当前接口': 'App.User.LoginExt', '请求参数': {'s': 'App.User.LoginExt'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', '当前时间': '2023-03-28 21:18:12'}, '_t': 1680009492, '_auth': 'dcbd09b3e8c2e5ba05b7028887ee0c94'}
+[2023-03-28 21:25:14,687][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-28 21:25:14,689][request_excel.py 64][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:25:14,689][request_excel.py 65][INFO]: 请求方法为：post
+[2023-03-28 21:25:14,689][request_excel.py 66][INFO]: 请求参数为为：{'data': "{'username': 'qqmsn152','password':'123qwe','app_key':'A745B9D2CF7B8495944441DBF1BE9751'}"}
+[2023-03-28 21:25:14,689][request_excel.py 67][INFO]: 请求参数类型为为：<class 'dict'>
+[2023-03-28 21:25:14,813][request_excel.py 137][DEBUG]: 响应结果为：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数app_key', '调试信息': {'当前接口': 'App.User.LoginExt', '请求参数': {'s': 'App.User.LoginExt'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', '当前时间': '2023-03-28 21:25:13'}, '_t': 1680009913, '_auth': 'b4711686a37233f62832fea24557e1a2'}
+[2023-03-28 21:25:14,852][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-28 21:28:02,847][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-28 21:28:02,850][request_excel.py 64][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:28:02,850][request_excel.py 65][INFO]: 请求方法为：post
+[2023-03-28 21:28:02,850][request_excel.py 66][INFO]: 请求参数为为：{'json': "{'username': 'qqmsn152','password':'123qwe','app_key':'A745B9D2CF7B8495944441DBF1BE9751'}"}
+[2023-03-28 21:28:02,850][request_excel.py 67][INFO]: 请求参数类型为为：<class 'dict'>
+[2023-03-28 21:28:02,956][request_excel.py 137][DEBUG]: 响应结果为：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数app_key', '调试信息': {'当前接口': 'App.User.LoginExt', '请求参数': {'s': 'App.User.LoginExt'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', '当前时间': '2023-03-28 21:28:01'}, '_t': 1680010081, '_auth': '71f912148e0df81814ec260bdc7a1a8e'}
+[2023-03-28 21:28:02,990][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-28 21:32:13,892][request_util.py 62][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:32:13,892][request_util.py 63][INFO]: 请求方法为：post
+[2023-03-28 21:32:13,893][request_util.py 64][INFO]: 请求参数为为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 21:32:14,099][request_util.py 130][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'DA1B23AFD9C26DBD394C14BC2BB8842E8AEBA9FCB1A56219ECBCE08FE8710D3E', 'role': 'user'}, 'msg': '', '_t': 1680010332, '_auth': '39d7ac7a02f028190e2ff9f6fa7179a6'}
+[2023-03-28 21:32:14,101][request_util.py 90][INFO]: 【预期结果】：200,【实际结果】：200
+[2023-03-28 21:32:14,102][request_util.py 97][INFO]: 【预期结果】：0,【实际结果】：[0]
+[2023-03-28 21:32:14,102][request_util.py 109][INFO]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'DA1B23AFD9C26DBD394C14BC2BB8842E8AEBA9FCB1A56219ECBCE08FE8710D3E', 'role': 'user'}, 'msg': '', '_t': 1680010332, '_auth': '39d7ac7a02f028190e2ff9f6fa7179a6'}
+[2023-03-28 21:32:14,102][request_util.py 83][INFO]: 断言成功，测试通过
+[2023-03-28 21:34:10,836][request_excel.py 65][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:34:10,836][request_excel.py 66][INFO]: 请求方法为：post
+[2023-03-28 21:34:10,836][request_excel.py 67][INFO]: 请求参数为为：{'data': "{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}"}
+[2023-03-28 21:34:10,836][request_excel.py 68][INFO]: 请求参数类型为为：<class 'dict'>
+[2023-03-28 21:34:10,977][request_excel.py 138][DEBUG]: 响应结果为：{'ret': 400, 'data': {}, 'msg': '客户端非法请求：缺少必要参数app_key', '调试信息': {'当前接口': 'App.User.LoginExt', '请求参数': {'s': 'App.User.LoginExt'}, '请求链接': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', '当前时间': '2023-03-28 21:34:09'}, '_t': 1680010449, '_auth': '401d45262d80cf1d03fcd5fb75b004d8'}
+[2023-03-28 21:36:21,853][request_util.py 62][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:36:21,854][request_util.py 63][INFO]: 请求方法为：post
+[2023-03-28 21:36:21,854][request_util.py 64][INFO]: 请求参数为为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 21:36:21,854][request_util.py 65][INFO]: 请求参数类型为为：<class 'dict'>
+[2023-03-28 21:36:21,973][request_util.py 131][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '4580F71F10DAE0A278A86B4DC82083EC2B0BE28B88C351E6123A7615033FB42A', 'role': 'user'}, 'msg': '', '_t': 1680010580, '_auth': '430d3a04dd0e8dca2a6fc33fcc5f1d38'}
+[2023-03-28 21:36:21,976][request_util.py 91][INFO]: 【预期结果】：200,【实际结果】：200
+[2023-03-28 21:36:21,976][request_util.py 98][INFO]: 【预期结果】：0,【实际结果】：[0]
+[2023-03-28 21:36:21,976][request_util.py 110][INFO]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '4580F71F10DAE0A278A86B4DC82083EC2B0BE28B88C351E6123A7615033FB42A', 'role': 'user'}, 'msg': '', '_t': 1680010580, '_auth': '430d3a04dd0e8dca2a6fc33fcc5f1d38'}
+[2023-03-28 21:36:21,976][request_util.py 84][INFO]: 断言成功，测试通过
+[2023-03-28 21:39:56,590][request_excel.py 65][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:39:56,590][request_excel.py 66][INFO]: 请求方法为：post
+[2023-03-28 21:39:56,590][request_excel.py 67][INFO]: 请求参数为为：{'data': "{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}"}
+[2023-03-28 21:45:32,315][request_excel.py 65][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:45:32,315][request_excel.py 66][INFO]: 请求方法为：post
+[2023-03-28 21:45:32,315][request_excel.py 67][INFO]: 请求参数为为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 21:45:32,481][request_excel.py 137][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'F9128BD3094B99DCF0247DEF01DC5EBE17D9575A77B312EEDD21B9A16C79223E', 'role': 'user'}, 'msg': '', '_t': 1680011131, '_auth': '9b0b8ce5749bb79f89bc37561c7c1fde'}
+[2023-03-28 21:47:22,720][request_excel.py 65][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 21:47:22,720][request_excel.py 66][INFO]: 请求方法为：post
+[2023-03-28 21:47:22,720][request_excel.py 67][INFO]: 请求参数为为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 21:47:22,879][request_excel.py 137][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'A628042CDD7ECACAE01CB857CD657C1129B9897646DD4A776C6113397B64C8DA', 'role': 'user'}, 'msg': '', '_t': 1680011241, '_auth': '093143596f5cc33ed38d573757ae8ddd'}
+[2023-03-28 22:18:52,530][request_excel.py 129][DEBUG]: 测试组装用例参数为：{'request': 'caseinfo[5]'}
+[2023-03-28 22:19:47,448][request_excel.py 129][DEBUG]: 测试组装用例参数为：{'headers': 'caseinfo["headers"]', 'request': 'caseinfo[5]'}
+[2023-03-28 22:26:48,538][request_excel.py 129][DEBUG]: 测试组装用例参数为：{'request': "{daa:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}"}
+[2023-03-28 22:27:43,098][request_excel.py 129][DEBUG]: 测试组装用例参数为：{'request': "{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}"}
+[2023-03-28 22:31:55,187][request_excel.py 129][DEBUG]: 测试组装用例参数为：{'request': "{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}"}
+[2023-03-28 22:33:52,404][request_excel.py 129][DEBUG]: 测试组装用例参数为：{'request': "{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}"}
+[2023-03-28 22:35:45,183][request_excel.py 129][DEBUG]: 测试组装用例参数为：{'request': "{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}"}
+[2023-03-28 22:41:10,038][request_excel.py 131][DEBUG]: 测试组装用例参数为：{'request': "{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}"}
+[2023-03-28 22:43:44,105][request_excel.py 131][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:50:19,066][request_excel.py 130][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:51:01,489][request_excel.py 130][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:52:47,749][request_excel.py 130][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:52:47,750][request_excel.py 60][INFO]: keys为：data
+[2023-03-28 22:54:04,527][request_excel.py 130][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:54:59,157][request_excel.py 130][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:56:12,056][request_excel.py 132][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:56:40,864][request_excel.py 132][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:57:45,564][request_excel.py 132][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:57:45,564][request_excel.py 60][DEBUG]: 类型为：---<class 'str'>
+[2023-03-28 22:58:36,875][request_excel.py 132][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 22:58:36,876][request_excel.py 60][DEBUG]: 类型为：---<class 'str'>
+[2023-03-28 22:58:55,222][request_excel.py 132][DEBUG]: 测试组装用例参数为：{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 23:03:20,316][request_excel.py 60][DEBUG]: 测试组装用例参数为："{data:{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}"
+[2023-03-28 23:03:20,316][request_excel.py 61][DEBUG]: 类型为：---<class 'str'>
+[2023-03-28 23:08:09,597][request_excel.py 60][INFO]: keys为：username
+[2023-03-28 23:08:09,597][request_excel.py 60][INFO]: keys为：password
+[2023-03-28 23:08:09,597][request_excel.py 60][INFO]: keys为：app_key
+[2023-03-28 23:08:09,597][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:08:09,597][request_excel.py 67][INFO]: 请求方法为：post
+[2023-03-28 23:08:09,597][request_excel.py 68][INFO]: 请求参数为为：{'feature': '会员接口', 'name': '会员登录成功测试用例', 'headers': '', 'data': "{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}", 'extract': '{\'uuid\': "$.data.uuid",\'token\':\'"token":"(.*?)"\'}', 'validate': "{'equals':'{status_code: 200}'}"}
+[2023-03-28 23:09:41,939][request_excel.py 60][INFO]: keys为：username
+[2023-03-28 23:09:41,939][request_excel.py 60][INFO]: keys为：password
+[2023-03-28 23:09:41,939][request_excel.py 60][INFO]: keys为：app_key
+[2023-03-28 23:09:41,939][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:09:41,939][request_excel.py 67][INFO]: 请求方法为：post
+[2023-03-28 23:09:41,939][request_excel.py 68][INFO]: 请求参数为为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:11:11,302][request_excel.py 60][INFO]: keys为：request
+[2023-03-28 23:11:11,303][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:11:11,303][request_excel.py 67][INFO]: 请求方法为：post
+[2023-03-28 23:11:11,303][request_excel.py 68][INFO]: 请求参数为为：{'request': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 23:14:08,206][request_excel.py 60][INFO]: keys为：username
+[2023-03-28 23:14:08,206][request_excel.py 60][INFO]: keys为：password
+[2023-03-28 23:14:08,206][request_excel.py 60][INFO]: keys为：app_key
+[2023-03-28 23:14:08,206][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:14:08,206][request_excel.py 67][INFO]: 请求方法为：post
+[2023-03-28 23:14:08,206][request_excel.py 68][INFO]: 请求参数为为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:15:38,354][request_excel.py 60][INFO]: keys为：cases
+[2023-03-28 23:15:38,354][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:15:38,354][request_excel.py 67][INFO]: 请求方法为：post
+[2023-03-28 23:15:38,354][request_excel.py 68][INFO]: 请求参数为为：{'cases': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-28 23:17:11,991][request_excel.py 60][INFO]: keys为：username
+[2023-03-28 23:17:11,991][request_excel.py 60][INFO]: keys为：password
+[2023-03-28 23:17:11,991][request_excel.py 60][INFO]: keys为：app_key
+[2023-03-28 23:17:11,991][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:17:11,991][request_excel.py 67][INFO]: 请求方法为：post
+[2023-03-28 23:17:11,991][request_excel.py 68][INFO]: 请求参数为为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:22:11,599][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:22:11,599][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:22:11,599][request_excel.py 65][INFO]: 请求参数为为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:24:00,683][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:24:00,684][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:24:00,684][request_excel.py 65][INFO]: 请求参数为为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:27:02,093][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:27:02,093][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:27:02,093][request_excel.py 65][INFO]: 请求参数为为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:28:00,285][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:28:00,285][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:28:00,286][request_excel.py 65][INFO]: 请求参数为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:28:00,286][request_excel.py 66][INFO]: 请求参数类型为：<class 'dict'>
+[2023-03-28 23:28:24,662][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:28:24,662][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:28:24,662][request_excel.py 65][INFO]: 请求参数为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:28:24,662][request_excel.py 66][INFO]: 请求参数类型为：<class 'dict'>
+[2023-03-28 23:29:39,790][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:29:39,791][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:29:39,791][request_excel.py 65][INFO]: 请求参数为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:29:39,791][request_excel.py 66][INFO]: 请求参数类型为：<class 'dict'>
+[2023-03-28 23:29:39,972][request_excel.py 135][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'DF6DF9DF6E02CDCD135B35B347B7A8F013B0FFCB6FD16638F8B7F3BEEBDDD9D3', 'role': 'user'}, 'msg': '', '_t': 1680017378, '_auth': 'e5af908ab09652aaa7301be8a90b695b'}
+[2023-03-28 23:31:46,863][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:31:46,863][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:31:46,863][request_excel.py 65][INFO]: 请求参数为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:31:46,863][request_excel.py 66][INFO]: 请求参数类型为：<class 'dict'>
+[2023-03-28 23:31:47,241][request_excel.py 135][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'B80A67F20E35D9739AF9A725A0EADCCDCE4D4CDC9AC87C0B5B8F7E2C79C1A1DF', 'role': 'user'}, 'msg': '', '_t': 1680017505, '_auth': 'c38fce4d2838ad7588f70a83ed31f40e'}
+[2023-03-28 23:32:11,287][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:32:11,288][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:32:11,288][request_excel.py 65][INFO]: 请求参数为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:32:11,288][request_excel.py 66][INFO]: 请求参数类型为：<class 'dict'>
+[2023-03-28 23:32:11,411][request_excel.py 135][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '6784A3DB1CAA2EBDE0B1DDB3066D58E78EEFE20E0B1E42DC41112BF00E08F051', 'role': 'user'}, 'msg': '', '_t': 1680017529, '_auth': '7024ee5c6e009bb2a52b25cc4c6109dc'}
+[2023-03-28 23:33:00,331][request_excel.py 63][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-28 23:33:00,331][request_excel.py 64][INFO]: 请求方法为：post
+[2023-03-28 23:33:00,331][request_excel.py 65][INFO]: 请求参数为：{'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}
+[2023-03-28 23:33:00,331][request_excel.py 66][INFO]: 请求参数类型为：<class 'dict'>
+[2023-03-28 23:33:00,681][request_excel.py 135][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '863986A81CE5CE03D023411A1D57F3238DA9A433B88B5FDB791CC9733C49D843', 'role': 'user'}, 'msg': '', '_t': 1680017579, '_auth': '67c952c43889d2accc55eaee2dc73d0c'}

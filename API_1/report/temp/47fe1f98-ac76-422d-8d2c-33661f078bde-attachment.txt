@@ -1,0 +1,9 @@
+INFO     log:request_excel.py:66 请求url为：http://hn216.api.yesapi.cn/?s=App.User.Profile
+INFO     log:request_excel.py:67 请求方法为：get
+INFO     log:request_excel.py:68 请求头为：
+INFO     log:request_excel.py:69 请求参数为：{'params': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '82553C3266BC72A004079B5716071206B142C8A1B28E857B0C6340F1A6D6C6BA', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+DEBUG    log:request_excel.py:137 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680080843, '_auth': '31646122606e89f73660f78a8dde22a4'}
+INFO     log:request_excel.py:96 【预期结果】：201,【实际结果】：200
+ERROR    log:request_excel.py:99 断言失败，返回的状态码不等于201
+INFO     log:request_excel.py:115 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680080843, '_auth': '31646122606e89f73660f78a8dde22a4'}
+INFO     log:conftest.py:11 ------测试用例执行结束------

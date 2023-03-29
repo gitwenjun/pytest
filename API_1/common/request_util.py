@@ -62,6 +62,7 @@ class RequestUtil:
         logger.info(f"请求url为：{url}")
         logger.info(f"请求方法为：{method}")
         logger.info(f"请求参数为为：{kwargs}")
+        logger.info(f"请求参数类型为为：{type(kwargs)}")
         res = RequestUtil.sess.request(method=method, url=url, **kwargs)
         # logger.debug(f"返回的res值为：{res.text}")
         return res

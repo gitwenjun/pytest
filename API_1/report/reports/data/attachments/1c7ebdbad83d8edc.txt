@@ -1,0 +1,10 @@
+INFO     log:conftest.py:8 ------开始执行测试用例------
+INFO     log:request_excel.py:66 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+INFO     log:request_excel.py:67 请求方法为：post
+INFO     log:request_excel.py:68 请求头为：
+INFO     log:request_excel.py:69 请求参数为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+DEBUG    log:request_excel.py:137 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '981D71E582C9E187088186451FEF409C2C9DF41FBEC279AEE7A94D2CFD237A63', 'role': 'user'}, 'msg': '', '_t': 1680079455, '_auth': 'aa41419a60c4897481346fcfb7a90baa'}
+INFO     log:request_excel.py:96 【预期结果】：200,【实际结果】：200
+INFO     log:request_excel.py:115 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '981D71E582C9E187088186451FEF409C2C9DF41FBEC279AEE7A94D2CFD237A63', 'role': 'user'}, 'msg': '', '_t': 1680079455, '_auth': 'aa41419a60c4897481346fcfb7a90baa'}
+INFO     log:request_excel.py:89 断言成功，测试通过
+INFO     log:conftest.py:11 ------测试用例执行结束------

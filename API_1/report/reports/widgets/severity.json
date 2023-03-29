@@ -1,20 +1,10 @@
 [ {
-  "uid" : "632d0fa7860fa7d",
-  "name" : "查询会员成功测试用例",
-  "time" : {
-    "start" : 1679627076339,
-    "stop" : 1679627076408,
-    "duration" : 69
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5fb60f783179a2da",
+  "uid" : "f6418e4953df002a",
   "name" : "会员登录成功测试用例",
   "time" : {
-    "start" : 1679627076211,
-    "stop" : 1679627076335,
-    "duration" : 124
+    "start" : 1680079455955,
+    "stop" : 1680079456284,
+    "duration" : 329
   },
   "status" : "passed",
   "severity" : "critical"

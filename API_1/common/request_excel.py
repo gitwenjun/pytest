@@ -6,10 +6,11 @@ import requests
 
 from common.excel_operate import ExcelOperate
 from common.log_handler import logger
+from common.request_util import RequestUtil
 from common.yaml_handler import YamlHandler
 
 
-class RequestUtil:
+class ExcelRequestUtil:
     def __init__(self,obj):
         self.obj = obj
 
@@ -53,24 +54,27 @@ class RequestUtil:
     sess = requests.session()
 
     # 封装统一请求
-    def send_request(self,url,method,**kwargs):
+    def send_request(self,url,method,headers=None,**kwargs):
         method = str(method).lower()
         for key, value in kwargs.items():
-            if key in ['headers','params','data','json']:
+            if key in ['params', 'data', 'json']:
                 kwargs[key] = self.replace_value(value)
             elif key == "files":
                 for file_key, file_path in value.items():
-                    value[file_key] = open(file_path,'rb')
+                    value[file_key] = open(file_path, 'rb')
+
         logger.info(f"请求url为：{url}")
         logger.info(f"请求方法为：{method}")
-        logger.info(f"请求参数为为：{kwargs}")
-        res = RequestUtil.sess.request(method=method, url=url, **kwargs)
+        logger.info(f"请求头为：{headers}")
+        logger.info(f"请求参数为：{kwargs}")
+        res = ExcelRequestUtil.sess.request(method=method, url=url, headers=headers, **kwargs)
         # logger.debug(f"返回的res值为：{res.text}")
         return res
 
     # 断言
     def assert_result(self, yq_result, sj_result, return_code):
         all_flag = 0
+        yq_result = eval(yq_result)
         for yq in yq_result:
             for key, value in yq.items():
                 if key == "equals":
@@ -92,7 +96,7 @@ class RequestUtil:
                 logger.info(f"【预期结果】：{assert_value},【实际结果】：{return_code}")
                 if assert_value != return_code:
                     flag += 1
-                    logger.error(f"断言失败，返回的状态码不等于{return_code}")
+                    logger.error(f"断言失败，返回的状态码不等于{assert_value}")
             else:
                 lists = jsonpath.jsonpath(sj_result,'$..%s' % assert_key)
                 if lists:
@@ -117,13 +121,14 @@ class RequestUtil:
     # 规范yaml测试用例
     def stand_yaml(self, caseinfo):
         caseinfo_keys = caseinfo.keys()
-        if "name" in caseinfo_keys and "request" in caseinfo_keys and "validate" in caseinfo_keys:
-            request_keys = caseinfo["request"].keys()
-            if "method" in request_keys and "url" in request_keys:
+        if "name" in caseinfo_keys and "validate" in caseinfo_keys:
+            if "method" in caseinfo_keys and "url" in caseinfo_keys:
                 print("yaml基本架构检查通过")
-                method = caseinfo["request"].pop("method")
-                url = caseinfo["request"].pop("url")
-                ressult = self.send_request(url=url,method=method,**caseinfo["request"])
+                method = caseinfo.pop("method")
+                url = caseinfo.pop("url")
+                headers = caseinfo["headers"]
+                data = eval(caseinfo["data"])
+                ressult = self.send_request(url=url,method=method,headers=headers,**data)
                 ressult_txt = ressult.text
                 ressult_code = ressult.status_code
                 ressult_json = ""
@@ -133,7 +138,7 @@ class RequestUtil:
                 except Exception as e:
                     print("请求返回的不是json格式")
                 if "extract" in caseinfo.keys():
-                    for key,value in caseinfo["extract"].items():
+                    for key,value in eval(caseinfo["extract"]).items():
                         if "(.*?)" in value or "(.+?)" in value:
                             re_value = re.search(value,ressult_txt)
                             # logger.debug(f"正则表达式提取的值为：{re_value}")
@@ -147,23 +152,23 @@ class RequestUtil:
                                 extract_value = {key: js_value[0]}
                                 YamlHandler().write_extract_yaml(extract_value)
                 # 断言结果
+                # print(caseinfo["validate"])
                 self.assert_result(caseinfo["validate"], ressult_json, ressult_code)
 
             else:
                 print("request中必须包含method,url")
         else:
-            print("测试用例一级关键字中必须包含name,request,validate")
+            print("测试用例一级关键字中必须包含name,validate")
 
 
 
 
 
 if __name__ == '__main__':
-    # data = YamlHandler().read_yaml("../data/query_test.yaml")
-    # logger.debug(f"初始值为：{data}")
-    # RequestUtil(YamlHandler()).replace_value(data)
-    data = ExcelOperate("login_test.xls").read_excel()
-    print(data)
+
+    data = ExcelOperate("login_test.xls").read_excel()[0]
+    # print(data)
+    ExcelRequestUtil(YamlHandler()).stand_yaml(data)
 
     # data = YamlHandler().read_yaml("login_test.yaml")[0]
     # RequestUtil(YamlHandler()).stand_yaml(data)

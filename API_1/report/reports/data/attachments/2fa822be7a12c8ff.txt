@@ -1,9 +1,0 @@
-INFO     log:conftest.py:8 ------开始执行测试用例------
-INFO     log:request_util.py:62 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
-INFO     log:request_util.py:63 请求方法为：post
-INFO     log:request_util.py:64 请求参数为为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
-DEBUG    log:request_util.py:130 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '2B69F3A87208AD857126A77C81D514B56D89436F07F713B7AFCE45CE39BC9283', 'role': 'user'}, 'msg': '', '_t': 1679627075, '_auth': '4aab8dbb139e8b5216b322ad702d2de0'}
-INFO     log:request_util.py:90 【预期结果】：200,【实际结果】：200
-INFO     log:request_util.py:97 【预期结果】：0,【实际结果】：[0]
-INFO     log:request_util.py:109 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '2B69F3A87208AD857126A77C81D514B56D89436F07F713B7AFCE45CE39BC9283', 'role': 'user'}, 'msg': '', '_t': 1679627075, '_auth': '4aab8dbb139e8b5216b322ad702d2de0'}
-INFO     log:request_util.py:83 断言成功，测试通过

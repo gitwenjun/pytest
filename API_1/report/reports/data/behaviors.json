@@ -7,13 +7,13 @@
       "name" : "会员接口",
       "children" : [ {
         "name" : "会员登录成功测试用例",
-        "uid" : "5fb60f783179a2da",
+        "uid" : "f6418e4953df002a",
         "parentUid" : "d06641ddf4ff293c62888c924b34291f",
         "status" : "passed",
         "time" : {
-          "start" : 1679627076211,
-          "stop" : 1679627076335,
-          "duration" : 124
+          "start" : 1680079455955,
+          "stop" : 1680079456284,
+          "duration" : 329
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,24 +21,7 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "{'feature': '会员接口', 'name': '会员登录成功测试用例', 'request': {'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', 'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}, 'extract': {'uuid': '$.data.uuid', 'token': '\"token\":\"(.*?)\"'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'err_code': 0}}, {'contains': 'data'}]}" ]
-      }, {
-        "name" : "查询会员成功测试用例",
-        "uid" : "632d0fa7860fa7d",
-        "parentUid" : "d06641ddf4ff293c62888c924b34291f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1679627076339,
-          "stop" : 1679627076408,
-          "duration" : 69
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'feature': '会员接口', 'name': '查询会员成功测试用例', 'request': {'method': 'get', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.Profile', 'params': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': '${read_extrct_yaml(uuid)}', 'token': '${read_extrct_yaml(token)}'}}, 'validate': [{'equals': {'status_code': 200}}, {'contains': 'data'}]}" ]
+        "parameters" : [ "{'feature': '会员接口', 'name': '会员登录成功测试用例', 'method': 'post', 'url': 'http://hn216.api.yesapi.cn/?s=App.User.LoginExt', 'headers': '', 'data': '{\\'data\\':{\\'username\\':\"qqmsn152\",\\'password\\':\\'123qwe\\',\\'app_key\\':\\'A745B9D2CF7B8495944441DBF1BE9751\\'}}', 'extract': '{\\'uuid\\': \"$.data.uuid\",\\'token\\':\\'\"token\":\"(.*?)\"\\'}', 'validate': \"[{'equals':{'status_code':200}},{'contains':'data'}]\"}" ]
       } ],
       "uid" : "d06641ddf4ff293c62888c924b34291f"
     } ],

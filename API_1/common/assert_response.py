@@ -1,6 +1,6 @@
 import json
 
-from common.log_handler import logger
+from common.logs_handler import logger
 
 
 class AssertResponse:

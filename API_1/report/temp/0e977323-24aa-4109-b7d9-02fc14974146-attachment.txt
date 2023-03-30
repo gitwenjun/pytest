@@ -1,0 +1,13 @@
+WARNING  root:log_handler.py:141 ------开始执行测试用例------
+INFO     root:log_handler.py:137 测试用例标题：会员登录成功测试用例
+INFO     root:log_handler.py:137 请求url：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+INFO     root:log_handler.py:137 请求方法：post
+INFO     root:log_handler.py:137 请求参数：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+INFO     root:log_handler.py:137 请求参数类型：<class 'dict'>
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): hn216.api.yesapi.cn:80
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://hn216.api.yesapi.cn:80 "POST /?s=App.User.LoginExt HTTP/1.1" 200 None
+INFO     root:log_handler.py:137 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'C19C65402E7617AF4608FD989E6F38E84BA74AC3D2A1A951291AF0B2B9B36A68', 'role': 'user'}, 'msg': '', '_t': 1680183129, '_auth': '5af141f3eb22b0f74958f26303f42d2c'}
+INFO     root:log_handler.py:137 【预期结果】：200,【实际结果】：200
+INFO     root:log_handler.py:137 【预期结果】：0,【实际结果】：[0]
+INFO     root:log_handler.py:137 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'C19C65402E7617AF4608FD989E6F38E84BA74AC3D2A1A951291AF0B2B9B36A68', 'role': 'user'}, 'msg': '', '_t': 1680183129, '_auth': '5af141f3eb22b0f74958f26303f42d2c'}
+INFO     root:log_handler.py:137 断言成功，测试通过

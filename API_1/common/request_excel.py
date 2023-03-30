@@ -54,7 +54,7 @@ class ExcelRequestUtil:
     sess = requests.session()
 
     # 封装统一请求
-    def send_request(self,url,method,headers=None,**kwargs):
+    def send_request(self,title,url,method,headers=None,**kwargs):
         method = str(method).lower()
         for key, value in kwargs.items():
             if key in ['params', 'data', 'json']:
@@ -63,16 +63,17 @@ class ExcelRequestUtil:
                 for file_key, file_path in value.items():
                     value[file_key] = open(file_path, 'rb')
 
-        logger.info(f"请求url为：{url}")
-        logger.info(f"请求方法为：{method}")
-        logger.info(f"请求头为：{headers}")
-        logger.info(f"请求参数为：{kwargs}")
+        logger.info(f"测试用例标题：{title}")
+        logger.info(f"请求url：{url}")
+        logger.info(f"请求方法：{method}")
+        logger.info(f"请求头：{headers}")
+        logger.info(f"请求参数：{kwargs}")
         res = ExcelRequestUtil.sess.request(method=method, url=url, headers=headers, **kwargs)
         # logger.debug(f"返回的res值为：{res.text}")
         return res
 
     # 断言
-    def assert_result(self, yq_result, sj_result, return_code):
+    def assert_result(self, yq_result, sj_result, return_code,result_wt,fileName):
         all_flag = 0
         yq_result = eval(yq_result)
         for yq in yq_result:
@@ -85,8 +86,13 @@ class ExcelRequestUtil:
                     all_flag = all_flag + flag
                 else:
                     print("暂不支持此断言")
+        c, v = ExcelOperate(fileName).find_row_col_by_value(result_wt)
+        if all_flag != 0:
+            print(c, v)
+            ExcelOperate(fileName).update_excel(c, v, "fail")
         assert all_flag == 0
         logger.info(f"断言成功，测试通过")
+        ExcelOperate(fileName).update_excel(c, v, "pass")
 
     # 相等断言
     def equals_assert(self, values, return_code, sj_result):
@@ -119,22 +125,23 @@ class ExcelRequestUtil:
         return flag
 
     # 规范yaml测试用例
-    def stand_yaml(self, caseinfo):
+    def stand_yaml(self, caseinfo, fileName):
         caseinfo_keys = caseinfo.keys()
         if "name" in caseinfo_keys and "validate" in caseinfo_keys:
             if "method" in caseinfo_keys and "url" in caseinfo_keys:
                 print("yaml基本架构检查通过")
-                method = caseinfo.pop("method")
-                url = caseinfo.pop("url")
+                title = caseinfo["name"]
+                method = caseinfo["method"]
+                url = caseinfo["url"]
                 headers = caseinfo["headers"]
                 data = eval(caseinfo["data"])
-                ressult = self.send_request(url=url,method=method,headers=headers,**data)
+                ressult = self.send_request(title=title,url=url,method=method,headers=headers,**data)
                 ressult_txt = ressult.text
                 ressult_code = ressult.status_code
                 ressult_json = ""
                 try:
                     ressult_json = ressult.json()
-                    logger.debug(f"响应结果为：{ressult_json}")
+                    logger.info(f"响应结果：{ressult_json}")
                 except Exception as e:
                     print("请求返回的不是json格式")
                 if "extract" in caseinfo.keys():
@@ -153,7 +160,7 @@ class ExcelRequestUtil:
                                 YamlHandler().write_extract_yaml(extract_value)
                 # 断言结果
                 # print(caseinfo["validate"])
-                self.assert_result(caseinfo["validate"], ressult_json, ressult_code)
+                self.assert_result(caseinfo["validate"], ressult_json, ressult_code,caseinfo["case_id"],fileName)
 
             else:
                 print("request中必须包含method,url")

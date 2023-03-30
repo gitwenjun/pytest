@@ -2,7 +2,7 @@ from string import Template
 
 import yaml
 
-from common.log_handler import logger
+from common.logs_handler import logger
 from common.yaml_handler import YamlHandler
 
 

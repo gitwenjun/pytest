@@ -1,7 +1,6 @@
 import json
 import re
 import jsonpath
-
 import requests
 from common.log_handler import logger
 from common.yaml_handler import YamlHandler
@@ -51,7 +50,7 @@ class RequestUtil:
     sess = requests.session()
 
     # 封装统一请求
-    def send_request(self,url,method,**kwargs):
+    def send_request(self,title,url,method,**kwargs):
         method = str(method).lower()
         for key, value in kwargs.items():
             if key in ['headers','params','data','json']:
@@ -59,10 +58,11 @@ class RequestUtil:
             elif key == "files":
                 for file_key, file_path in value.items():
                     value[file_key] = open(file_path,'rb')
-        logger.info(f"请求url为：{url}")
-        logger.info(f"请求方法为：{method}")
-        logger.info(f"请求参数为为：{kwargs}")
-        logger.info(f"请求参数类型为为：{type(kwargs)}")
+        logger.info(f"测试用例标题：{title}")
+        logger.info(f"请求url：{url}")
+        logger.info(f"请求方法：{method}")
+        logger.info(f"请求参数：{kwargs}")
+        logger.info(f"请求参数类型：{type(kwargs)}")
         res = RequestUtil.sess.request(method=method, url=url, **kwargs)
         # logger.debug(f"返回的res值为：{res.text}")
         return res
@@ -120,15 +120,16 @@ class RequestUtil:
             request_keys = caseinfo["request"].keys()
             if "method" in request_keys and "url" in request_keys:
                 print("yaml基本架构检查通过")
+                title = caseinfo["name"]
                 method = caseinfo["request"].pop("method")
                 url = caseinfo["request"].pop("url")
-                ressult = self.send_request(url=url,method=method,**caseinfo["request"])
+                ressult = self.send_request(title=title,url=url,method=method,**caseinfo["request"])
                 ressult_txt = ressult.text
                 ressult_code = ressult.status_code
                 ressult_json = ""
                 try:
                     ressult_json = ressult.json()
-                    logger.debug(f"响应结果为：{ressult_json}")
+                    logger.info(f"响应结果：{ressult_json}")
                 except Exception as e:
                     print("请求返回的不是json格式")
                 if "extract" in caseinfo.keys():

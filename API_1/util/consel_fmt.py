@@ -1,6 +1,6 @@
 from common.all_requests import RequestHandler
 from common.assert_response import AssertResponse
-from common.log_handler import logger
+from common.logs_handler import logger
 from common.yaml_handler import YamlHandler
 
 

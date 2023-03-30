@@ -1,7 +1,7 @@
 import pytest
 from common.all_requests import RequestHandler
 from common.excel_operate import ExcelOperate
-from common.log_handler import logger
+from common.logs_handler import logger
 from common.request_excel import ExcelRequestUtil
 from common.request_util import RequestUtil
 from common.yaml_handler import YamlHandler
@@ -28,7 +28,7 @@ class TestLoginQuery:
     def test_reg(self, arg):
         allure.dynamic.feature(arg["feature"])
         allure.dynamic.title(arg["name"])
-        ExcelRequestUtil(YamlHandler()).stand_yaml(arg)
+        ExcelRequestUtil(YamlHandler()).stand_yaml(arg,"login_test.xls")
 
     # @allure.feature("修改会员扩展名接口")
     # @allure.title("修改会员信息测试用例")
@@ -57,7 +57,7 @@ class TestLoginQuery:
     def test_query(self, arg):
         allure.dynamic.feature(arg["feature"])
         allure.dynamic.title(arg["name"])
-        ExcelRequestUtil(YamlHandler()).stand_yaml(arg)
+        ExcelRequestUtil(YamlHandler()).stand_yaml(arg,"query_test.xls")
 
 
 if __name__ == '__main__':

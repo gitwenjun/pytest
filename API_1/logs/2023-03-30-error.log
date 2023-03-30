@@ -1,0 +1,11 @@
+2023-03-30 21:21:14 - log_handler.py - [line:144] - ERROR - [日志信息]: 断言失败，返回的状态码不等于201
+2023-03-30 21:24:28 - log_handler.py - [line:144] - ERROR - [日志信息]: 这是错误日志信息
+2023-03-30 21:24:28 - log_handler.py - [line:147] - CRITICAL - [日志信息]: 这是严重级别信息
+NoneType: None
+Stack (most recent call last):
+  File "G:/Project/API_1/common/log_handler.py", line 180, in <module>
+    logger.critical("这是严重级别信息")
+  File "G:/Project/API_1/common/log_handler.py", line 168, in critical
+    self.__console('critical', message)
+  File "G:/Project/API_1/common/log_handler.py", line 147, in __console
+    self.__logger.critical(message, exc_info=True, stack_info=True)

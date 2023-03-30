@@ -49,7 +49,7 @@ class TestLoginQuery:
     @allure.severity(allure.severity_level.NORMAL)
     @allure.issue("https://www.baidu.com", name="禅道BUG的链接")
     @allure.testcase("https://www.jd.com", name="测试用例的链接")
-    @pytest.mark.L3
+    @pytest.mark.smoke
     @pytest.mark.run(order=3)
     @pytest.mark.parametrize("arg", YamlHandler().read_yaml("query_test.yaml"))
     def test_query(self, arg):

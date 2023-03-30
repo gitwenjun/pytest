@@ -1,0 +1,53 @@
+[2023-03-30 21:13:44,271][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-30 21:13:44,273][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-30 21:13:44,274][request_excel.py 67][INFO]: 请求方法为：post
+[2023-03-30 21:13:44,274][request_excel.py 68][INFO]: 请求头为：
+[2023-03-30 21:13:44,274][request_excel.py 69][INFO]: 请求参数为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-30 21:13:44,442][request_excel.py 142][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '8ACC5DA5E8DF9B49DBA86036901EF3A34E795C61623D4F1B9A69F0F4CEA8908A', 'role': 'user'}, 'msg': '', '_t': 1680182023, '_auth': '69704c55625237a78eeddda327d9baa1'}
+[2023-03-30 21:13:44,444][request_excel.py 101][INFO]: 【预期结果】：200,【实际结果】：200
+[2023-03-30 21:13:44,444][request_excel.py 120][INFO]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '8ACC5DA5E8DF9B49DBA86036901EF3A34E795C61623D4F1B9A69F0F4CEA8908A', 'role': 'user'}, 'msg': '', '_t': 1680182023, '_auth': '69704c55625237a78eeddda327d9baa1'}
+[2023-03-30 21:13:44,445][request_excel.py 93][INFO]: 断言成功，测试通过
+[2023-03-30 21:13:44,454][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-30 21:13:44,454][request_excel.py 67][INFO]: 请求方法为：get
+[2023-03-30 21:13:44,454][request_excel.py 68][INFO]: 请求头为：
+[2023-03-30 21:13:44,455][request_excel.py 69][INFO]: 请求参数为：{'params': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '8ACC5DA5E8DF9B49DBA86036901EF3A34E795C61623D4F1B9A69F0F4CEA8908A', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-30 21:13:44,526][request_excel.py 142][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182023, '_auth': '0443e0c7b3d8d6a40e0a27297d466c56'}
+[2023-03-30 21:13:44,527][request_excel.py 101][INFO]: 【预期结果】：200,【实际结果】：200
+[2023-03-30 21:13:44,527][request_excel.py 120][INFO]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182023, '_auth': '0443e0c7b3d8d6a40e0a27297d466c56'}
+[2023-03-30 21:13:44,528][request_excel.py 93][INFO]: 断言成功，测试通过
+[2023-03-30 21:13:44,545][request_excel.py 66][INFO]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-30 21:13:44,545][request_excel.py 67][INFO]: 请求方法为：get
+[2023-03-30 21:13:44,545][request_excel.py 68][INFO]: 请求头为：
+[2023-03-30 21:13:44,545][request_excel.py 69][INFO]: 请求参数为：{'params': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '8ACC5DA5E8DF9B49DBA86036901EF3A34E795C61623D4F1B9A69F0F4CEA8908A', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-30 21:13:44,829][request_excel.py 142][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182024, '_auth': '61661548f7d630fdf9a80b0aea225605'}
+[2023-03-30 21:13:44,829][request_excel.py 101][INFO]: 【预期结果】：201,【实际结果】：200
+[2023-03-30 21:13:44,830][request_excel.py 104][ERROR]: 断言失败，返回的状态码不等于201
+[2023-03-30 21:13:44,830][request_excel.py 120][INFO]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182024, '_auth': '61661548f7d630fdf9a80b0aea225605'}
+[2023-03-30 21:13:44,871][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-30 21:17:30,784][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-30 21:17:30,855][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-30 21:21:13,496][conftest.py 8][INFO]: ------开始执行测试用例------
+[2023-03-30 21:21:14,147][conftest.py 11][INFO]: ------测试用例执行结束------
+[2023-03-30 21:30:01,100][conftest.py 8][WARNING]: ------开始执行测试用例------
+[2023-03-30 21:30:01,102][request_util.py 62][INFO]: 测试用例标题：会员登录成功测试用例
+[2023-03-30 21:30:01,103][request_util.py 63][INFO]: 请求url：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+[2023-03-30 21:30:01,103][request_util.py 64][INFO]: 请求方法：post
+[2023-03-30 21:30:01,103][request_util.py 65][INFO]: 请求参数：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+[2023-03-30 21:30:01,103][request_util.py 66][INFO]: 请求参数类型：<class 'dict'>
+[2023-03-30 21:30:01,268][request_util.py 133][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '94C92755D998FC6C25FB49ECAD04E22198723168101961C8BE516C0DD33CE383', 'role': 'user'}, 'msg': '', '_t': 1680183000, '_auth': '6d17f65bb7bdef9e0fde89a46854fa3f'}
+[2023-03-30 21:30:01,269][request_util.py 92][INFO]: 【预期结果】：200,【实际结果】：200
+[2023-03-30 21:30:01,270][request_util.py 99][INFO]: 【预期结果】：0,【实际结果】：[0]
+[2023-03-30 21:30:01,270][request_util.py 111][INFO]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '94C92755D998FC6C25FB49ECAD04E22198723168101961C8BE516C0DD33CE383', 'role': 'user'}, 'msg': '', '_t': 1680183000, '_auth': '6d17f65bb7bdef9e0fde89a46854fa3f'}
+[2023-03-30 21:30:01,270][request_util.py 85][INFO]: 断言成功，测试通过
+[2023-03-30 21:30:01,275][request_util.py 62][INFO]: 测试用例标题：查询会员成功测试用例
+[2023-03-30 21:30:01,275][request_util.py 63][INFO]: 请求url：http://hn216.api.yesapi.cn/?s=App.User.Profile
+[2023-03-30 21:30:01,275][request_util.py 64][INFO]: 请求方法：get
+[2023-03-30 21:30:01,275][request_util.py 65][INFO]: 请求参数：{'params': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '94C92755D998FC6C25FB49ECAD04E22198723168101961C8BE516C0DD33CE383'}}
+[2023-03-30 21:30:01,275][request_util.py 66][INFO]: 请求参数类型：<class 'dict'>
+[2023-03-30 21:30:01,533][request_util.py 133][DEBUG]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680183000, '_auth': '43d11c8f45f38d9a35108ad7bb69d74b'}
+[2023-03-30 21:30:01,533][request_util.py 92][INFO]: 【预期结果】：200,【实际结果】：200
+[2023-03-30 21:30:01,533][request_util.py 111][INFO]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680183000, '_auth': '43d11c8f45f38d9a35108ad7bb69d74b'}
+[2023-03-30 21:30:01,533][request_util.py 85][INFO]: 断言成功，测试通过
+[2023-03-30 21:30:01,534][conftest.py 11][WARNING]: ------测试用例执行结束------
+[2023-03-30 21:31:18,533][conftest.py 8][WARNING]: ------开始执行测试用例------
+[2023-03-30 21:31:18,778][conftest.py 11][WARNING]: ------测试用例执行结束------

@@ -1,0 +1,80 @@
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 测试用例标题为：会员登录成功测试用例
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求方法为：post
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求头为：
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数为：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+2023-03-30 21:21:13 - log_handler.py - [line:139] - DEBUG - [日志信息]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'A8FD7A83941E26A6DEAE98CC95296009DFAD67ABAA70B147F7D591205A57FC53', 'role': 'user'}, 'msg': '', '_t': 1680182473, '_auth': 'dfb54e14d48c814deb30d8702be51686'}
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：200,【实际结果】：200
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'A8FD7A83941E26A6DEAE98CC95296009DFAD67ABAA70B147F7D591205A57FC53', 'role': 'user'}, 'msg': '', '_t': 1680182473, '_auth': 'dfb54e14d48c814deb30d8702be51686'}
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 断言成功，测试通过
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 测试用例标题为：查询会员成功测试用例
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.Profile
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求方法为：get
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求头为：
+2023-03-30 21:21:13 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数为：{'params': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'A8FD7A83941E26A6DEAE98CC95296009DFAD67ABAA70B147F7D591205A57FC53', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+2023-03-30 21:21:14 - log_handler.py - [line:139] - DEBUG - [日志信息]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182473, '_auth': '186575b5bf22c1d8c55fa2c0411e3340'}
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：200,【实际结果】：200
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182473, '_auth': '186575b5bf22c1d8c55fa2c0411e3340'}
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 断言成功，测试通过
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 测试用例标题为：查询会员成功测试用例
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 请求url为：http://hn216.api.yesapi.cn/?s=App.User.Profile
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 请求方法为：get
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 请求头为：
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数为：{'params': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'A8FD7A83941E26A6DEAE98CC95296009DFAD67ABAA70B147F7D591205A57FC53', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+2023-03-30 21:21:14 - log_handler.py - [line:139] - DEBUG - [日志信息]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182473, '_auth': '186575b5bf22c1d8c55fa2c0411e3340'}
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：201,【实际结果】：200
+2023-03-30 21:21:14 - log_handler.py - [line:144] - ERROR - [日志信息]: 断言失败，返回的状态码不等于201
+2023-03-30 21:21:14 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680182473, '_auth': '186575b5bf22c1d8c55fa2c0411e3340'}
+2023-03-30 21:24:28 - log_handler.py - [line:137] - INFO - [日志信息]: 这是日志信息
+2023-03-30 21:24:28 - log_handler.py - [line:139] - DEBUG - [日志信息]: 这是debug信息
+2023-03-30 21:24:28 - log_handler.py - [line:141] - WARNING - [日志信息]: 这是警告信息
+2023-03-30 21:24:28 - log_handler.py - [line:144] - ERROR - [日志信息]: 这是错误日志信息
+2023-03-30 21:24:28 - log_handler.py - [line:147] - CRITICAL - [日志信息]: 这是严重级别信息
+NoneType: None
+Stack (most recent call last):
+  File "G:/Project/API_1/common/log_handler.py", line 180, in <module>
+    logger.critical("这是严重级别信息")
+  File "G:/Project/API_1/common/log_handler.py", line 168, in critical
+    self.__console('critical', message)
+  File "G:/Project/API_1/common/log_handler.py", line 147, in __console
+    self.__logger.critical(message, exc_info=True, stack_info=True)
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 测试用例标题：会员登录成功测试用例
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求url：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求方法：post
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数类型：<class 'dict'>
+2023-03-30 21:31:18 - log_handler.py - [line:139] - DEBUG - [日志信息]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '04E15F03FD8CA49FD8F2D05C4E3D7466EB5070E3A8A6FE2F1D63066F046E4474', 'role': 'user'}, 'msg': '', '_t': 1680183077, '_auth': '0d09af33d56758e6bd210ad17d30e140'}
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：200,【实际结果】：200
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：0,【实际结果】：[0]
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '04E15F03FD8CA49FD8F2D05C4E3D7466EB5070E3A8A6FE2F1D63066F046E4474', 'role': 'user'}, 'msg': '', '_t': 1680183077, '_auth': '0d09af33d56758e6bd210ad17d30e140'}
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 断言成功，测试通过
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 测试用例标题：查询会员成功测试用例
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求url：http://hn216.api.yesapi.cn/?s=App.User.Profile
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求方法：get
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数：{'params': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': '04E15F03FD8CA49FD8F2D05C4E3D7466EB5070E3A8A6FE2F1D63066F046E4474'}}
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数类型：<class 'dict'>
+2023-03-30 21:31:18 - log_handler.py - [line:139] - DEBUG - [日志信息]: 响应结果为：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680183077, '_auth': '51e9d69041bdec938304ae1f686d8240'}
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：200,【实际结果】：200
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680183077, '_auth': '51e9d69041bdec938304ae1f686d8240'}
+2023-03-30 21:31:18 - log_handler.py - [line:137] - INFO - [日志信息]: 断言成功，测试通过
+2023-03-30 21:32:10 - log_handler.py - [line:141] - WARNING - [日志信息]: ------开始执行测试用例------
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 测试用例标题：会员登录成功测试用例
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求url：http://hn216.api.yesapi.cn/?s=App.User.LoginExt
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求方法：post
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数：{'data': {'username': 'qqmsn152', 'password': '123qwe', 'app_key': 'A745B9D2CF7B8495944441DBF1BE9751'}}
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数类型：<class 'dict'>
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'C19C65402E7617AF4608FD989E6F38E84BA74AC3D2A1A951291AF0B2B9B36A68', 'role': 'user'}, 'msg': '', '_t': 1680183129, '_auth': '5af141f3eb22b0f74958f26303f42d2c'}
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：200,【实际结果】：200
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：0,【实际结果】：[0]
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'C19C65402E7617AF4608FD989E6F38E84BA74AC3D2A1A951291AF0B2B9B36A68', 'role': 'user'}, 'msg': '', '_t': 1680183129, '_auth': '5af141f3eb22b0f74958f26303f42d2c'}
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 断言成功，测试通过
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 测试用例标题：查询会员成功测试用例
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求url：http://hn216.api.yesapi.cn/?s=App.User.Profile
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求方法：get
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数：{'params': {'app_key': 'A745B9D2CF7B8495944441DBF1BE9751', 'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'token': 'C19C65402E7617AF4608FD989E6F38E84BA74AC3D2A1A951291AF0B2B9B36A68'}}
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 请求参数类型：<class 'dict'>
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 响应结果：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680183129, '_auth': 'd892c72f361e0aff02fbc4db4e999145'}
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：200,【实际结果】：200
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 【预期结果】：data,【实际结果】：{'ret': 200, 'data': {'err_code': 0, 'err_msg': '', 'info': {'uuid': 'EFD8943F536943C5CE7F9EEC382EB072', 'username': 'qqmsn152', 'role': 'user', 'rolename': '普通会员', 'register_time': '2023-02-19 11:15:32', 'register_ip': '222.209.111.69', 'ext_info': {'yesapi_avatar': '', 'yesapi_avatar_https': '', 'yesapi_nickname': '', 'yesapi_email': '', 'yesapi_sex': '', 'yesapi_real_name': '', 'yesapi_points': 0, 'yesapi_reg_source': '', 'yesapi_reg_note': '', 'yesapi_mobile': '', 'yesapi_expiration_time': '', 'location': '广东12'}, 'status': 0}}, 'msg': '', '_t': 1680183129, '_auth': 'd892c72f361e0aff02fbc4db4e999145'}
+2023-03-30 21:32:10 - log_handler.py - [line:137] - INFO - [日志信息]: 断言成功，测试通过
+2023-03-30 21:32:10 - log_handler.py - [line:141] - WARNING - [日志信息]: ------测试用例执行结束------
